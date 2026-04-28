@@ -1,0 +1,5314 @@
+[
+  {
+    "name": "Sneasler",
+    "displayName": "Sneasler",
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 60,
+      "spa": 40,
+      "spd": 80,
+      "spe": 120
+    },
+    "abilities": [
+      "Unburden",
+      "Poison Touch"
+    ],
+    "metaUsage": 240,
+    "metaUsagePct": 46.7,
+    "topItem": "White Herb",
+    "topNature": "Adamant",
+    "topAbility": "Unburden",
+    "topMoves": [
+      "Close Combat",
+      "Dire Claw",
+      "Fake Out",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 5,
+      "Def": 6,
+      "Spe": 31,
+      "Atk": 30,
+      "SpD": 1,
+      "SpA": 2
+    },
+    "metaSets": [
+      {
+        "name": "White Herb",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 6,
+          "Def": 8,
+          "Spe": 30,
+          "Atk": 30,
+          "SpD": 1,
+          "SpA": 2
+        },
+        "evsStr": "6 HP / 30 Atk / 8 Def / 2 SpA / 1 SpD / 30 Spe",
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Fake Out",
+          "Protect"
+        ],
+        "count": 182,
+        "usagePct": 75.8,
+        "isMega": false
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Unburden",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 2,
+          "Atk": 32,
+          "Spe": 32,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "2 HP / 32 Atk / 1 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Fake Out",
+          "Protect"
+        ],
+        "count": 53,
+        "usagePct": 22.1,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Garchomp",
+    "displayName": "Garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 108,
+      "atk": 130,
+      "def": 95,
+      "spa": 80,
+      "spd": 85,
+      "spe": 102
+    },
+    "abilities": [
+      "Rough Skin",
+      "Sand Veil"
+    ],
+    "metaUsage": 221,
+    "metaUsagePct": 43.0,
+    "topItem": "Choice Scarf",
+    "topNature": "Adamant",
+    "topAbility": "Rough Skin",
+    "topMoves": [
+      "Earthquake",
+      "Dragon Claw",
+      "Rock Slide",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 12,
+      "Atk": 27,
+      "Def": 2,
+      "SpD": 2,
+      "Spe": 28
+    },
+    "metaSets": [
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Rough Skin",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 7,
+          "Atk": 30,
+          "Def": 1,
+          "SpD": 2,
+          "Spe": 29
+        },
+        "evsStr": "7 HP / 30 Atk / 1 Def / 2 SpD / 29 Spe",
+        "moves": [
+          "Dragon Claw",
+          "Rock Slide",
+          "Earthquake",
+          "Stomping Tantrum"
+        ],
+        "count": 60,
+        "usagePct": 27.1,
+        "isMega": false
+      },
+      {
+        "name": "Soft Sand",
+        "item": "Soft Sand",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 10,
+          "Atk": 28,
+          "Spe": 28,
+          "SpD": 2,
+          "Def": 1
+        },
+        "evsStr": "10 HP / 28 Atk / 1 Def / 2 SpD / 28 Spe",
+        "moves": [
+          "Protect",
+          "Earthquake",
+          "Dragon Claw",
+          "Stomping Tantrum"
+        ],
+        "count": 37,
+        "usagePct": 16.7,
+        "isMega": false
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 26,
+          "Atk": 18,
+          "Spe": 20,
+          "SpD": 3,
+          "Def": 4
+        },
+        "evsStr": "26 HP / 18 Atk / 4 Def / 3 SpD / 20 Spe",
+        "moves": [
+          "Protect",
+          "Rock Slide",
+          "Dragon Claw",
+          "Earthquake"
+        ],
+        "count": 31,
+        "usagePct": 14.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Incineroar",
+    "displayName": "Incineroar",
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 115,
+      "def": 90,
+      "spa": 80,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": [
+      "Intimidate",
+      "Blaze"
+    ],
+    "metaUsage": 204,
+    "metaUsagePct": 39.7,
+    "topItem": "Sitrus Berry",
+    "topNature": "Careful",
+    "topAbility": "Intimidate",
+    "topMoves": [
+      "Fake Out",
+      "Parting Shot",
+      "Flare Blitz",
+      "Throat Chop"
+    ],
+    "avgEvs": {
+      "HP": 31,
+      "Def": 14,
+      "SpD": 13,
+      "Spe": 8,
+      "Atk": 8,
+      "SpA": 2
+    },
+    "metaSets": [
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "evs": {
+          "HP": 31,
+          "Def": 14,
+          "SpD": 13,
+          "Spe": 9,
+          "Atk": 8,
+          "SpA": 2
+        },
+        "evsStr": "31 HP / 8 Atk / 14 Def / 2 SpA / 13 SpD / 9 Spe",
+        "moves": [
+          "Fake Out",
+          "Parting Shot",
+          "Flare Blitz",
+          "Throat Chop"
+        ],
+        "count": 112,
+        "usagePct": 54.9,
+        "isMega": false
+      },
+      {
+        "name": "Chople Berry",
+        "item": "Chople Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "evs": {
+          "HP": 32,
+          "Atk": 4,
+          "Def": 13,
+          "SpD": 13,
+          "Spe": 7,
+          "SpA": 1
+        },
+        "evsStr": "32 HP / 4 Atk / 13 Def / 1 SpA / 13 SpD / 7 Spe",
+        "moves": [
+          "Fake Out",
+          "Parting Shot",
+          "Flare Blitz",
+          "Throat Chop"
+        ],
+        "count": 33,
+        "usagePct": 16.2,
+        "isMega": false
+      },
+      {
+        "name": "Shuca Berry",
+        "item": "Shuca Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "evs": {
+          "HP": 31,
+          "Atk": 6,
+          "Def": 13,
+          "SpD": 13,
+          "Spe": 7
+        },
+        "evsStr": "31 HP / 6 Atk / 13 Def / 13 SpD / 7 Spe",
+        "moves": [
+          "Fake Out",
+          "Parting Shot",
+          "Flare Blitz",
+          "Throat Chop"
+        ],
+        "count": 25,
+        "usagePct": 12.3,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Kingambit",
+    "displayName": "Kingambit",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 135,
+      "def": 120,
+      "spa": 60,
+      "spd": 85,
+      "spe": 50
+    },
+    "abilities": [
+      "Defiant",
+      "Supreme Overlord"
+    ],
+    "metaUsage": 171,
+    "metaUsagePct": 33.3,
+    "topItem": "Black Glasses",
+    "topNature": "Adamant",
+    "topAbility": "Defiant",
+    "topMoves": [
+      "Sucker Punch",
+      "Kowtow Cleave",
+      "Protect",
+      "Iron Head"
+    ],
+    "avgEvs": {
+      "HP": 28,
+      "Atk": 27,
+      "Def": 6,
+      "Spe": 9,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Black Glasses",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 28,
+          "Atk": 30,
+          "Spe": 9,
+          "Def": 2,
+          "SpD": 3
+        },
+        "evsStr": "28 HP / 30 Atk / 2 Def / 3 SpD / 9 Spe",
+        "moves": [
+          "Sucker Punch",
+          "Kowtow Cleave",
+          "Protect",
+          "Iron Head"
+        ],
+        "count": 82,
+        "usagePct": 48.0,
+        "isMega": false
+      },
+      {
+        "name": "Chople Berry",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 29,
+          "Atk": 24,
+          "Def": 9,
+          "Spe": 7,
+          "SpD": 1
+        },
+        "evsStr": "29 HP / 24 Atk / 9 Def / 1 SpD / 7 Spe",
+        "moves": [
+          "Sucker Punch",
+          "Kowtow Cleave",
+          "Protect",
+          "Low Kick"
+        ],
+        "count": 73,
+        "usagePct": 42.7,
+        "isMega": false
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 1,
+          "Atk": 32,
+          "SpD": 2,
+          "Spe": 32,
+          "Def": 1
+        },
+        "evsStr": "1 HP / 32 Atk / 1 Def / 2 SpD / 32 Spe",
+        "moves": [
+          "Sucker Punch",
+          "Protect",
+          "Low Kick",
+          "Iron Head"
+        ],
+        "count": 7,
+        "usagePct": 4.1,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Basculegion",
+    "displayName": "Basculegion (M)",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 120,
+      "atk": 112,
+      "def": 65,
+      "spa": 80,
+      "spd": 75,
+      "spe": 78
+    },
+    "abilities": [
+      "Adaptability",
+      "Swift Swim"
+    ],
+    "metaUsage": 134,
+    "metaUsagePct": 26.1,
+    "topItem": "Choice Scarf",
+    "topNature": "Adamant",
+    "topAbility": "Adaptability",
+    "topMoves": [
+      "Last Respects",
+      "Aqua Jet",
+      "Wave Crash",
+      "Flip Turn"
+    ],
+    "avgEvs": {
+      "HP": 4,
+      "Atk": 30,
+      "Def": 7,
+      "Spe": 29,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Adaptability",
+        "nature": "Jolly",
+        "evs": {
+          "Atk": 31,
+          "Def": 4,
+          "SpD": 1,
+          "Spe": 32,
+          "HP": 2
+        },
+        "evsStr": "2 HP / 31 Atk / 4 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Flip Turn",
+          "Aqua Jet"
+        ],
+        "count": 78,
+        "usagePct": 58.2,
+        "isMega": false
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "evs": {
+          "Atk": 32,
+          "Def": 1,
+          "SpD": 1,
+          "Spe": 32,
+          "HP": 2
+        },
+        "evsStr": "2 HP / 32 Atk / 1 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Last Respects",
+          "Aqua Jet",
+          "Protect",
+          "Liquidation"
+        ],
+        "count": 31,
+        "usagePct": 23.1,
+        "isMega": false
+      },
+      {
+        "name": "Mystic Water",
+        "item": "Mystic Water",
+        "ability": "Swift Swim",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 5,
+          "Atk": 31,
+          "Def": 7,
+          "SpD": 4,
+          "Spe": 26
+        },
+        "evsStr": "5 HP / 31 Atk / 7 Def / 4 SpD / 26 Spe",
+        "moves": [
+          "Last Respects",
+          "Wave Crash",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "count": 22,
+        "usagePct": 16.4,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Sinistcha",
+    "displayName": "Sinistcha",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 74,
+      "def": 100,
+      "spa": 100,
+      "spd": 110,
+      "spe": 70
+    },
+    "abilities": [
+      "Hospitality",
+      "Heatproof"
+    ],
+    "metaUsage": 128,
+    "metaUsagePct": 24.9,
+    "topItem": "Sitrus Berry",
+    "topNature": "Bold",
+    "topAbility": "Hospitality",
+    "topMoves": [
+      "Matcha Gotcha",
+      "Rage Powder",
+      "Trick Room",
+      "Life Dew"
+    ],
+    "avgEvs": {
+      "HP": 31,
+      "Def": 12,
+      "SpD": 21,
+      "SpA": 6,
+      "Spe": 2,
+      "Atk": 1
+    },
+    "metaSets": [
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Hospitality",
+        "nature": "Bold",
+        "evs": {
+          "HP": 31,
+          "Def": 13,
+          "SpA": 3,
+          "SpD": 20,
+          "Spe": 2
+        },
+        "evsStr": "31 HP / 13 Def / 3 SpA / 20 SpD / 2 Spe",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Trick Room",
+          "Life Dew"
+        ],
+        "count": 59,
+        "usagePct": 46.1,
+        "isMega": false
+      },
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Hospitality",
+        "nature": "Bold",
+        "evs": {
+          "HP": 31,
+          "Def": 13,
+          "SpD": 20,
+          "SpA": 9,
+          "Spe": 1
+        },
+        "evsStr": "31 HP / 13 Def / 9 SpA / 20 SpD / 1 Spe",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Trick Room",
+          "Life Dew"
+        ],
+        "count": 26,
+        "usagePct": 20.3,
+        "isMega": false
+      },
+      {
+        "name": "Kasib Berry",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Bold",
+        "evs": {
+          "HP": 31,
+          "Def": 10,
+          "SpD": 22,
+          "SpA": 9
+        },
+        "evsStr": "31 HP / 10 Def / 9 SpA / 22 SpD",
+        "moves": [
+          "Matcha Gotcha",
+          "Trick Room",
+          "Rage Powder",
+          "Life Dew"
+        ],
+        "count": 10,
+        "usagePct": 7.8,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Aerodactyl",
+    "displayName": "Aerodactyl",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "spa": 60,
+      "spd": 75,
+      "spe": 130
+    },
+    "abilities": [
+      "Unnerve",
+      "Rock Head",
+      "Pressure"
+    ],
+    "metaUsage": 111,
+    "metaUsagePct": 21.6,
+    "topItem": "Focus Sash",
+    "topNature": "Jolly",
+    "topAbility": "Unnerve",
+    "topMoves": [
+      "Rock Slide",
+      "Tailwind",
+      "Protect",
+      "Dual Wingbeat"
+    ],
+    "avgEvs": {
+      "HP": 6,
+      "Atk": 30,
+      "Def": 3,
+      "Spe": 31,
+      "SpD": 3
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "evs": {
+          "Atk": 32,
+          "Def": 2,
+          "Spe": 32,
+          "HP": 2,
+          "SpD": 1
+        },
+        "evsStr": "2 HP / 32 Atk / 2 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Rock Slide",
+          "Tailwind",
+          "Protect",
+          "Dual Wingbeat"
+        ],
+        "count": 73,
+        "usagePct": 65.8,
+        "isMega": false
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Tough Claws",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 14,
+          "Atk": 24,
+          "Def": 8,
+          "Spe": 28,
+          "SpD": 6
+        },
+        "evsStr": "14 HP / 24 Atk / 8 Def / 6 SpD / 28 Spe",
+        "moves": [
+          "Dual Wingbeat",
+          "Rock Slide",
+          "Tailwind",
+          "Protect"
+        ],
+        "count": 30,
+        "usagePct": 27.0,
+        "isMega": true
+      },
+      {
+        "name": "Lum Berry",
+        "item": "Lum Berry",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "evs": {
+          "Atk": 32,
+          "SpD": 3,
+          "Spe": 27,
+          "HP": 4,
+          "Def": 5
+        },
+        "evsStr": "4 HP / 32 Atk / 5 Def / 3 SpD / 27 Spe",
+        "moves": [
+          "Rock Slide",
+          "Tailwind",
+          "Protect",
+          "Dual Wingbeat"
+        ],
+        "count": 3,
+        "usagePct": 2.7,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Charizard",
+    "displayName": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": [
+      "Blaze",
+      "Solar Power"
+    ],
+    "metaUsage": 90,
+    "metaUsagePct": 17.5,
+    "topItem": "Charizardite Y",
+    "topNature": "Modest",
+    "topAbility": "Blaze",
+    "topMoves": [
+      "Protect",
+      "Heat Wave",
+      "Solar Beam",
+      "Weather Ball"
+    ],
+    "avgEvs": {
+      "HP": 16,
+      "Def": 11,
+      "SpA": 23,
+      "Spe": 22,
+      "Atk": 16,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Charizard Y-Mega",
+        "item": "Charizardite Y",
+        "ability": "Drought",
+        "nature": "Modest",
+        "evs": {
+          "HP": 15,
+          "Def": 12,
+          "SpA": 23,
+          "Spe": 22,
+          "SpD": 1
+        },
+        "evsStr": "15 HP / 12 Def / 23 SpA / 1 SpD / 22 Spe",
+        "moves": [
+          "Heat Wave",
+          "Protect",
+          "Solar Beam",
+          "Weather Ball"
+        ],
+        "count": 81,
+        "usagePct": 90.0,
+        "isMega": true
+      },
+      {
+        "name": "Charizard X-Mega",
+        "item": "Charizardite X",
+        "ability": "Tough Claws",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 24,
+          "Atk": 16,
+          "SpD": 3,
+          "Spe": 22,
+          "Def": 3
+        },
+        "evsStr": "24 HP / 16 Atk / 3 Def / 3 SpD / 22 Spe",
+        "moves": [
+          "Flare Blitz",
+          "Dragon Dance",
+          "Dragon Claw",
+          "Protect"
+        ],
+        "count": 10,
+        "usagePct": 11.1,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Floette-Eternal",
+    "displayName": "Floette-Eternal (F)",
+    "types": [
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 65,
+      "def": 67,
+      "spa": 125,
+      "spd": 128,
+      "spe": 92
+    },
+    "abilities": [
+      "Flower Veil"
+    ],
+    "metaUsage": 90,
+    "metaUsagePct": 17.5,
+    "topItem": "Floettite",
+    "topNature": "Modest",
+    "topAbility": "Flower Veil",
+    "topMoves": [
+      "Protect",
+      "Dazzling Gleam",
+      "Moonblast",
+      "Calm Mind"
+    ],
+    "avgEvs": {
+      "HP": 22,
+      "SpA": 21,
+      "Spe": 18,
+      "Def": 12,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Floett-Mega",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "evs": {
+          "HP": 22,
+          "Def": 12,
+          "SpA": 20,
+          "Spe": 18,
+          "SpD": 2
+        },
+        "evsStr": "22 HP / 12 Def / 20 SpA / 2 SpD / 18 Spe",
+        "moves": [
+          "Protect",
+          "Dazzling Gleam",
+          "Moonblast",
+          "Calm Mind"
+        ],
+        "count": 99,
+        "usagePct": 110.0,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Rotom-Wash",
+    "displayName": "Rotom-Wash",
+    "types": [
+      "Electric",
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 80,
+    "metaUsagePct": 15.6,
+    "topItem": "Sitrus Berry",
+    "topNature": "Modest",
+    "topAbility": "Levitate",
+    "topMoves": [
+      "Hydro Pump",
+      "Thunderbolt",
+      "Protect",
+      "Will-O-Wisp"
+    ],
+    "avgEvs": {
+      "HP": 25,
+      "Def": 8,
+      "SpA": 18,
+      "SpD": 6,
+      "Spe": 16
+    },
+    "metaSets": [
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Levitate",
+        "nature": "Modest",
+        "evs": {
+          "HP": 31,
+          "Def": 10,
+          "SpA": 13,
+          "SpD": 7,
+          "Spe": 10
+        },
+        "evsStr": "31 HP / 10 Def / 13 SpA / 7 SpD / 10 Spe",
+        "moves": [
+          "Hydro Pump",
+          "Will-O-Wisp",
+          "Thunderbolt",
+          "Protect"
+        ],
+        "count": 39,
+        "usagePct": 48.8,
+        "isMega": false
+      },
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Levitate",
+        "nature": "Timid",
+        "evs": {
+          "HP": 12,
+          "Def": 3,
+          "SpA": 27,
+          "SpD": 1,
+          "Spe": 29
+        },
+        "evsStr": "12 HP / 3 Def / 27 SpA / 1 SpD / 29 Spe",
+        "moves": [
+          "Hydro Pump",
+          "Volt Switch",
+          "Thunderbolt",
+          "Electroweb"
+        ],
+        "count": 19,
+        "usagePct": 23.8,
+        "isMega": false
+      },
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Levitate",
+        "nature": "Modest",
+        "evs": {
+          "HP": 28,
+          "Def": 9,
+          "SpA": 20,
+          "SpD": 8,
+          "Spe": 14
+        },
+        "evsStr": "28 HP / 9 Def / 20 SpA / 8 SpD / 14 Spe",
+        "moves": [
+          "Hydro Pump",
+          "Protect",
+          "Thunderbolt",
+          "Volt Switch"
+        ],
+        "count": 18,
+        "usagePct": 22.5,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Tyranitar",
+    "displayName": "Tyranitar",
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 134,
+      "def": 110,
+      "spa": 95,
+      "spd": 100,
+      "spe": 61
+    },
+    "abilities": [
+      "Sand Stream"
+    ],
+    "metaUsage": 71,
+    "metaUsagePct": 13.8,
+    "topItem": "Tyranitarite",
+    "topNature": "Adamant",
+    "topAbility": "Sand Stream",
+    "topMoves": [
+      "Rock Slide",
+      "Protect",
+      "Knock Off",
+      "Low Kick"
+    ],
+    "avgEvs": {
+      "HP": 20,
+      "Atk": 24,
+      "Spe": 22,
+      "Def": 3,
+      "SpD": 4
+    },
+    "metaSets": [
+      {
+        "name": "Tyranitar-Mega",
+        "item": "Tyranitarite",
+        "ability": "Sand Stream",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 23,
+          "Atk": 23,
+          "Spe": 19,
+          "Def": 2,
+          "SpD": 4
+        },
+        "evsStr": "23 HP / 23 Atk / 2 Def / 4 SpD / 19 Spe",
+        "moves": [
+          "Rock Slide",
+          "Protect",
+          "Knock Off",
+          "Low Kick"
+        ],
+        "count": 47,
+        "usagePct": 66.2,
+        "isMega": true
+      },
+      {
+        "name": "Chople Berry",
+        "item": "Chople Berry",
+        "ability": "Sand Stream",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 21,
+          "Atk": 22,
+          "Def": 6,
+          "SpD": 5,
+          "Spe": 20
+        },
+        "evsStr": "21 HP / 22 Atk / 6 Def / 5 SpD / 20 Spe",
+        "moves": [
+          "Rock Slide",
+          "Knock Off",
+          "Protect",
+          "Low Kick"
+        ],
+        "count": 9,
+        "usagePct": 12.7,
+        "isMega": false
+      },
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Sand Stream",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 2,
+          "Atk": 32,
+          "Spe": 31,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "2 HP / 32 Atk / 1 Def / 1 SpD / 31 Spe",
+        "moves": [
+          "Rock Slide",
+          "Ice Punch",
+          "Low Kick",
+          "Crunch"
+        ],
+        "count": 8,
+        "usagePct": 11.3,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Whimsicott",
+    "displayName": "Whimsicott",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 67,
+      "def": 85,
+      "spa": 77,
+      "spd": 75,
+      "spe": 116
+    },
+    "abilities": [
+      "Prankster",
+      "Infiltrator"
+    ],
+    "metaUsage": 63,
+    "metaUsagePct": 12.3,
+    "topItem": "Focus Sash",
+    "topNature": "Timid",
+    "topAbility": "Prankster",
+    "topMoves": [
+      "Tailwind",
+      "Moonblast",
+      "Encore",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 15,
+      "SpD": 12,
+      "Spe": 25,
+      "Def": 8,
+      "SpA": 22
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "evs": {
+          "HP": 13,
+          "Def": 6,
+          "SpA": 25,
+          "Spe": 27,
+          "SpD": 8
+        },
+        "evsStr": "13 HP / 6 Def / 25 SpA / 8 SpD / 27 Spe",
+        "moves": [
+          "Tailwind",
+          "Moonblast",
+          "Encore",
+          "Protect"
+        ],
+        "count": 47,
+        "usagePct": 74.6,
+        "isMega": false
+      },
+      {
+        "name": "Fairy Feather",
+        "item": "Fairy Feather",
+        "ability": "Prankster",
+        "nature": "Modest",
+        "evs": {
+          "HP": 17,
+          "Def": 11,
+          "SpA": 16,
+          "SpD": 14,
+          "Spe": 14
+        },
+        "evsStr": "17 HP / 11 Def / 16 SpA / 14 SpD / 14 Spe",
+        "moves": [
+          "Moonblast",
+          "Tailwind",
+          "Encore",
+          "Light Screen"
+        ],
+        "count": 4,
+        "usagePct": 6.3,
+        "isMega": false
+      },
+      {
+        "name": "Mental Herb",
+        "item": "Mental Herb",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "evs": {
+          "HP": 11,
+          "Def": 12,
+          "SpA": 16,
+          "SpD": 15,
+          "Spe": 31
+        },
+        "evsStr": "11 HP / 12 Def / 16 SpA / 15 SpD / 31 Spe",
+        "moves": [
+          "Moonblast",
+          "Tailwind",
+          "Encore",
+          "Fake Tears"
+        ],
+        "count": 4,
+        "usagePct": 6.3,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Pelipper",
+    "displayName": "Pelipper",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 100,
+      "spa": 85,
+      "spd": 70,
+      "spe": 65
+    },
+    "abilities": [
+      "Drizzle",
+      "Keen Eye"
+    ],
+    "metaUsage": 61,
+    "metaUsagePct": 11.9,
+    "topItem": "Focus Sash",
+    "topNature": "Modest",
+    "topAbility": "Drizzle",
+    "topMoves": [
+      "Hurricane",
+      "Weather Ball",
+      "Tailwind",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 10,
+      "Def": 5,
+      "SpD": 8,
+      "Spe": 28,
+      "SpA": 29
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Drizzle",
+        "nature": "Modest",
+        "evs": {
+          "HP": 6,
+          "SpA": 31,
+          "Spe": 30,
+          "SpD": 6,
+          "Def": 4
+        },
+        "evsStr": "6 HP / 4 Def / 31 SpA / 6 SpD / 30 Spe",
+        "moves": [
+          "Hurricane",
+          "Tailwind",
+          "Weather Ball",
+          "Protect"
+        ],
+        "count": 42,
+        "usagePct": 68.9,
+        "isMega": false
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Drizzle",
+        "nature": "Bold",
+        "evs": {
+          "HP": 29,
+          "Def": 10,
+          "SpD": 14,
+          "Spe": 13,
+          "SpA": 16
+        },
+        "evsStr": "29 HP / 10 Def / 16 SpA / 14 SpD / 13 Spe",
+        "moves": [
+          "Hurricane",
+          "Weather Ball",
+          "Wide Guard",
+          "Protect"
+        ],
+        "count": 7,
+        "usagePct": 11.5,
+        "isMega": false
+      },
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Drizzle",
+        "nature": "Timid",
+        "evs": {
+          "HP": 3,
+          "SpA": 31,
+          "Spe": 32,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "3 HP / 1 Def / 31 SpA / 1 SpD / 32 Spe",
+        "moves": [
+          "Hurricane",
+          "Weather Ball",
+          "Icy Wind",
+          "Muddy Water"
+        ],
+        "count": 6,
+        "usagePct": 9.8,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Milotic",
+    "displayName": "Milotic",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 79,
+      "spa": 100,
+      "spd": 125,
+      "spe": 81
+    },
+    "abilities": [
+      "Competitive",
+      "Marvel Scale"
+    ],
+    "metaUsage": 56,
+    "metaUsagePct": 10.9,
+    "topItem": "Leftovers",
+    "topNature": "Modest",
+    "topAbility": "Competitive",
+    "topMoves": [
+      "Scald",
+      "Protect",
+      "Icy Wind",
+      "Recover"
+    ],
+    "avgEvs": {
+      "HP": 29,
+      "Def": 19,
+      "SpA": 10,
+      "SpD": 7,
+      "Spe": 6,
+      "Atk": 14
+    },
+    "metaSets": [
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Competitive",
+        "nature": "Modest",
+        "evs": {
+          "HP": 28,
+          "Def": 20,
+          "SpA": 10,
+          "Spe": 6,
+          "SpD": 8
+        },
+        "evsStr": "28 HP / 20 Def / 10 SpA / 8 SpD / 6 Spe",
+        "moves": [
+          "Scald",
+          "Protect",
+          "Icy Wind",
+          "Recover"
+        ],
+        "count": 43,
+        "usagePct": 76.8,
+        "isMega": false
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Competitive",
+        "nature": "Modest",
+        "evs": {
+          "HP": 32,
+          "Def": 16,
+          "SpA": 10,
+          "SpD": 4,
+          "Spe": 6,
+          "Atk": 14
+        },
+        "evsStr": "32 HP / 14 Atk / 16 Def / 10 SpA / 4 SpD / 6 Spe",
+        "moves": [
+          "Protect",
+          "Scald",
+          "Life Dew",
+          "Ice Beam"
+        ],
+        "count": 9,
+        "usagePct": 16.1,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Farigiraf",
+    "displayName": "Farigiraf",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 120,
+      "atk": 90,
+      "def": 70,
+      "spa": 90,
+      "spd": 72,
+      "spe": 60
+    },
+    "abilities": [
+      "Armor Tail",
+      "Cud Chew"
+    ],
+    "metaUsage": 51,
+    "metaUsagePct": 9.9,
+    "topItem": "Sitrus Berry",
+    "topNature": "Modest",
+    "topAbility": "Armor Tail",
+    "topMoves": [
+      "Trick Room",
+      "Hyper Voice",
+      "Psychic",
+      "Helping Hand"
+    ],
+    "avgEvs": {
+      "HP": 26,
+      "Def": 17,
+      "SpA": 10,
+      "SpD": 16,
+      "Spe": 6
+    },
+    "metaSets": [
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Armor Tail",
+        "nature": "Bold",
+        "evs": {
+          "HP": 26,
+          "Def": 17,
+          "SpA": 9,
+          "SpD": 16,
+          "Spe": 7
+        },
+        "evsStr": "26 HP / 17 Def / 9 SpA / 16 SpD / 7 Spe",
+        "moves": [
+          "Trick Room",
+          "Psychic",
+          "Hyper Voice",
+          "Helping Hand"
+        ],
+        "count": 32,
+        "usagePct": 62.7,
+        "isMega": false
+      },
+      {
+        "name": "Colbur Berry",
+        "item": "Colbur Berry",
+        "ability": "Armor Tail",
+        "nature": "Modest",
+        "evs": {
+          "HP": 25,
+          "SpA": 12,
+          "SpD": 15,
+          "Spe": 7,
+          "Def": 17
+        },
+        "evsStr": "25 HP / 17 Def / 12 SpA / 15 SpD / 7 Spe",
+        "moves": [
+          "Trick Room",
+          "Hyper Voice",
+          "Helping Hand",
+          "Psychic"
+        ],
+        "count": 11,
+        "usagePct": 21.6,
+        "isMega": false
+      },
+      {
+        "name": "Mental Herb",
+        "item": "Mental Herb",
+        "ability": "Armor Tail",
+        "nature": "Modest",
+        "evs": {
+          "HP": 28,
+          "Def": 15,
+          "SpA": 8,
+          "SpD": 16,
+          "Spe": 2
+        },
+        "evsStr": "28 HP / 15 Def / 8 SpA / 16 SpD / 2 Spe",
+        "moves": [
+          "Trick Room",
+          "Helping Hand",
+          "Psychic",
+          "Hyper Voice"
+        ],
+        "count": 4,
+        "usagePct": 7.8,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Froslass",
+    "displayName": "Froslass (F)",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 70,
+      "spa": 80,
+      "spd": 70,
+      "spe": 110
+    },
+    "abilities": [
+      "Cursed Body",
+      "Snow Cloak"
+    ],
+    "metaUsage": 45,
+    "metaUsagePct": 8.8,
+    "topItem": "Froslassite",
+    "topNature": "Timid",
+    "topAbility": "Cursed Body",
+    "topMoves": [
+      "Blizzard",
+      "Protect",
+      "Shadow Ball",
+      "Aurora Veil"
+    ],
+    "avgEvs": {
+      "HP": 12,
+      "Def": 4,
+      "SpA": 24,
+      "Spe": 30,
+      "SpD": 3
+    },
+    "metaSets": [
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "evs": {
+          "HP": 13,
+          "Def": 4,
+          "SpA": 23,
+          "Spe": 29,
+          "SpD": 3
+        },
+        "evsStr": "13 HP / 4 Def / 23 SpA / 3 SpD / 29 Spe",
+        "moves": [
+          "Blizzard",
+          "Protect",
+          "Shadow Ball",
+          "Aurora Veil"
+        ],
+        "count": 51,
+        "usagePct": 113.3,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Dragonite",
+    "displayName": "Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 91,
+      "atk": 134,
+      "def": 95,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": [
+      "Multiscale",
+      "Inner Focus"
+    ],
+    "metaUsage": 43,
+    "metaUsagePct": 8.4,
+    "topItem": "Dragoninite",
+    "topNature": "Modest",
+    "topAbility": "Multiscale",
+    "topMoves": [
+      "Protect",
+      "Extreme Speed",
+      "Tailwind",
+      "Draco Meteor"
+    ],
+    "avgEvs": {
+      "HP": 10,
+      "Atk": 32,
+      "Spe": 25,
+      "Def": 2,
+      "SpA": 30,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Dragonin-Mega",
+        "item": "Dragoninite",
+        "ability": "Dragonize",
+        "nature": "Modest",
+        "evs": {
+          "HP": 11,
+          "Def": 2,
+          "SpA": 29,
+          "SpD": 3,
+          "Spe": 23
+        },
+        "evsStr": "11 HP / 2 Def / 29 SpA / 3 SpD / 23 Spe",
+        "moves": [
+          "Protect",
+          "Draco Meteor",
+          "Hurricane",
+          "Tailwind"
+        ],
+        "count": 20,
+        "usagePct": 46.5,
+        "isMega": true
+      },
+      {
+        "name": "Dragon Fang",
+        "item": "Dragon Fang",
+        "ability": "Multiscale",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 17,
+          "Atk": 32,
+          "Spe": 19,
+          "Def": 4,
+          "SpD": 2
+        },
+        "evsStr": "17 HP / 32 Atk / 4 Def / 2 SpD / 19 Spe",
+        "moves": [
+          "Extreme Speed",
+          "Tailwind",
+          "Dragon Claw",
+          "Low Kick"
+        ],
+        "count": 8,
+        "usagePct": 18.6,
+        "isMega": false
+      },
+      {
+        "name": "Lum Berry",
+        "item": "Lum Berry",
+        "ability": "Multiscale",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 5,
+          "SpA": 32,
+          "Spe": 29,
+          "Atk": 32,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "5 HP / 32 Atk / 1 Def / 32 SpA / 1 SpD / 29 Spe",
+        "moves": [
+          "Extreme Speed",
+          "Protect",
+          "Scale Shot",
+          "Tailwind"
+        ],
+        "count": 7,
+        "usagePct": 16.3,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Aegislash",
+    "displayName": "Aegislash",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 150,
+      "def": 150,
+      "spa": 150,
+      "spd": 150,
+      "spe": 60
+    },
+    "abilities": [
+      "Stance Change"
+    ],
+    "metaUsage": 43,
+    "metaUsagePct": 8.4,
+    "topItem": "Spell Tag",
+    "topNature": "Adamant",
+    "topAbility": "Stance Change",
+    "topMoves": [
+      "King&#39;s Shield",
+      "Poltergeist",
+      "Shadow Sneak",
+      "Iron Head"
+    ],
+    "avgEvs": {
+      "HP": 28,
+      "Atk": 27,
+      "Spe": 11,
+      "Def": 5,
+      "SpD": 6,
+      "SpA": 32
+    },
+    "metaSets": [
+      {
+        "name": "Spell Tag",
+        "item": "Spell Tag",
+        "ability": "Stance Change",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 29,
+          "Atk": 27,
+          "Spe": 9,
+          "Def": 5,
+          "SpD": 3,
+          "SpA": 32
+        },
+        "evsStr": "29 HP / 27 Atk / 5 Def / 32 SpA / 3 SpD / 9 Spe",
+        "moves": [
+          "Poltergeist",
+          "Shadow Sneak",
+          "King&#39;s Shield",
+          "Iron Head"
+        ],
+        "count": 26,
+        "usagePct": 60.5,
+        "isMega": false
+      },
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Stance Change",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 30,
+          "Atk": 32,
+          "Spe": 8,
+          "Def": 4,
+          "SpA": 32,
+          "SpD": 14
+        },
+        "evsStr": "30 HP / 32 Atk / 4 Def / 32 SpA / 14 SpD / 8 Spe",
+        "moves": [
+          "King&#39;s Shield",
+          "Wide Guard",
+          "Shadow Ball",
+          "Poltergeist"
+        ],
+        "count": 9,
+        "usagePct": 20.9,
+        "isMega": false
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Stance Change",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 16,
+          "Atk": 28,
+          "Spe": 26,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "16 HP / 28 Atk / 1 Def / 1 SpD / 26 Spe",
+        "moves": [
+          "Iron Head",
+          "Poltergeist",
+          "Shadow Sneak",
+          "King&#39;s Shield"
+        ],
+        "count": 3,
+        "usagePct": 7.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Archaludon",
+    "displayName": "Archaludon",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 105,
+      "def": 130,
+      "spa": 125,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": [
+      "Stamina",
+      "Sturdy"
+    ],
+    "metaUsage": 41,
+    "metaUsagePct": 8.0,
+    "topItem": "Leftovers",
+    "topNature": "Modest",
+    "topAbility": "Stamina",
+    "topMoves": [
+      "Electro Shot",
+      "Flash Cannon",
+      "Protect",
+      "Draco Meteor"
+    ],
+    "avgEvs": {
+      "HP": 22,
+      "Def": 4,
+      "SpD": 21,
+      "Spe": 16,
+      "SpA": 19
+    },
+    "metaSets": [
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Stamina",
+        "nature": "Modest",
+        "evs": {
+          "HP": 27,
+          "Def": 4,
+          "SpD": 22,
+          "Spe": 8,
+          "SpA": 14
+        },
+        "evsStr": "27 HP / 4 Def / 14 SpA / 22 SpD / 8 Spe",
+        "moves": [
+          "Electro Shot",
+          "Protect",
+          "Flash Cannon",
+          "Dragon Pulse"
+        ],
+        "count": 25,
+        "usagePct": 61.0,
+        "isMega": false
+      },
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Sturdy",
+        "nature": "Modest",
+        "evs": {
+          "HP": 7,
+          "SpA": 27,
+          "Spe": 29,
+          "Def": 2,
+          "SpD": 21
+        },
+        "evsStr": "7 HP / 2 Def / 27 SpA / 21 SpD / 29 Spe",
+        "moves": [
+          "Snarl",
+          "Flash Cannon",
+          "Draco Meteor",
+          "Electro Shot"
+        ],
+        "count": 5,
+        "usagePct": 12.2,
+        "isMega": false
+      },
+      {
+        "name": "White Herb",
+        "item": "White Herb",
+        "ability": "Sturdy",
+        "nature": "Timid",
+        "evs": {
+          "HP": 10,
+          "SpA": 32,
+          "Spe": 24
+        },
+        "evsStr": "10 HP / 32 SpA / 24 Spe",
+        "moves": [
+          "Electro Shot",
+          "Draco Meteor",
+          "Flash Cannon",
+          "Protect"
+        ],
+        "count": 4,
+        "usagePct": 9.8,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Corviknight",
+    "displayName": "Corviknight",
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 98,
+      "atk": 87,
+      "def": 105,
+      "spa": 53,
+      "spd": 85,
+      "spe": 67
+    },
+    "abilities": [
+      "Mirror Armor",
+      "Pressure"
+    ],
+    "metaUsage": 41,
+    "metaUsagePct": 8.0,
+    "topItem": "Leftovers",
+    "topNature": "Impish",
+    "topAbility": "Mirror Armor",
+    "topMoves": [
+      "Brave Bird",
+      "Roost",
+      "Body Press",
+      "Tailwind"
+    ],
+    "avgEvs": {
+      "HP": 31,
+      "Atk": 11,
+      "Def": 12,
+      "SpD": 14,
+      "Spe": 10
+    },
+    "metaSets": [
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Mirror Armor",
+        "nature": "Impish",
+        "evs": {
+          "HP": 32,
+          "Atk": 11,
+          "Def": 15,
+          "SpD": 13,
+          "Spe": 8
+        },
+        "evsStr": "32 HP / 11 Atk / 15 Def / 13 SpD / 8 Spe",
+        "moves": [
+          "Brave Bird",
+          "Roost",
+          "Body Press",
+          "Tailwind"
+        ],
+        "count": 29,
+        "usagePct": 70.7,
+        "isMega": false
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Mirror Armor",
+        "nature": "Impish",
+        "evs": {
+          "HP": 30,
+          "Def": 5,
+          "SpD": 18,
+          "Spe": 24,
+          "Atk": 1
+        },
+        "evsStr": "30 HP / 1 Atk / 5 Def / 18 SpD / 24 Spe",
+        "moves": [
+          "Brave Bird",
+          "Body Press",
+          "Tailwind",
+          "Iron Defense"
+        ],
+        "count": 4,
+        "usagePct": 9.8,
+        "isMega": false
+      },
+      {
+        "name": "Occa Berry",
+        "item": "Occa Berry",
+        "ability": "Mirror Armor",
+        "nature": "Impish",
+        "evs": {
+          "HP": 29,
+          "Atk": 12,
+          "Def": 3,
+          "SpD": 11,
+          "Spe": 11
+        },
+        "evsStr": "29 HP / 12 Atk / 3 Def / 11 SpD / 11 Spe",
+        "moves": [
+          "Roost",
+          "Brave Bird",
+          "Tailwind",
+          "Iron Head"
+        ],
+        "count": 3,
+        "usagePct": 7.3,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Gardevoir",
+    "displayName": "Gardevoir",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 65,
+      "def": 65,
+      "spa": 125,
+      "spd": 115,
+      "spe": 80
+    },
+    "abilities": [
+      "Telepathy",
+      "Trace",
+      "Synchronize"
+    ],
+    "metaUsage": 41,
+    "metaUsagePct": 8.0,
+    "topItem": "Gardevoirite",
+    "topNature": "Modest",
+    "topAbility": "Telepathy",
+    "topMoves": [
+      "Protect",
+      "Hyper Voice",
+      "Psychic",
+      "Trick Room"
+    ],
+    "avgEvs": {
+      "HP": 22,
+      "SpA": 23,
+      "Spe": 20,
+      "Def": 12,
+      "SpD": 4
+    },
+    "metaSets": [
+      {
+        "name": "Gardevoir-Mega",
+        "item": "Gardevoirite",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "evs": {
+          "HP": 28,
+          "SpA": 19,
+          "Spe": 10,
+          "Def": 15,
+          "SpD": 4
+        },
+        "evsStr": "28 HP / 15 Def / 19 SpA / 4 SpD / 10 Spe",
+        "moves": [
+          "Hyper Voice",
+          "Protect",
+          "Trick Room",
+          "Psychic"
+        ],
+        "count": 26,
+        "usagePct": 63.4,
+        "isMega": true
+      },
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Telepathy",
+        "nature": "Timid",
+        "evs": {
+          "HP": 3,
+          "Def": 3,
+          "SpA": 31,
+          "Spe": 32,
+          "SpD": 1
+        },
+        "evsStr": "3 HP / 3 Def / 31 SpA / 1 SpD / 32 Spe",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Psychic",
+          "Icy Wind"
+        ],
+        "count": 14,
+        "usagePct": 34.1,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Delphox",
+    "displayName": "Delphox",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 69,
+      "def": 72,
+      "spa": 114,
+      "spd": 100,
+      "spe": 104
+    },
+    "abilities": [
+      "Blaze",
+      "Magician"
+    ],
+    "metaUsage": 41,
+    "metaUsagePct": 8.0,
+    "topItem": "Delphoxite",
+    "topNature": "Timid",
+    "topAbility": "Blaze",
+    "topMoves": [
+      "Protect",
+      "Heat Wave",
+      "Psychic",
+      "Encore"
+    ],
+    "avgEvs": {
+      "HP": 8,
+      "Def": 15,
+      "SpA": 19,
+      "Spe": 30,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Delphox-Mega",
+        "item": "Delphoxite",
+        "ability": "Magician",
+        "nature": "Timid",
+        "evs": {
+          "HP": 8,
+          "Def": 15,
+          "SpA": 19,
+          "Spe": 30,
+          "SpD": 2
+        },
+        "evsStr": "8 HP / 15 Def / 19 SpA / 2 SpD / 30 Spe",
+        "moves": [
+          "Protect",
+          "Heat Wave",
+          "Psychic",
+          "Encore"
+        ],
+        "count": 41,
+        "usagePct": 100.0,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Talonflame",
+    "displayName": "Talonflame",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 81,
+      "def": 71,
+      "spa": 74,
+      "spd": 69,
+      "spe": 126
+    },
+    "abilities": [
+      "Gale Wings",
+      "Flame Body"
+    ],
+    "metaUsage": 40,
+    "metaUsagePct": 7.8,
+    "topItem": "Sharp Beak",
+    "topNature": "Jolly",
+    "topAbility": "Gale Wings",
+    "topMoves": [
+      "Tailwind",
+      "Protect",
+      "Flare Blitz",
+      "Brave Bird"
+    ],
+    "avgEvs": {
+      "HP": 7,
+      "Atk": 31,
+      "Spe": 29,
+      "Def": 2,
+      "SpD": 1,
+      "SpA": 16
+    },
+    "metaSets": [
+      {
+        "name": "Sharp Beak",
+        "item": "Sharp Beak",
+        "ability": "Gale Wings",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 6,
+          "Atk": 31,
+          "Spe": 29,
+          "Def": 1,
+          "SpD": 1,
+          "SpA": 22
+        },
+        "evsStr": "6 HP / 31 Atk / 1 Def / 22 SpA / 1 SpD / 29 Spe",
+        "moves": [
+          "Tailwind",
+          "Protect",
+          "Flare Blitz",
+          "Brave Bird"
+        ],
+        "count": 23,
+        "usagePct": 57.5,
+        "isMega": false
+      },
+      {
+        "name": "",
+        "item": "",
+        "ability": "Gale Wings",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 12,
+          "Atk": 29,
+          "Spe": 26,
+          "Def": 4,
+          "SpD": 2
+        },
+        "evsStr": "12 HP / 29 Atk / 4 Def / 2 SpD / 26 Spe",
+        "moves": [
+          "Acrobatics",
+          "Tailwind",
+          "Protect",
+          "Flare Blitz"
+        ],
+        "count": 9,
+        "usagePct": 22.5,
+        "isMega": false
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Gale Wings",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 2,
+          "Atk": 32,
+          "Spe": 31,
+          "Def": 1,
+          "SpD": 1,
+          "SpA": 7
+        },
+        "evsStr": "2 HP / 32 Atk / 1 Def / 7 SpA / 1 SpD / 31 Spe",
+        "moves": [
+          "Tailwind",
+          "Protect",
+          "Dual Wingbeat",
+          "Flare Blitz"
+        ],
+        "count": 4,
+        "usagePct": 10.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Venusaur",
+    "displayName": "Venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 83,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": [
+      "Overgrow",
+      "Chlorophyll"
+    ],
+    "metaUsage": 39,
+    "metaUsagePct": 7.6,
+    "topItem": "Focus Sash",
+    "topNature": "Modest",
+    "topAbility": "Chlorophyll",
+    "topMoves": [
+      "Sludge Bomb",
+      "Protect",
+      "Sleep Powder",
+      "Leaf Storm"
+    ],
+    "avgEvs": {
+      "HP": 14,
+      "Def": 3,
+      "SpA": 27,
+      "SpD": 6,
+      "Spe": 24
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Chlorophyll",
+        "nature": "Modest",
+        "evs": {
+          "HP": 4,
+          "SpA": 30,
+          "Spe": 31,
+          "Def": 3,
+          "SpD": 6
+        },
+        "evsStr": "4 HP / 3 Def / 30 SpA / 6 SpD / 31 Spe",
+        "moves": [
+          "Sludge Bomb",
+          "Sleep Powder",
+          "Protect",
+          "Leaf Storm"
+        ],
+        "count": 23,
+        "usagePct": 59.0,
+        "isMega": false
+      },
+      {
+        "name": "Venusaur-Mega",
+        "item": "Venusaurite",
+        "ability": "Thick Fat",
+        "nature": "Modest",
+        "evs": {
+          "HP": 29,
+          "Def": 4,
+          "SpA": 21,
+          "SpD": 7,
+          "Spe": 11
+        },
+        "evsStr": "29 HP / 4 Def / 21 SpA / 7 SpD / 11 Spe",
+        "moves": [
+          "Sludge Bomb",
+          "Protect",
+          "Earth Power",
+          "Giga Drain"
+        ],
+        "count": 12,
+        "usagePct": 30.8,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Gengar",
+    "displayName": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 60,
+      "spa": 130,
+      "spd": 75,
+      "spe": 110
+    },
+    "abilities": [
+      "Cursed Body",
+      "Shadow Tag"
+    ],
+    "metaUsage": 38,
+    "metaUsagePct": 7.4,
+    "topItem": "Gengarite",
+    "topNature": "Timid",
+    "topAbility": "Cursed Body",
+    "topMoves": [
+      "Shadow Ball",
+      "Protect",
+      "Sludge Bomb",
+      "Disable"
+    ],
+    "avgEvs": {
+      "HP": 20,
+      "Def": 6,
+      "Spe": 36,
+      "SpD": 3,
+      "SpA": 24
+    },
+    "metaSets": [
+      {
+        "name": "Gengar-Mega",
+        "item": "Gengarite",
+        "ability": "Shadow Tag",
+        "nature": "Timid",
+        "evs": {
+          "HP": 20,
+          "Def": 6,
+          "Spe": 30,
+          "SpD": 3,
+          "SpA": 13
+        },
+        "evsStr": "20 HP / 6 Def / 13 SpA / 3 SpD / 30 Spe",
+        "moves": [
+          "Protect",
+          "Shadow Ball",
+          "Sludge Bomb",
+          "Disable"
+        ],
+        "count": 33,
+        "usagePct": 86.8,
+        "isMega": true
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "evs": {
+          "HP": 18,
+          "SpA": 76,
+          "Spe": 105,
+          "Def": 1,
+          "SpD": 2
+        },
+        "evsStr": "18 HP / 1 Def / 76 SpA / 2 SpD / 105 Spe",
+        "moves": [
+          "Sludge Bomb",
+          "Shadow Ball",
+          "Protect",
+          "Psychic"
+        ],
+        "count": 5,
+        "usagePct": 13.2,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Maushold",
+    "displayName": "Maushold-Four",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 75,
+      "def": 70,
+      "spa": 65,
+      "spd": 75,
+      "spe": 111
+    },
+    "abilities": [
+      "Friend Guard",
+      "Technician"
+    ],
+    "metaUsage": 33,
+    "metaUsagePct": 6.4,
+    "topItem": "Chople Berry",
+    "topNature": "Jolly",
+    "topAbility": "Friend Guard",
+    "topMoves": [
+      "Follow Me",
+      "Protect",
+      "Super Fang",
+      "Taunt"
+    ],
+    "avgEvs": {
+      "HP": 29,
+      "Def": 11,
+      "SpD": 6,
+      "Spe": 26,
+      "Atk": 14
+    },
+    "metaSets": [
+      {
+        "name": "Chople Berry",
+        "item": "Chople Berry",
+        "ability": "Friend Guard",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 31,
+          "Def": 12,
+          "SpD": 6,
+          "Spe": 24
+        },
+        "evsStr": "31 HP / 12 Def / 6 SpD / 24 Spe",
+        "moves": [
+          "Protect",
+          "Follow Me",
+          "Super Fang",
+          "Taunt"
+        ],
+        "count": 16,
+        "usagePct": 48.5,
+        "isMega": false
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Friend Guard",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 27,
+          "Def": 4,
+          "SpD": 5,
+          "Spe": 30,
+          "Atk": 17
+        },
+        "evsStr": "27 HP / 17 Atk / 4 Def / 5 SpD / 30 Spe",
+        "moves": [
+          "Follow Me",
+          "Protect",
+          "Super Fang",
+          "Taunt"
+        ],
+        "count": 13,
+        "usagePct": 39.4,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Sylveon",
+    "displayName": "Sylveon",
+    "types": [
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 65,
+      "def": 65,
+      "spa": 110,
+      "spd": 130,
+      "spe": 60
+    },
+    "abilities": [
+      "Pixilate",
+      "Cute Charm"
+    ],
+    "metaUsage": 28,
+    "metaUsagePct": 5.4,
+    "topItem": "Fairy Feather",
+    "topNature": "Modest",
+    "topAbility": "Pixilate",
+    "topMoves": [
+      "Hyper Voice",
+      "Quick Attack",
+      "Protect",
+      "Detect"
+    ],
+    "avgEvs": {
+      "HP": 26,
+      "Def": 16,
+      "SpA": 23,
+      "Spe": 5,
+      "SpD": 1
+    },
+    "metaSets": [
+      {
+        "name": "Fairy Feather",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "evs": {
+          "HP": 27,
+          "Def": 15,
+          "SpA": 24,
+          "Spe": 3,
+          "SpD": 1
+        },
+        "evsStr": "27 HP / 15 Def / 24 SpA / 1 SpD / 3 Spe",
+        "moves": [
+          "Hyper Voice",
+          "Quick Attack",
+          "Protect",
+          "Detect"
+        ],
+        "count": 22,
+        "usagePct": 78.6,
+        "isMega": false
+      },
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "evs": {
+          "HP": 21,
+          "Def": 17,
+          "SpA": 22,
+          "Spe": 8,
+          "SpD": 2
+        },
+        "evsStr": "21 HP / 17 Def / 22 SpA / 2 SpD / 8 Spe",
+        "moves": [
+          "Hyper Voice",
+          "Quick Attack",
+          "Calm Mind",
+          "Detect"
+        ],
+        "count": 6,
+        "usagePct": 21.4,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Excadrill",
+    "displayName": "Excadrill",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 135,
+      "def": 60,
+      "spa": 50,
+      "spd": 65,
+      "spe": 88
+    },
+    "abilities": [
+      "Sand Rush",
+      "Mold Breaker"
+    ],
+    "metaUsage": 28,
+    "metaUsagePct": 5.4,
+    "topItem": "Focus Sash",
+    "topNature": "Adamant",
+    "topAbility": "Sand Rush",
+    "topMoves": [
+      "Protect",
+      "Iron Head",
+      "Earthquake",
+      "Rock Slide"
+    ],
+    "avgEvs": {
+      "HP": 2,
+      "Atk": 32,
+      "Def": 1,
+      "Spe": 31,
+      "SpD": 1
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Sand Rush",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 3,
+          "Atk": 32,
+          "Def": 1,
+          "Spe": 31,
+          "SpD": 1
+        },
+        "evsStr": "3 HP / 32 Atk / 1 Def / 1 SpD / 31 Spe",
+        "moves": [
+          "Protect",
+          "Iron Head",
+          "Rock Slide",
+          "Earthquake"
+        ],
+        "count": 23,
+        "usagePct": 82.1,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Gyarados",
+    "displayName": "Gyarados",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 125,
+      "def": 79,
+      "spa": 60,
+      "spd": 100,
+      "spe": 81
+    },
+    "abilities": [
+      "Intimidate",
+      "Moxie"
+    ],
+    "metaUsage": 27,
+    "metaUsagePct": 5.3,
+    "topItem": "Gyaradosite",
+    "topNature": "Adamant",
+    "topAbility": "Intimidate",
+    "topMoves": [
+      "Waterfall",
+      "Protect",
+      "Thunder Wave",
+      "Taunt"
+    ],
+    "avgEvs": {
+      "HP": 22,
+      "Atk": 15,
+      "SpD": 9,
+      "Spe": 17,
+      "Def": 13
+    },
+    "metaSets": [
+      {
+        "name": "Gyarados-Mega",
+        "item": "Gyaradosite",
+        "ability": "Mold Breaker",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 12,
+          "Atk": 26,
+          "Spe": 25,
+          "Def": 2,
+          "SpD": 4
+        },
+        "evsStr": "12 HP / 26 Atk / 2 Def / 4 SpD / 25 Spe",
+        "moves": [
+          "Protect",
+          "Dragon Dance",
+          "Waterfall",
+          "Crunch"
+        ],
+        "count": 8,
+        "usagePct": 29.6,
+        "isMega": true
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 27,
+          "Atk": 12,
+          "Spe": 14,
+          "Def": 16,
+          "SpD": 6
+        },
+        "evsStr": "27 HP / 12 Atk / 16 Def / 6 SpD / 14 Spe",
+        "moves": [
+          "Waterfall",
+          "Thunder Wave",
+          "Protect",
+          "Taunt"
+        ],
+        "count": 8,
+        "usagePct": 29.6,
+        "isMega": false
+      },
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Intimidate",
+        "nature": "Impish",
+        "evs": {
+          "HP": 28,
+          "Atk": 4,
+          "SpD": 16,
+          "Spe": 7,
+          "Def": 20
+        },
+        "evsStr": "28 HP / 4 Atk / 20 Def / 16 SpD / 7 Spe",
+        "moves": [
+          "Waterfall",
+          "Taunt",
+          "Thunder Wave",
+          "Protect"
+        ],
+        "count": 5,
+        "usagePct": 18.5,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Glimmora",
+    "displayName": "Glimmora",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 55,
+      "def": 90,
+      "spa": 130,
+      "spd": 81,
+      "spe": 86
+    },
+    "abilities": [
+      "Toxic Debris",
+      "Corrosion"
+    ],
+    "metaUsage": 27,
+    "metaUsagePct": 5.3,
+    "topItem": "Glimmoranite",
+    "topNature": "Timid",
+    "topAbility": "Toxic Debris",
+    "topMoves": [
+      "Power Gem",
+      "Spiky Shield",
+      "Earth Power",
+      "Sludge Bomb"
+    ],
+    "avgEvs": {
+      "HP": 6,
+      "SpA": 30,
+      "Spe": 29,
+      "Def": 2,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Glimmoran-Mega",
+        "item": "Glimmoranite",
+        "ability": "Power Spot",
+        "nature": "Timid",
+        "evs": {
+          "HP": 7,
+          "Def": 2,
+          "SpA": 29,
+          "SpD": 2,
+          "Spe": 28
+        },
+        "evsStr": "7 HP / 2 Def / 29 SpA / 2 SpD / 28 Spe",
+        "moves": [
+          "Spiky Shield",
+          "Power Gem",
+          "Earth Power",
+          "Sludge Bomb"
+        ],
+        "count": 23,
+        "usagePct": 85.2,
+        "isMega": true
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Toxic Debris",
+        "nature": "Timid",
+        "evs": {
+          "HP": 2,
+          "SpA": 32,
+          "Spe": 32,
+          "SpD": 1
+        },
+        "evsStr": "2 HP / 32 SpA / 1 SpD / 32 Spe",
+        "moves": [
+          "Power Gem",
+          "Spiky Shield",
+          "Earth Power",
+          "Sludge Bomb"
+        ],
+        "count": 4,
+        "usagePct": 14.8,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Kommo-o",
+    "displayName": "Kommo-o",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 125,
+      "spa": 100,
+      "spd": 105,
+      "spe": 85
+    },
+    "abilities": [
+      "Soundproof",
+      "Bulletproof"
+    ],
+    "metaUsage": 26,
+    "metaUsagePct": 5.1,
+    "topItem": "Leftovers",
+    "topNature": "Modest",
+    "topAbility": "Soundproof",
+    "topMoves": [
+      "Clanging Scales",
+      "Protect",
+      "Aura Sphere",
+      "Clangorous Soul"
+    ],
+    "avgEvs": {
+      "HP": 16,
+      "SpA": 25,
+      "Spe": 25,
+      "Def": 2,
+      "SpD": 3,
+      "Atk": 8
+    },
+    "metaSets": [
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Soundproof",
+        "nature": "Modest",
+        "evs": {
+          "HP": 16,
+          "SpA": 24,
+          "Spe": 24,
+          "Def": 2,
+          "SpD": 3,
+          "Atk": 8
+        },
+        "evsStr": "16 HP / 8 Atk / 2 Def / 24 SpA / 3 SpD / 24 Spe",
+        "moves": [
+          "Protect",
+          "Clanging Scales",
+          "Aura Sphere",
+          "Clangorous Soul"
+        ],
+        "count": 15,
+        "usagePct": 57.7,
+        "isMega": false
+      },
+      {
+        "name": "Dragon Fang",
+        "item": "Dragon Fang",
+        "ability": "Overcoat",
+        "nature": "Modest",
+        "evs": {
+          "HP": 14,
+          "SpA": 28,
+          "SpD": 1,
+          "Spe": 27,
+          "Def": 1
+        },
+        "evsStr": "14 HP / 1 Def / 28 SpA / 1 SpD / 27 Spe",
+        "moves": [
+          "Clanging Scales",
+          "Aura Sphere",
+          "Protect",
+          "Clangorous Soul"
+        ],
+        "count": 7,
+        "usagePct": 26.9,
+        "isMega": false
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Soundproof",
+        "nature": "Modest",
+        "evs": {
+          "HP": 16,
+          "SpA": 24,
+          "SpD": 2,
+          "Spe": 30,
+          "Def": 1
+        },
+        "evsStr": "16 HP / 1 Def / 24 SpA / 2 SpD / 30 Spe",
+        "moves": [
+          "Clanging Scales",
+          "Clangorous Soul",
+          "Protect",
+          "Aura Sphere"
+        ],
+        "count": 3,
+        "usagePct": 11.5,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Scizor",
+    "displayName": "Scizor",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 130,
+      "def": 100,
+      "spa": 55,
+      "spd": 80,
+      "spe": 65
+    },
+    "abilities": [
+      "Technician",
+      "Swarm"
+    ],
+    "metaUsage": 25,
+    "metaUsagePct": 4.9,
+    "topItem": "Scizorite",
+    "topNature": "Adamant",
+    "topAbility": "Technician",
+    "topMoves": [
+      "Bullet Punch",
+      "Protect",
+      "Swords Dance",
+      "Bug Bite"
+    ],
+    "avgEvs": {
+      "HP": 38,
+      "Atk": 42,
+      "Spe": 10,
+      "Def": 2,
+      "SpD": 4
+    },
+    "metaSets": [
+      {
+        "name": "Scizor-Mega",
+        "item": "Scizorite",
+        "ability": "Technician",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 31,
+          "Atk": 30,
+          "Spe": 4,
+          "Def": 2,
+          "SpD": 3
+        },
+        "evsStr": "31 HP / 30 Atk / 2 Def / 3 SpD / 4 Spe",
+        "moves": [
+          "Bullet Punch",
+          "Swords Dance",
+          "Protect",
+          "Bug Bite"
+        ],
+        "count": 19,
+        "usagePct": 76.0,
+        "isMega": true
+      },
+      {
+        "name": "Metal Coat",
+        "item": "Metal Coat",
+        "ability": "Technician",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 57,
+          "Atk": 76,
+          "Def": 1,
+          "SpD": 5,
+          "Spe": 19
+        },
+        "evsStr": "57 HP / 76 Atk / 1 Def / 5 SpD / 19 Spe",
+        "moves": [
+          "Bullet Punch",
+          "Protect",
+          "Bug Bite",
+          "Swords Dance"
+        ],
+        "count": 5,
+        "usagePct": 20.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Torkoal",
+    "displayName": "Torkoal",
+    "types": [
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 140,
+      "spa": 85,
+      "spd": 70,
+      "spe": 20
+    },
+    "abilities": [
+      "Drought",
+      "White Smoke"
+    ],
+    "metaUsage": 23,
+    "metaUsagePct": 4.5,
+    "topItem": "Charcoal",
+    "topNature": "Quiet",
+    "topAbility": "Drought",
+    "topMoves": [
+      "Eruption",
+      "Protect",
+      "Weather Ball",
+      "Heat Wave"
+    ],
+    "avgEvs": {
+      "HP": 29,
+      "Def": 4,
+      "SpA": 32,
+      "SpD": 3,
+      "Spe": 6
+    },
+    "metaSets": [
+      {
+        "name": "Charcoal",
+        "item": "Charcoal",
+        "ability": "Drought",
+        "nature": "Quiet",
+        "evs": {
+          "HP": 30,
+          "Def": 1,
+          "SpA": 32,
+          "SpD": 3,
+          "Spe": 6
+        },
+        "evsStr": "30 HP / 1 Def / 32 SpA / 3 SpD / 6 Spe",
+        "moves": [
+          "Eruption",
+          "Protect",
+          "Weather Ball",
+          "Heat Wave"
+        ],
+        "count": 22,
+        "usagePct": 95.7,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Hydreigon",
+    "displayName": "Hydreigon",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 92,
+      "atk": 105,
+      "def": 90,
+      "spa": 125,
+      "spd": 90,
+      "spe": 98
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 23,
+    "metaUsagePct": 4.5,
+    "topItem": "Choice Scarf",
+    "topNature": "Modest",
+    "topAbility": "Levitate",
+    "topMoves": [
+      "Dark Pulse",
+      "Draco Meteor",
+      "Protect",
+      "Snarl"
+    ],
+    "avgEvs": {
+      "HP": 8,
+      "SpA": 29,
+      "Spe": 29,
+      "Def": 2,
+      "SpD": 1
+    },
+    "metaSets": [
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Levitate",
+        "nature": "Modest",
+        "evs": {
+          "HP": 4,
+          "SpA": 31,
+          "Spe": 31,
+          "Def": 2,
+          "SpD": 1
+        },
+        "evsStr": "4 HP / 2 Def / 31 SpA / 1 SpD / 31 Spe",
+        "moves": [
+          "Dark Pulse",
+          "Draco Meteor",
+          "Snarl",
+          "Heat Wave"
+        ],
+        "count": 11,
+        "usagePct": 47.8,
+        "isMega": false
+      },
+      {
+        "name": "Chople Berry",
+        "item": "Chople Berry",
+        "ability": "Levitate",
+        "nature": "Modest",
+        "evs": {
+          "HP": 15,
+          "Def": 3,
+          "SpA": 19,
+          "Spe": 28,
+          "SpD": 1
+        },
+        "evsStr": "15 HP / 3 Def / 19 SpA / 1 SpD / 28 Spe",
+        "moves": [
+          "Draco Meteor",
+          "Dark Pulse",
+          "Protect",
+          "Earth Power"
+        ],
+        "count": 3,
+        "usagePct": 13.0,
+        "isMega": false
+      },
+      {
+        "name": "Haban Berry",
+        "item": "Haban Berry",
+        "ability": "Levitate",
+        "nature": "Modest",
+        "evs": {
+          "HP": 20,
+          "Def": 2,
+          "SpA": 25,
+          "SpD": 1,
+          "Spe": 19
+        },
+        "evsStr": "20 HP / 2 Def / 25 SpA / 1 SpD / 19 Spe",
+        "moves": [
+          "Protect",
+          "Draco Meteor",
+          "Dark Pulse",
+          "Snarl"
+        ],
+        "count": 3,
+        "usagePct": 13.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Rotom-Heat",
+    "displayName": "Rotom-Heat",
+    "types": [
+      "Electric",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 21,
+    "metaUsagePct": 4.1,
+    "topItem": "Choice Scarf",
+    "topNature": "Timid",
+    "topAbility": "Levitate",
+    "topMoves": [
+      "Overheat",
+      "Volt Switch",
+      "Thunderbolt",
+      "Electroweb"
+    ],
+    "avgEvs": {
+      "HP": 19,
+      "Def": 4,
+      "SpA": 22,
+      "SpD": 3,
+      "Spe": 25
+    },
+    "metaSets": [
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Levitate",
+        "nature": "Timid",
+        "evs": {
+          "HP": 14,
+          "Def": 2,
+          "SpA": 22,
+          "SpD": 4,
+          "Spe": 28
+        },
+        "evsStr": "14 HP / 2 Def / 22 SpA / 4 SpD / 28 Spe",
+        "moves": [
+          "Overheat",
+          "Volt Switch",
+          "Electroweb",
+          "Thunderbolt"
+        ],
+        "count": 13,
+        "usagePct": 61.9,
+        "isMega": false
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Levitate",
+        "nature": "Timid",
+        "evs": {
+          "HP": 30,
+          "Def": 6,
+          "SpA": 21,
+          "SpD": 2,
+          "Spe": 17
+        },
+        "evsStr": "30 HP / 6 Def / 21 SpA / 2 SpD / 17 Spe",
+        "moves": [
+          "Overheat",
+          "Protect",
+          "Thunderbolt",
+          "Helping Hand"
+        ],
+        "count": 5,
+        "usagePct": 23.8,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Basculegion",
+    "displayName": "Basculegion",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 120,
+      "atk": 112,
+      "def": 65,
+      "spa": 80,
+      "spd": 75,
+      "spe": 78
+    },
+    "abilities": [
+      "Adaptability",
+      "Swift Swim"
+    ],
+    "metaUsage": 20,
+    "metaUsagePct": 3.9,
+    "topItem": "Focus Sash",
+    "topNature": "Adamant",
+    "topAbility": "Adaptability",
+    "topMoves": [
+      "Last Respects",
+      "Aqua Jet",
+      "Protect",
+      "Wave Crash"
+    ],
+    "avgEvs": {
+      "Atk": 31,
+      "Def": 3,
+      "SpD": 1,
+      "Spe": 28,
+      "HP": 8
+    },
+    "metaSets": [
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Adaptability",
+        "nature": "Jolly",
+        "evs": {
+          "Atk": 31,
+          "Def": 4,
+          "SpD": 1,
+          "Spe": 32,
+          "HP": 2
+        },
+        "evsStr": "2 HP / 31 Atk / 4 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Flip Turn",
+          "Aqua Jet"
+        ],
+        "count": 78,
+        "usagePct": 390.0,
+        "isMega": false
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "evs": {
+          "Atk": 32,
+          "Def": 1,
+          "SpD": 1,
+          "Spe": 32,
+          "HP": 2
+        },
+        "evsStr": "2 HP / 32 Atk / 1 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Last Respects",
+          "Aqua Jet",
+          "Protect",
+          "Liquidation"
+        ],
+        "count": 31,
+        "usagePct": 155.0,
+        "isMega": false
+      },
+      {
+        "name": "Mystic Water",
+        "item": "Mystic Water",
+        "ability": "Swift Swim",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 5,
+          "Atk": 31,
+          "Def": 7,
+          "SpD": 4,
+          "Spe": 26
+        },
+        "evsStr": "5 HP / 31 Atk / 7 Def / 4 SpD / 26 Spe",
+        "moves": [
+          "Last Respects",
+          "Wave Crash",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "count": 22,
+        "usagePct": 110.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Ninetales-Alola",
+    "displayName": "Ninetales-Alola",
+    "types": [
+      "Ice",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 73,
+      "atk": 67,
+      "def": 75,
+      "spa": 81,
+      "spd": 100,
+      "spe": 109
+    },
+    "abilities": [
+      "Snow Warning",
+      "Snow Cloak"
+    ],
+    "metaUsage": 20,
+    "metaUsagePct": 3.9,
+    "topItem": "Focus Sash",
+    "topNature": "Timid",
+    "topAbility": "Snow Warning",
+    "topMoves": [
+      "Blizzard",
+      "Protect",
+      "Aurora Veil",
+      "Freeze-Dry"
+    ],
+    "avgEvs": {
+      "HP": 5,
+      "Def": 2,
+      "SpA": 31,
+      "Spe": 31,
+      "SpD": 1,
+      "Atk": 1
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Snow Warning",
+        "nature": "Timid",
+        "evs": {
+          "Def": 2,
+          "SpA": 32,
+          "Spe": 32,
+          "HP": 4,
+          "SpD": 1
+        },
+        "evsStr": "4 HP / 2 Def / 32 SpA / 1 SpD / 32 Spe",
+        "moves": [
+          "Blizzard",
+          "Aurora Veil",
+          "Protect",
+          "Freeze-Dry"
+        ],
+        "count": 13,
+        "usagePct": 65.0,
+        "isMega": false
+      },
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Snow Warning",
+        "nature": "Modest",
+        "evs": {
+          "HP": 5,
+          "Def": 1,
+          "SpA": 31,
+          "Spe": 30
+        },
+        "evsStr": "5 HP / 1 Def / 31 SpA / 30 Spe",
+        "moves": [
+          "Blizzard",
+          "Icy Wind",
+          "Moonblast",
+          "Freeze-Dry"
+        ],
+        "count": 3,
+        "usagePct": 15.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Politoed",
+    "displayName": "Politoed",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 75,
+      "def": 75,
+      "spa": 90,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": [
+      "Drizzle",
+      "Damp"
+    ],
+    "metaUsage": 19,
+    "metaUsagePct": 3.7,
+    "topItem": "Leftovers",
+    "topNature": "Calm",
+    "topAbility": "Drizzle",
+    "topMoves": [
+      "Protect",
+      "Weather Ball",
+      "Perish Song",
+      "Helping Hand"
+    ],
+    "avgEvs": {
+      "HP": 31,
+      "Def": 13,
+      "SpD": 11,
+      "SpA": 12,
+      "Spe": 7
+    },
+    "metaSets": [
+      {
+        "name": "Leftovers",
+        "item": "Leftovers",
+        "ability": "Drizzle",
+        "nature": "Modest",
+        "evs": {
+          "HP": 31,
+          "Def": 13,
+          "SpA": 7,
+          "SpD": 12,
+          "Spe": 7
+        },
+        "evsStr": "31 HP / 13 Def / 7 SpA / 12 SpD / 7 Spe",
+        "moves": [
+          "Protect",
+          "Weather Ball",
+          "Encore",
+          "Helping Hand"
+        ],
+        "count": 8,
+        "usagePct": 42.1,
+        "isMega": false
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Drizzle",
+        "nature": "Calm",
+        "evs": {
+          "HP": 30,
+          "Def": 18,
+          "SpD": 13,
+          "SpA": 3,
+          "Spe": 10
+        },
+        "evsStr": "30 HP / 18 Def / 3 SpA / 13 SpD / 10 Spe",
+        "moves": [
+          "Protect",
+          "Weather Ball",
+          "Perish Song",
+          "Helping Hand"
+        ],
+        "count": 7,
+        "usagePct": 36.8,
+        "isMega": false
+      },
+      {
+        "name": "Mystic Water",
+        "item": "Mystic Water",
+        "ability": "Drizzle",
+        "nature": "Quiet",
+        "evs": {
+          "HP": 32,
+          "Def": 1,
+          "SpA": 32,
+          "SpD": 1,
+          "Spe": 2
+        },
+        "evsStr": "32 HP / 1 Def / 32 SpA / 1 SpD / 2 Spe",
+        "moves": [
+          "Weather Ball",
+          "Muddy Water",
+          "Perish Song",
+          "Protect"
+        ],
+        "count": 3,
+        "usagePct": 15.8,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Kangaskhan",
+    "displayName": "Kangaskhan (F)",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "atk": 95,
+      "def": 80,
+      "spa": 40,
+      "spd": 80,
+      "spe": 90
+    },
+    "abilities": [
+      "Scrappy",
+      "Early Bird"
+    ],
+    "metaUsage": 18,
+    "metaUsagePct": 3.5,
+    "topItem": "Kangaskhanite",
+    "topNature": "Adamant",
+    "topAbility": "Scrappy",
+    "topMoves": [
+      "Fake Out",
+      "Double-Edge",
+      "Sucker Punch",
+      "Low Kick"
+    ],
+    "avgEvs": {
+      "HP": 23,
+      "Atk": 30,
+      "Spe": 14,
+      "Def": 2,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Kangaskhan-Mega",
+        "item": "Kangaskhanite",
+        "ability": "Parental Bond",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 21,
+          "Atk": 29,
+          "Def": 2,
+          "SpD": 3,
+          "Spe": 18
+        },
+        "evsStr": "21 HP / 29 Atk / 2 Def / 3 SpD / 18 Spe",
+        "moves": [
+          "Fake Out",
+          "Double-Edge",
+          "Sucker Punch",
+          "Drain Punch"
+        ],
+        "count": 17,
+        "usagePct": 94.4,
+        "isMega": true
+      },
+      {
+        "name": "Silk Scarf",
+        "item": "Silk Scarf",
+        "ability": "Scrappy",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 29,
+          "Atk": 32,
+          "Spe": 3,
+          "Def": 2,
+          "SpD": 3
+        },
+        "evsStr": "29 HP / 32 Atk / 2 Def / 3 SpD / 3 Spe",
+        "moves": [
+          "Fake Out",
+          "Last Resort",
+          "Double-Edge",
+          "Low Kick"
+        ],
+        "count": 4,
+        "usagePct": 22.2,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Meganium",
+    "displayName": "Meganium",
+    "types": [
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 100,
+      "spa": 83,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": [
+      "Overgrow"
+    ],
+    "metaUsage": 18,
+    "metaUsagePct": 3.5,
+    "topItem": "Meganiumite",
+    "topNature": "Modest",
+    "topAbility": "Overgrow",
+    "topMoves": [
+      "Solar Beam",
+      "Dazzling Gleam",
+      "Weather Ball",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 28,
+      "SpA": 28,
+      "Spe": 8,
+      "Def": 4,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Meganium-Mega",
+        "item": "Meganiumite",
+        "ability": "Drought",
+        "nature": "Modest",
+        "evs": {
+          "HP": 28,
+          "SpA": 28,
+          "Spe": 7,
+          "Def": 4,
+          "SpD": 2
+        },
+        "evsStr": "28 HP / 4 Def / 28 SpA / 2 SpD / 7 Spe",
+        "moves": [
+          "Solar Beam",
+          "Dazzling Gleam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "count": 18,
+        "usagePct": 100.0,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Scovillain",
+    "displayName": "Scovillain",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 108,
+      "def": 65,
+      "spa": 108,
+      "spd": 65,
+      "spe": 75
+    },
+    "abilities": [
+      "Chlorophyll",
+      "Insomnia"
+    ],
+    "metaUsage": 17,
+    "metaUsagePct": 3.3,
+    "topItem": "Scovillainite",
+    "topNature": "Bold",
+    "topAbility": "Moody",
+    "topMoves": [
+      "Protect",
+      "Rage Powder",
+      "Overheat",
+      "Leech Seed"
+    ],
+    "avgEvs": {
+      "HP": 32,
+      "Def": 20,
+      "SpD": 11,
+      "Spe": 5,
+      "SpA": 10
+    },
+    "metaSets": [
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Drought",
+        "nature": "Bold",
+        "evs": {
+          "HP": 32,
+          "Def": 21,
+          "SpD": 11,
+          "Spe": 5,
+          "SpA": 3
+        },
+        "evsStr": "32 HP / 21 Def / 3 SpA / 11 SpD / 5 Spe",
+        "moves": [
+          "Protect",
+          "Rage Powder",
+          "Overheat",
+          "Leech Seed"
+        ],
+        "count": 16,
+        "usagePct": 94.1,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Dragapult",
+    "displayName": "Dragapult",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 88,
+      "atk": 120,
+      "def": 75,
+      "spa": 100,
+      "spd": 75,
+      "spe": 142
+    },
+    "abilities": [
+      "Clear Body",
+      "Cursed Body",
+      "Infiltrator"
+    ],
+    "metaUsage": 17,
+    "metaUsagePct": 3.3,
+    "topItem": "Focus Sash",
+    "topNature": "Jolly",
+    "topAbility": "Clear Body",
+    "topMoves": [
+      "Protect",
+      "Dragon Darts",
+      "Phantom Force",
+      "Shadow Ball"
+    ],
+    "avgEvs": {
+      "Atk": 29,
+      "SpA": 28,
+      "Spe": 30,
+      "HP": 9,
+      "SpD": 1,
+      "Def": 1
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Clear Body",
+        "nature": "Jolly",
+        "evs": {
+          "Atk": 32,
+          "SpA": 19,
+          "Spe": 31,
+          "HP": 2,
+          "Def": 1
+        },
+        "evsStr": "2 HP / 32 Atk / 1 Def / 19 SpA / 31 Spe",
+        "moves": [
+          "Phantom Force",
+          "Protect",
+          "Dragon Darts",
+          "Thunder Wave"
+        ],
+        "count": 5,
+        "usagePct": 29.4,
+        "isMega": false
+      },
+      {
+        "name": "Lum Berry",
+        "item": "Lum Berry",
+        "ability": "Clear Body",
+        "nature": "Jolly",
+        "evs": {
+          "Atk": 32,
+          "SpD": 1,
+          "Spe": 25,
+          "HP": 12,
+          "SpA": 32,
+          "Def": 1
+        },
+        "evsStr": "12 HP / 32 Atk / 1 Def / 32 SpA / 1 SpD / 25 Spe",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Protect",
+          "U-turn"
+        ],
+        "count": 4,
+        "usagePct": 23.5,
+        "isMega": false
+      },
+      {
+        "name": "Dragon Fang",
+        "item": "Dragon Fang",
+        "ability": "Clear Body",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 16,
+          "Atk": 17,
+          "Spe": 32,
+          "Def": 1,
+          "SpA": 32
+        },
+        "evsStr": "16 HP / 17 Atk / 1 Def / 32 SpA / 32 Spe",
+        "moves": [
+          "Dragon Darts",
+          "Protect",
+          "Light Screen",
+          "Infestation"
+        ],
+        "count": 3,
+        "usagePct": 17.6,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Clefable",
+    "displayName": "Clefable",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 70,
+      "def": 73,
+      "spa": 95,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": [
+      "Unaware",
+      "Magic Guard"
+    ],
+    "metaUsage": 16,
+    "metaUsagePct": 3.1,
+    "topItem": "Sitrus Berry",
+    "topNature": "Bold",
+    "topAbility": "Unaware",
+    "topMoves": [
+      "Moonblast",
+      "Follow Me",
+      "Protect",
+      "Helping Hand"
+    ],
+    "avgEvs": {
+      "HP": 31,
+      "Def": 18,
+      "SpD": 10,
+      "SpA": 14,
+      "Spe": 13
+    },
+    "metaSets": [
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Unaware",
+        "nature": "Bold",
+        "evs": {
+          "HP": 32,
+          "Def": 22,
+          "SpD": 11,
+          "SpA": 3,
+          "Spe": 1
+        },
+        "evsStr": "32 HP / 22 Def / 3 SpA / 11 SpD / 1 Spe",
+        "moves": [
+          "Protect",
+          "Moonblast",
+          "Follow Me",
+          "Helping Hand"
+        ],
+        "count": 8,
+        "usagePct": 50.0,
+        "isMega": false
+      },
+      {
+        "name": "Clefablite",
+        "item": "Clefablite",
+        "ability": "Unaware",
+        "nature": "Modest",
+        "evs": {
+          "HP": 31,
+          "Def": 10,
+          "SpA": 17,
+          "SpD": 11,
+          "Spe": 15
+        },
+        "evsStr": "31 HP / 10 Def / 17 SpA / 11 SpD / 15 Spe",
+        "moves": [
+          "Moonblast",
+          "Follow Me",
+          "Protect",
+          "Air Slash"
+        ],
+        "count": 6,
+        "usagePct": 37.5,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Blastoise",
+    "displayName": "Blastoise",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 79,
+      "atk": 83,
+      "def": 100,
+      "spa": 85,
+      "spd": 105,
+      "spe": 78
+    },
+    "abilities": [
+      "Torrent"
+    ],
+    "metaUsage": 16,
+    "metaUsagePct": 3.1,
+    "topItem": "Blastoisinite",
+    "topNature": "Modest",
+    "topAbility": "Rain Dish",
+    "topMoves": [
+      "Water Spout",
+      "Fake Out",
+      "Aura Sphere",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 20,
+      "Def": 2,
+      "SpA": 30,
+      "Spe": 22,
+      "SpD": 1
+    },
+    "metaSets": [
+      {
+        "name": "Blastoisin-Mega",
+        "item": "Blastoisinite",
+        "ability": "Mega Launcher",
+        "nature": "Modest",
+        "evs": {
+          "HP": 20,
+          "Def": 2,
+          "SpA": 30,
+          "Spe": 22,
+          "SpD": 1
+        },
+        "evsStr": "20 HP / 2 Def / 30 SpA / 1 SpD / 22 Spe",
+        "moves": [
+          "Water Spout",
+          "Fake Out",
+          "Aura Sphere",
+          "Protect"
+        ],
+        "count": 16,
+        "usagePct": 100.0,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Palafin",
+    "displayName": "Palafin",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 160,
+      "def": 97,
+      "spa": 106,
+      "spd": 87,
+      "spe": 100
+    },
+    "abilities": [
+      "Zero to Hero"
+    ],
+    "metaUsage": 15,
+    "metaUsagePct": 2.9,
+    "topItem": "Mystic Water",
+    "topNature": "Adamant",
+    "topAbility": "Zero to Hero",
+    "topMoves": [
+      "Jet Punch",
+      "Wave Crash",
+      "Protect",
+      "Flip Turn"
+    ],
+    "avgEvs": {
+      "HP": 26,
+      "Atk": 32,
+      "SpD": 2,
+      "Spe": 10,
+      "Def": 2
+    },
+    "metaSets": [
+      {
+        "name": "Mystic Water",
+        "item": "Mystic Water",
+        "ability": "Zero to Hero",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 28,
+          "Atk": 32,
+          "SpD": 2,
+          "Spe": 10,
+          "Def": 2
+        },
+        "evsStr": "28 HP / 32 Atk / 2 Def / 2 SpD / 10 Spe",
+        "moves": [
+          "Jet Punch",
+          "Protect",
+          "Wave Crash",
+          "Flip Turn"
+        ],
+        "count": 12,
+        "usagePct": 80.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Arcanine-Hisui",
+    "displayName": "Arcanine-Hisui",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 115,
+      "def": 80,
+      "spa": 95,
+      "spd": 80,
+      "spe": 90
+    },
+    "abilities": [
+      "Intimidate",
+      "Rock Head"
+    ],
+    "metaUsage": 13,
+    "metaUsagePct": 2.5,
+    "topItem": "Choice Scarf",
+    "topNature": "Adamant",
+    "topAbility": "Intimidate",
+    "topMoves": [
+      "Rock Slide",
+      "Flare Blitz",
+      "Extreme Speed",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 9,
+      "Atk": 30,
+      "Spe": 28,
+      "Def": 2,
+      "SpD": 6
+    },
+    "metaSets": [
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 6,
+          "Atk": 30,
+          "Spe": 30,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "6 HP / 30 Atk / 1 Def / 1 SpD / 30 Spe",
+        "moves": [
+          "Rock Slide",
+          "Flare Blitz",
+          "Extreme Speed",
+          "Close Combat"
+        ],
+        "count": 4,
+        "usagePct": 30.8,
+        "isMega": false
+      },
+      {
+        "name": "White Herb",
+        "item": "White Herb",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 10,
+          "Atk": 29,
+          "Def": 1,
+          "SpD": 1,
+          "Spe": 26
+        },
+        "evsStr": "10 HP / 29 Atk / 1 Def / 1 SpD / 26 Spe",
+        "moves": [
+          "Flare Blitz",
+          "Rock Slide",
+          "Extreme Speed",
+          "Protect"
+        ],
+        "count": 3,
+        "usagePct": 23.1,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Typhlosion-Hisui",
+    "displayName": "Typhlosion-Hisui",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 84,
+      "atk": 84,
+      "def": 78,
+      "spa": 119,
+      "spd": 85,
+      "spe": 95
+    },
+    "abilities": [
+      "Blaze",
+      "Frisk"
+    ],
+    "metaUsage": 13,
+    "metaUsagePct": 2.5,
+    "topItem": "Choice Scarf",
+    "topNature": "Modest",
+    "topAbility": "Frisk",
+    "topMoves": [
+      "Eruption",
+      "Shadow Ball",
+      "Heat Wave",
+      "Overheat"
+    ],
+    "avgEvs": {
+      "HP": 2,
+      "SpA": 32,
+      "Spe": 32,
+      "Def": 2
+    },
+    "metaSets": [
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Frisk",
+        "nature": "Modest",
+        "evs": {
+          "HP": 2,
+          "SpA": 32,
+          "Spe": 32
+        },
+        "evsStr": "2 HP / 32 SpA / 32 Spe",
+        "moves": [
+          "Eruption",
+          "Shadow Ball",
+          "Heat Wave",
+          "Overheat"
+        ],
+        "count": 11,
+        "usagePct": 84.6,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Maushold",
+    "displayName": "Maushold",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 75,
+      "def": 70,
+      "spa": 65,
+      "spd": 75,
+      "spe": 111
+    },
+    "abilities": [
+      "Friend Guard",
+      "Technician"
+    ],
+    "metaUsage": 12,
+    "metaUsagePct": 2.3,
+    "topItem": "Chople Berry",
+    "topNature": "Timid",
+    "topAbility": "Friend Guard",
+    "topMoves": [
+      "Super Fang",
+      "Follow Me",
+      "Protect",
+      "Feint"
+    ],
+    "avgEvs": {
+      "HP": 32,
+      "Def": 7,
+      "Spe": 26,
+      "SpD": 8
+    },
+    "metaSets": [
+      {
+        "name": "Chople Berry",
+        "item": "Chople Berry",
+        "ability": "Friend Guard",
+        "nature": "Timid",
+        "evs": {
+          "HP": 31,
+          "Def": 9,
+          "Spe": 25,
+          "SpD": 10
+        },
+        "evsStr": "31 HP / 9 Def / 10 SpD / 25 Spe",
+        "moves": [
+          "Super Fang",
+          "Follow Me",
+          "Protect",
+          "Taunt"
+        ],
+        "count": 8,
+        "usagePct": 66.7,
+        "isMega": false
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Friend Guard",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 32,
+          "Def": 4,
+          "Spe": 29,
+          "SpD": 1
+        },
+        "evsStr": "32 HP / 4 Def / 1 SpD / 29 Spe",
+        "moves": [
+          "Super Fang",
+          "Follow Me",
+          "Protect",
+          "Encore"
+        ],
+        "count": 3,
+        "usagePct": 25.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Tsareena",
+    "displayName": "Tsareena (F)",
+    "types": [
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 120,
+      "def": 98,
+      "spa": 50,
+      "spd": 98,
+      "spe": 72
+    },
+    "abilities": [
+      "Queenly Majesty",
+      "Leaf Guard"
+    ],
+    "metaUsage": 12,
+    "metaUsagePct": 2.3,
+    "topItem": "Choice Scarf",
+    "topNature": "Jolly",
+    "topAbility": "Queenly Majesty",
+    "topMoves": [
+      "Triple Axel",
+      "Trop Kick",
+      "Protect",
+      "Low Kick"
+    ],
+    "avgEvs": {
+      "HP": 11,
+      "Atk": 26,
+      "Spe": 28,
+      "Def": 5,
+      "SpD": 4
+    },
+    "metaSets": [
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Queenly Majesty",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 4,
+          "Atk": 26,
+          "Spe": 30,
+          "Def": 10,
+          "SpD": 1
+        },
+        "evsStr": "4 HP / 26 Atk / 10 Def / 1 SpD / 30 Spe",
+        "moves": [
+          "Triple Axel",
+          "Trop Kick",
+          "Zen Headbutt",
+          "U-turn"
+        ],
+        "count": 4,
+        "usagePct": 33.3,
+        "isMega": false
+      },
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Queenly Majesty",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 14,
+          "Atk": 22,
+          "Spe": 29,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "14 HP / 22 Atk / 1 Def / 1 SpD / 29 Spe",
+        "moves": [
+          "Triple Axel",
+          "Trop Kick",
+          "Low Kick",
+          "Protect"
+        ],
+        "count": 3,
+        "usagePct": 25.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Primarina",
+    "displayName": "Primarina",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 74,
+      "def": 74,
+      "spa": 126,
+      "spd": 116,
+      "spe": 60
+    },
+    "abilities": [
+      "Torrent",
+      "Liquid Voice"
+    ],
+    "metaUsage": 10,
+    "metaUsagePct": 1.9,
+    "topItem": "Mystic Water",
+    "topNature": "Quiet",
+    "topAbility": "Liquid Voice",
+    "topMoves": [
+      "Hyper Voice",
+      "Moonblast",
+      "Protect",
+      "Substitute"
+    ],
+    "avgEvs": {
+      "HP": 28,
+      "Def": 10,
+      "SpA": 26,
+      "Spe": 3
+    },
+    "metaSets": [
+      {
+        "name": "Mystic Water",
+        "item": "Mystic Water",
+        "ability": "Liquid Voice",
+        "nature": "Quiet",
+        "evs": {
+          "HP": 30,
+          "Def": 8,
+          "SpA": 27,
+          "Spe": 2
+        },
+        "evsStr": "30 HP / 8 Def / 27 SpA / 2 Spe",
+        "moves": [
+          "Hyper Voice",
+          "Moonblast",
+          "Protect",
+          "Substitute"
+        ],
+        "count": 6,
+        "usagePct": 60.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Starmie",
+    "displayName": "Starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 85,
+      "spa": 100,
+      "spd": 85,
+      "spe": 115
+    },
+    "abilities": [
+      "Analytic"
+    ],
+    "metaUsage": 10,
+    "metaUsagePct": 1.9,
+    "topItem": "Starminite",
+    "topNature": "Adamant",
+    "topAbility": "Natural Cure",
+    "topMoves": [
+      "Liquidation",
+      "Protect",
+      "Zen Headbutt",
+      "Aqua Jet"
+    ],
+    "avgEvs": {
+      "HP": 5,
+      "Atk": 32,
+      "Spe": 29,
+      "Def": 3,
+      "SpD": 13
+    },
+    "metaSets": [
+      {
+        "name": "Starmin-Mega",
+        "item": "Starminite",
+        "ability": "Analytic",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 2,
+          "Atk": 32,
+          "Spe": 32,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "2 HP / 32 Atk / 1 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Liquidation",
+          "Protect",
+          "Zen Headbutt",
+          "Aqua Jet"
+        ],
+        "count": 9,
+        "usagePct": 90.0,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Mamoswine",
+    "displayName": "Mamoswine",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 130,
+      "def": 80,
+      "spa": 70,
+      "spd": 60,
+      "spe": 80
+    },
+    "abilities": [
+      "Oblivious",
+      "Snow Cloak"
+    ],
+    "metaUsage": 10,
+    "metaUsagePct": 1.9,
+    "topItem": "Focus Sash",
+    "topNature": "Adamant",
+    "topAbility": "Oblivious",
+    "topMoves": [
+      "Icicle Crash",
+      "Ice Shard",
+      "Protect",
+      "Earthquake"
+    ],
+    "avgEvs": {
+      "HP": 16,
+      "Atk": 32,
+      "Spe": 29,
+      "Def": 2,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Oblivious",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 2,
+          "Atk": 32,
+          "Spe": 32,
+          "Def": 2,
+          "SpD": 2
+        },
+        "evsStr": "2 HP / 32 Atk / 2 Def / 2 SpD / 32 Spe",
+        "moves": [
+          "Earthquake",
+          "Icicle Crash",
+          "Ice Shard",
+          "Protect"
+        ],
+        "count": 4,
+        "usagePct": 40.0,
+        "isMega": false
+      },
+      {
+        "name": "Soft Sand",
+        "item": "Soft Sand",
+        "ability": "Oblivious",
+        "nature": "Adamant",
+        "evs": {
+          "Atk": 32,
+          "SpD": 2,
+          "Spe": 32
+        },
+        "evsStr": "32 Atk / 2 SpD / 32 Spe",
+        "moves": [
+          "Earthquake",
+          "Icicle Crash",
+          "Protect",
+          "Ice Shard"
+        ],
+        "count": 3,
+        "usagePct": 30.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Meowscarada",
+    "displayName": "Meowscarada",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 76,
+      "atk": 110,
+      "def": 70,
+      "spa": 81,
+      "spd": 70,
+      "spe": 123
+    },
+    "abilities": [
+      "Overgrow",
+      "Protean"
+    ],
+    "metaUsage": 10,
+    "metaUsagePct": 1.9,
+    "topItem": "Choice Scarf",
+    "topNature": "Adamant",
+    "topAbility": "Protean",
+    "topMoves": [
+      "Flower Trick",
+      "Knock Off",
+      "Triple Axel",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 2,
+      "Atk": 54,
+      "Spe": 54,
+      "Def": 2,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Protean",
+        "nature": "Jolly",
+        "evs": {
+          "HP": 1,
+          "Atk": 32,
+          "Def": 1,
+          "Spe": 32
+        },
+        "evsStr": "1 HP / 32 Atk / 1 Def / 32 Spe",
+        "moves": [
+          "Flower Trick",
+          "Protect",
+          "Knock Off",
+          "Triple Axel"
+        ],
+        "count": 6,
+        "usagePct": 60.0,
+        "isMega": false
+      },
+      {
+        "name": "Choice Scarf",
+        "item": "Choice Scarf",
+        "ability": "Protean",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 2,
+          "Atk": 76,
+          "Spe": 76,
+          "Def": 2,
+          "SpD": 2
+        },
+        "evsStr": "2 HP / 76 Atk / 2 Def / 2 SpD / 76 Spe",
+        "moves": [
+          "Flower Trick",
+          "Triple Axel",
+          "Knock Off",
+          "Low Kick"
+        ],
+        "count": 5,
+        "usagePct": 50.0,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Floette-Eternal",
+    "displayName": "Floette-Eternal",
+    "types": [
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 65,
+      "def": 67,
+      "spa": 125,
+      "spd": 128,
+      "spe": 92
+    },
+    "abilities": [
+      "Flower Veil"
+    ],
+    "metaUsage": 9,
+    "metaUsagePct": 1.8,
+    "topItem": "Floettite",
+    "topNature": "Modest",
+    "topAbility": "Flower Veil",
+    "topMoves": [
+      "Moonblast",
+      "Dazzling Gleam",
+      "Protect",
+      "Light of Ruin"
+    ],
+    "avgEvs": {
+      "HP": 17,
+      "Def": 15,
+      "SpA": 17,
+      "Spe": 19,
+      "SpD": 1
+    },
+    "metaSets": [
+      {
+        "name": "Floett-Mega",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "evs": {
+          "HP": 22,
+          "Def": 12,
+          "SpA": 20,
+          "Spe": 18,
+          "SpD": 2
+        },
+        "evsStr": "22 HP / 12 Def / 20 SpA / 2 SpD / 18 Spe",
+        "moves": [
+          "Protect",
+          "Dazzling Gleam",
+          "Moonblast",
+          "Calm Mind"
+        ],
+        "count": 99,
+        "usagePct": 1100.0,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Mimikyu",
+    "displayName": "Mimikyu",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 90,
+      "def": 80,
+      "spa": 50,
+      "spd": 105,
+      "spe": 96
+    },
+    "abilities": [
+      "Disguise"
+    ],
+    "metaUsage": 9,
+    "metaUsagePct": 1.8,
+    "topItem": "Mental Herb",
+    "topNature": "Adamant",
+    "topAbility": "Disguise",
+    "topMoves": [
+      "Play Rough",
+      "Shadow Claw",
+      "Shadow Sneak",
+      "Protect"
+    ],
+    "avgEvs": {
+      "HP": 24,
+      "Atk": 30,
+      "Def": 1,
+      "Spe": 32,
+      "SpD": 5
+    },
+    "metaSets": [
+      {
+        "name": "Mental Herb",
+        "item": "Mental Herb",
+        "ability": "Disguise",
+        "nature": "Brave",
+        "evs": {
+          "HP": 32,
+          "Atk": 27,
+          "SpD": 6
+        },
+        "evsStr": "32 HP / 27 Atk / 6 SpD",
+        "moves": [
+          "Play Rough",
+          "Trick Room",
+          "Shadow Claw",
+          "Protect"
+        ],
+        "count": 4,
+        "usagePct": 44.4,
+        "isMega": false
+      },
+      {
+        "name": "White Herb",
+        "item": "White Herb",
+        "ability": "Disguise",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 16,
+          "Atk": 32,
+          "Def": 1,
+          "Spe": 32,
+          "SpD": 1
+        },
+        "evsStr": "16 HP / 32 Atk / 1 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Play Rough",
+          "Shadow Claw",
+          "Shadow Sneak",
+          "Protect"
+        ],
+        "count": 3,
+        "usagePct": 33.3,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Arcanine",
+    "displayName": "Arcanine",
+    "types": [
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 110,
+      "def": 80,
+      "spa": 100,
+      "spd": 80,
+      "spe": 95
+    },
+    "abilities": [
+      "Intimidate",
+      "Flash Fire"
+    ],
+    "metaUsage": 9,
+    "metaUsagePct": 1.8,
+    "topItem": "Sitrus Berry",
+    "topNature": "Adamant",
+    "topAbility": "Intimidate",
+    "topMoves": [
+      "Flare Blitz",
+      "Extreme Speed",
+      "Protect",
+      "Will-O-Wisp"
+    ],
+    "avgEvs": {
+      "HP": 48,
+      "Atk": 20,
+      "Def": 20,
+      "SpD": 5,
+      "Spe": 38,
+      "SpA": 10
+    },
+    "metaSets": [
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 23,
+          "Atk": 18,
+          "Def": 6,
+          "SpD": 6,
+          "Spe": 13,
+          "SpA": 1
+        },
+        "evsStr": "23 HP / 18 Atk / 6 Def / 1 SpA / 6 SpD / 13 Spe",
+        "moves": [
+          "Flare Blitz",
+          "Extreme Speed",
+          "Protect",
+          "Will-O-Wisp"
+        ],
+        "count": 5,
+        "usagePct": 55.6,
+        "isMega": false
+      },
+      {
+        "name": "Black Belt",
+        "item": "Black Belt",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 27,
+          "Atk": 22,
+          "Spe": 16,
+          "SpD": 1
+        },
+        "evsStr": "27 HP / 22 Atk / 1 SpD / 16 Spe",
+        "moves": [
+          "Flare Blitz",
+          "Close Combat",
+          "Extreme Speed",
+          "Protect"
+        ],
+        "count": 3,
+        "usagePct": 33.3,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Conkeldurr",
+    "displayName": "Conkeldurr",
+    "types": [
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "atk": 140,
+      "def": 95,
+      "spa": 55,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": [
+      "Guts",
+      "Iron Fist"
+    ],
+    "metaUsage": 9,
+    "metaUsagePct": 1.8,
+    "topItem": "Black Belt",
+    "topNature": "Adamant",
+    "topAbility": "Iron Fist",
+    "topMoves": [
+      "Drain Punch",
+      "Mach Punch",
+      "Protect",
+      "Ice Punch"
+    ],
+    "avgEvs": {
+      "HP": 27,
+      "Atk": 29,
+      "SpD": 10,
+      "Def": 2,
+      "Spe": 1
+    },
+    "metaSets": [
+      {
+        "name": "Black Belt",
+        "item": "Black Belt",
+        "ability": "Iron Fist",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 30,
+          "Atk": 29,
+          "SpD": 7,
+          "Def": 2
+        },
+        "evsStr": "30 HP / 29 Atk / 2 Def / 7 SpD",
+        "moves": [
+          "Drain Punch",
+          "Mach Punch",
+          "Protect",
+          "Ice Punch"
+        ],
+        "count": 6,
+        "usagePct": 66.7,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Volcarona",
+    "displayName": "Volcarona",
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 60,
+      "def": 65,
+      "spa": 135,
+      "spd": 105,
+      "spe": 100
+    },
+    "abilities": [
+      "Flame Body",
+      "Swarm"
+    ],
+    "metaUsage": 8,
+    "metaUsagePct": 1.6,
+    "topItem": "Sitrus Berry",
+    "topNature": "Modest",
+    "topAbility": "Flame Body",
+    "topMoves": [
+      "Protect",
+      "Heat Wave",
+      "Quiver Dance",
+      "Giga Drain"
+    ],
+    "avgEvs": {
+      "HP": 24,
+      "Def": 15,
+      "SpA": 16,
+      "SpD": 5,
+      "Spe": 19
+    },
+    "metaSets": [
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Flame Body",
+        "nature": "Modest",
+        "evs": {
+          "HP": 32,
+          "Def": 10,
+          "SpA": 18,
+          "SpD": 1,
+          "Spe": 22
+        },
+        "evsStr": "32 HP / 10 Def / 18 SpA / 1 SpD / 22 Spe",
+        "moves": [
+          "Protect",
+          "Quiver Dance",
+          "Struggle Bug",
+          "Heat Wave"
+        ],
+        "count": 3,
+        "usagePct": 37.5,
+        "isMega": false
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Froslass",
+    "displayName": "Froslass",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 70,
+      "spa": 80,
+      "spd": 70,
+      "spe": 110
+    },
+    "abilities": [
+      "Cursed Body",
+      "Snow Cloak"
+    ],
+    "metaUsage": 7,
+    "metaUsagePct": 1.4,
+    "topItem": "Froslassite",
+    "topNature": "Modest",
+    "topAbility": "Cursed Body",
+    "topMoves": [
+      "Protect",
+      "Blizzard",
+      "Shadow Ball",
+      "Aurora Veil"
+    ],
+    "avgEvs": {
+      "HP": 23,
+      "Def": 5,
+      "SpA": 13,
+      "Spe": 25,
+      "SpD": 3
+    },
+    "metaSets": [
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "evs": {
+          "HP": 13,
+          "Def": 4,
+          "SpA": 23,
+          "Spe": 29,
+          "SpD": 3
+        },
+        "evsStr": "13 HP / 4 Def / 23 SpA / 3 SpD / 29 Spe",
+        "moves": [
+          "Blizzard",
+          "Protect",
+          "Shadow Ball",
+          "Aurora Veil"
+        ],
+        "count": 51,
+        "usagePct": 728.6,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Manectric",
+    "displayName": "Manectric",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 75,
+      "def": 60,
+      "spa": 105,
+      "spd": 60,
+      "spe": 105
+    },
+    "abilities": [
+      "Static",
+      "Lightning Rod"
+    ],
+    "metaUsage": 7,
+    "metaUsagePct": 1.4,
+    "topItem": "Manectite",
+    "topNature": "Timid",
+    "topAbility": "Lightning Rod",
+    "topMoves": [
+      "Volt Switch",
+      "Snarl",
+      "Protect",
+      "Overheat"
+    ],
+    "avgEvs": {
+      "HP": 15,
+      "Def": 3,
+      "SpD": 2,
+      "Spe": 30,
+      "SpA": 23
+    },
+    "metaSets": [
+      {
+        "name": "Manect-Mega",
+        "item": "Manectite",
+        "ability": "Intimidate",
+        "nature": "Timid",
+        "evs": {
+          "HP": 15,
+          "Def": 3,
+          "SpD": 2,
+          "Spe": 30,
+          "SpA": 23
+        },
+        "evsStr": "15 HP / 3 Def / 23 SpA / 2 SpD / 30 Spe",
+        "moves": [
+          "Volt Switch",
+          "Snarl",
+          "Protect",
+          "Overheat"
+        ],
+        "count": 7,
+        "usagePct": 100.0,
+        "isMega": true
+      }
+    ],
+    "notes": ""
+  }
+]

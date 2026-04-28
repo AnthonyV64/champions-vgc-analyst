@@ -1,0 +1,723 @@
+{
+  "format": "Pokemon Champions",
+  "regulation": "Reg M-A",
+  "season": "2026",
+  "totalTournaments": 111,
+  "totalTop8Entries": 872,
+  "totalPastes": 514,
+  "lastUpdated": "2026-04-27",
+  "usageStats": [
+    {
+      "name": "Charizard",
+      "top8": 66,
+      "top4": 37,
+      "top1": 9,
+      "usagePct": 7.6,
+      "convRate": 13.6,
+      "pasteUsagePct": 17.5
+    },
+    {
+      "name": "Floette-Eternal",
+      "top8": 50,
+      "top4": 27,
+      "top1": 6,
+      "usagePct": 5.7,
+      "convRate": 12.0,
+      "pasteUsagePct": 17.5
+    },
+    {
+      "name": "Floette",
+      "top8": 43,
+      "top4": 20,
+      "top1": 6,
+      "usagePct": 4.9,
+      "convRate": 14.0,
+      "pasteUsagePct": 0
+    },
+    {
+      "name": "Incineroar",
+      "top8": 42,
+      "top4": 26,
+      "top1": 4,
+      "usagePct": 4.8,
+      "convRate": 9.5,
+      "pasteUsagePct": 39.7
+    },
+    {
+      "name": "Froslass",
+      "top8": 41,
+      "top4": 16,
+      "top1": 2,
+      "usagePct": 4.7,
+      "convRate": 4.9,
+      "pasteUsagePct": 8.8
+    },
+    {
+      "name": "Sneasler",
+      "top8": 38,
+      "top4": 24,
+      "top1": 8,
+      "usagePct": 4.4,
+      "convRate": 21.1,
+      "pasteUsagePct": 46.7
+    },
+    {
+      "name": "Aerodactyl",
+      "top8": 36,
+      "top4": 23,
+      "top1": 5,
+      "usagePct": 4.1,
+      "convRate": 13.9,
+      "pasteUsagePct": 21.6
+    },
+    {
+      "name": "Gengar",
+      "top8": 32,
+      "top4": 15,
+      "top1": 3,
+      "usagePct": 3.7,
+      "convRate": 9.4,
+      "pasteUsagePct": 7.4
+    },
+    {
+      "name": "Meganium",
+      "top8": 31,
+      "top4": 14,
+      "top1": 3,
+      "usagePct": 3.6,
+      "convRate": 9.7,
+      "pasteUsagePct": 3.5
+    },
+    {
+      "name": "Tyranitar",
+      "top8": 31,
+      "top4": 17,
+      "top1": 2,
+      "usagePct": 3.6,
+      "convRate": 6.5,
+      "pasteUsagePct": 13.8
+    },
+    {
+      "name": "Pelipper",
+      "top8": 27,
+      "top4": 11,
+      "top1": 3,
+      "usagePct": 3.1,
+      "convRate": 11.1,
+      "pasteUsagePct": 11.9
+    },
+    {
+      "name": "Delphox",
+      "top8": 27,
+      "top4": 16,
+      "top1": 4,
+      "usagePct": 3.1,
+      "convRate": 14.8,
+      "pasteUsagePct": 8.0
+    },
+    {
+      "name": "Gardevoir",
+      "top8": 26,
+      "top4": 12,
+      "top1": 4,
+      "usagePct": 3.0,
+      "convRate": 15.4,
+      "pasteUsagePct": 8.0
+    },
+    {
+      "name": "Garchomp",
+      "top8": 19,
+      "top4": 11,
+      "top1": 2,
+      "usagePct": 2.2,
+      "convRate": 10.5,
+      "pasteUsagePct": 43.0
+    },
+    {
+      "name": "Basculegion",
+      "top8": 17,
+      "top4": 8,
+      "top1": 5,
+      "usagePct": 1.9,
+      "convRate": 29.4,
+      "pasteUsagePct": 26.1
+    },
+    {
+      "name": "Kingambit",
+      "top8": 16,
+      "top4": 8,
+      "top1": 3,
+      "usagePct": 1.8,
+      "convRate": 18.8,
+      "pasteUsagePct": 33.3
+    },
+    {
+      "name": "Whimsicott",
+      "top8": 15,
+      "top4": 5,
+      "top1": 2,
+      "usagePct": 1.7,
+      "convRate": 13.3,
+      "pasteUsagePct": 12.3
+    },
+    {
+      "name": "Dragonite",
+      "top8": 15,
+      "top4": 11,
+      "top1": 4,
+      "usagePct": 1.7,
+      "convRate": 26.7,
+      "pasteUsagePct": 8.4
+    },
+    {
+      "name": "Milotic",
+      "top8": 13,
+      "top4": 7,
+      "top1": 3,
+      "usagePct": 1.5,
+      "convRate": 23.1,
+      "pasteUsagePct": 10.9
+    },
+    {
+      "name": "Venusaur",
+      "top8": 13,
+      "top4": 7,
+      "top1": 1,
+      "usagePct": 1.5,
+      "convRate": 7.7,
+      "pasteUsagePct": 7.6
+    },
+    {
+      "name": "Rotom-Wash",
+      "top8": 12,
+      "top4": 7,
+      "top1": 1,
+      "usagePct": 1.4,
+      "convRate": 8.3,
+      "pasteUsagePct": 15.6
+    },
+    {
+      "name": "Farigiraf",
+      "top8": 12,
+      "top4": 4,
+      "top1": 1,
+      "usagePct": 1.4,
+      "convRate": 8.3,
+      "pasteUsagePct": 9.9
+    },
+    {
+      "name": "Glimmora",
+      "top8": 12,
+      "top4": 8,
+      "top1": 0,
+      "usagePct": 1.4,
+      "convRate": 0.0,
+      "pasteUsagePct": 5.3
+    },
+    {
+      "name": "Archaludon",
+      "top8": 11,
+      "top4": 6,
+      "top1": 1,
+      "usagePct": 1.3,
+      "convRate": 9.1,
+      "pasteUsagePct": 8.0
+    },
+    {
+      "name": "Kangaskhan",
+      "top8": 11,
+      "top4": 5,
+      "top1": 1,
+      "usagePct": 1.3,
+      "convRate": 9.1,
+      "pasteUsagePct": 3.5
+    },
+    {
+      "name": "Aegislash",
+      "top8": 10,
+      "top4": 7,
+      "top1": 0,
+      "usagePct": 1.1,
+      "convRate": 0.0,
+      "pasteUsagePct": 8.4
+    },
+    {
+      "name": "Scizor",
+      "top8": 10,
+      "top4": 4,
+      "top1": 0,
+      "usagePct": 1.1,
+      "convRate": 0.0,
+      "pasteUsagePct": 4.9
+    },
+    {
+      "name": "Excadrill",
+      "top8": 9,
+      "top4": 3,
+      "top1": 2,
+      "usagePct": 1.0,
+      "convRate": 22.2,
+      "pasteUsagePct": 5.4
+    },
+    {
+      "name": "Starmie",
+      "top8": 8,
+      "top4": 4,
+      "top1": 1,
+      "usagePct": 0.9,
+      "convRate": 12.5,
+      "pasteUsagePct": 1.9
+    },
+    {
+      "name": "Politoed",
+      "top8": 7,
+      "top4": 3,
+      "top1": 1,
+      "usagePct": 0.8,
+      "convRate": 14.3,
+      "pasteUsagePct": 3.7
+    },
+    {
+      "name": "Torkoal",
+      "top8": 7,
+      "top4": 3,
+      "top1": 0,
+      "usagePct": 0.8,
+      "convRate": 0.0,
+      "pasteUsagePct": 4.5
+    },
+    {
+      "name": "Kommo-o",
+      "top8": 6,
+      "top4": 4,
+      "top1": 0,
+      "usagePct": 0.7,
+      "convRate": 0.0,
+      "pasteUsagePct": 5.1
+    },
+    {
+      "name": "Sinistcha",
+      "top8": 6,
+      "top4": 3,
+      "top1": 0,
+      "usagePct": 0.7,
+      "convRate": 0.0,
+      "pasteUsagePct": 24.9
+    },
+    {
+      "name": "Clefable",
+      "top8": 6,
+      "top4": 5,
+      "top1": 2,
+      "usagePct": 0.7,
+      "convRate": 33.3,
+      "pasteUsagePct": 3.1
+    },
+    {
+      "name": "Maushold",
+      "top8": 5,
+      "top4": 2,
+      "top1": 0,
+      "usagePct": 0.6,
+      "convRate": 0.0,
+      "pasteUsagePct": 6.4
+    },
+    {
+      "name": "Tsareena",
+      "top8": 5,
+      "top4": 1,
+      "top1": 0,
+      "usagePct": 0.6,
+      "convRate": 0.0,
+      "pasteUsagePct": 2.3
+    },
+    {
+      "name": "Scovillain",
+      "top8": 4,
+      "top4": 1,
+      "top1": 1,
+      "usagePct": 0.5,
+      "convRate": 25.0,
+      "pasteUsagePct": 3.3
+    },
+    {
+      "name": "Blastoise",
+      "top8": 4,
+      "top4": 1,
+      "top1": 1,
+      "usagePct": 0.5,
+      "convRate": 25.0,
+      "pasteUsagePct": 3.1
+    },
+    {
+      "name": "Corviknight",
+      "top8": 3,
+      "top4": 1,
+      "top1": 0,
+      "usagePct": 0.3,
+      "convRate": 0.0,
+      "pasteUsagePct": 8.0
+    },
+    {
+      "name": "Primarina",
+      "top8": 3,
+      "top4": 2,
+      "top1": 1,
+      "usagePct": 0.3,
+      "convRate": 33.3,
+      "pasteUsagePct": 1.9
+    },
+    {
+      "name": "Talonflame",
+      "top8": 3,
+      "top4": 1,
+      "top1": 0,
+      "usagePct": 0.3,
+      "convRate": 0.0,
+      "pasteUsagePct": 7.8
+    },
+    {
+      "name": "Mega Aggron",
+      "top8": 3,
+      "top4": 1,
+      "top1": 0,
+      "usagePct": 0.3,
+      "convRate": 0.0,
+      "pasteUsagePct": 0
+    }
+  ],
+  "topDuos": [
+    {
+      "pokemon": [
+        "Kingambit",
+        "Sneasler"
+      ],
+      "count": 229,
+      "usagePct": 27.1
+    },
+    {
+      "pokemon": [
+        "Basculegion",
+        "Sneasler"
+      ],
+      "count": 195,
+      "usagePct": 23.0
+    },
+    {
+      "pokemon": [
+        "Garchomp",
+        "Sneasler"
+      ],
+      "count": 189,
+      "usagePct": 22.3
+    },
+    {
+      "pokemon": [
+        "Incineroar",
+        "Sneasler"
+      ],
+      "count": 150,
+      "usagePct": 17.7
+    },
+    {
+      "pokemon": [
+        "Garchomp",
+        "Kingambit"
+      ],
+      "count": 136,
+      "usagePct": 16.1
+    },
+    {
+      "pokemon": [
+        "Garchomp",
+        "Incineroar"
+      ],
+      "count": 135,
+      "usagePct": 16.0
+    },
+    {
+      "pokemon": [
+        "Incineroar",
+        "Sinistcha"
+      ],
+      "count": 135,
+      "usagePct": 16.0
+    },
+    {
+      "pokemon": [
+        "Sinistcha",
+        "Sneasler"
+      ],
+      "count": 133,
+      "usagePct": 15.7
+    },
+    {
+      "pokemon": [
+        "Basculegion",
+        "Kingambit"
+      ],
+      "count": 130,
+      "usagePct": 15.4
+    },
+    {
+      "pokemon": [
+        "Aerodactyl",
+        "Sneasler"
+      ],
+      "count": 125,
+      "usagePct": 14.8
+    },
+    {
+      "pokemon": [
+        "Garchomp",
+        "Rotom-Wash"
+      ],
+      "count": 94,
+      "usagePct": 11.1
+    },
+    {
+      "pokemon": [
+        "Aerodactyl",
+        "Kingambit"
+      ],
+      "count": 93,
+      "usagePct": 11.0
+    }
+  ],
+  "topMoves": [
+    {
+      "move": "Protect",
+      "count": 1979
+    },
+    {
+      "move": "Fake Out",
+      "count": 485
+    },
+    {
+      "move": "Rock Slide",
+      "count": 419
+    },
+    {
+      "move": "Tailwind",
+      "count": 321
+    },
+    {
+      "move": "Close Combat",
+      "count": 319
+    },
+    {
+      "move": "Flare Blitz",
+      "count": 250
+    },
+    {
+      "move": "Dire Claw",
+      "count": 235
+    },
+    {
+      "move": "Earthquake",
+      "count": 232
+    },
+    {
+      "move": "Trick Room",
+      "count": 214
+    },
+    {
+      "move": "Dragon Claw",
+      "count": 210
+    },
+    {
+      "move": "Moonblast",
+      "count": 205
+    },
+    {
+      "move": "Parting Shot",
+      "count": 196
+    },
+    {
+      "move": "Sucker Punch",
+      "count": 193
+    },
+    {
+      "move": "Iron Head",
+      "count": 188
+    },
+    {
+      "move": "Weather Ball",
+      "count": 173
+    },
+    {
+      "move": "Aqua Jet",
+      "count": 165
+    },
+    {
+      "move": "Heat Wave",
+      "count": 163
+    },
+    {
+      "move": "Last Respects",
+      "count": 157
+    },
+    {
+      "move": "Shadow Ball",
+      "count": 155
+    },
+    {
+      "move": "Rage Powder",
+      "count": 155
+    },
+    {
+      "move": "Wave Crash",
+      "count": 150
+    },
+    {
+      "move": "Dazzling Gleam",
+      "count": 150
+    },
+    {
+      "move": "Kowtow Cleave",
+      "count": 146
+    },
+    {
+      "move": "Low Kick",
+      "count": 141
+    },
+    {
+      "move": "Matcha Gotcha",
+      "count": 135
+    },
+    {
+      "move": "Stomping Tantrum",
+      "count": 123
+    },
+    {
+      "move": "Dual Wingbeat",
+      "count": 119
+    },
+    {
+      "move": "Hyper Voice",
+      "count": 115
+    },
+    {
+      "move": "Psychic",
+      "count": 114
+    },
+    {
+      "move": "Throat Chop",
+      "count": 107
+    }
+  ],
+  "topItems": [
+    {
+      "item": "Focus Sash",
+      "count": 410
+    },
+    {
+      "item": "Sitrus Berry",
+      "count": 390
+    },
+    {
+      "item": "Choice Scarf",
+      "count": 274
+    },
+    {
+      "item": "White Herb",
+      "count": 258
+    },
+    {
+      "item": "Leftovers",
+      "count": 217
+    },
+    {
+      "item": "Chople Berry",
+      "count": 148
+    },
+    {
+      "item": "Floettite",
+      "count": 102
+    },
+    {
+      "item": "Black Glasses",
+      "count": 83
+    },
+    {
+      "item": "Charizardite Y",
+      "count": 81
+    },
+    {
+      "item": "Lum Berry",
+      "count": 63
+    },
+    {
+      "item": "Mystic Water",
+      "count": 59
+    },
+    {
+      "item": "Froslassite",
+      "count": 52
+    },
+    {
+      "item": "Tyranitarite",
+      "count": 49
+    },
+    {
+      "item": "Soft Sand",
+      "count": 45
+    },
+    {
+      "item": "Delphoxite",
+      "count": 42
+    },
+    {
+      "item": "Fairy Feather",
+      "count": 36
+    },
+    {
+      "item": "Shuca Berry",
+      "count": 35
+    },
+    {
+      "item": "Gengarite",
+      "count": 33
+    },
+    {
+      "item": "Aerodactylite",
+      "count": 30
+    },
+    {
+      "item": "Colbur Berry",
+      "count": 30
+    },
+    {
+      "item": "Mental Herb",
+      "count": 30
+    },
+    {
+      "item": "Spell Tag",
+      "count": 29
+    },
+    {
+      "item": "Gardevoirite",
+      "count": 28
+    },
+    {
+      "item": "Sharp Beak",
+      "count": 27
+    },
+    {
+      "item": "Charcoal",
+      "count": 26
+    }
+  ],
+  "formatRules": {
+    "evRange": "0-32 per stat",
+    "noIVs": true,
+    "megasOnly": true,
+    "noTera": true,
+    "noZMoves": true,
+    "noDynamax": true,
+    "fakeOutOnce": true,
+    "paralysisChance": 12.5,
+    "sleepMaxTurns": 3,
+    "frozenMaxTurns": 3
+  }
+}
