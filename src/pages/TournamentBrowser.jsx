@@ -159,8 +159,14 @@ export default function TournamentBrowser() {
               <button
                 key={t.id}
                 onClick={() => setSelected(t.id)}
-                className={`w-full text-left px-3 py-2 rounded-lg transition-colors ${selected === t.id ? 'bg-brand-600/20 border border-brand-500/30' : 'hover:bg-gray-800'}`}
+                className={`w-full text-left px-3 py-2 rounded-lg transition-colors border ${
+                  selected === t.id ? 'bg-brand-600/20 border-brand-500/30' :
+                  t.tier === 'major' ? 'bg-yellow-900/10 border-yellow-500/20 hover:bg-yellow-900/20' :
+                  t.tier === 'featured' ? 'bg-purple-900/10 border-purple-500/20 hover:bg-purple-900/20' :
+                  'border-transparent hover:bg-gray-800'}`}
               >
+                {t.tier === 'major' && <div className="text-[9px] font-bold text-yellow-400 mb-0.5">🏆 MAJOR</div>}
+                {t.tier === 'featured' && <div className="text-[9px] font-bold text-purple-400 mb-0.5">⭐ FEATURED</div>}
                 <div className="text-xs font-medium text-gray-200 leading-tight">{t.name.length > 40 ? t.name.slice(0,38)+'…' : t.name}</div>
                 <div className="text-[10px] text-gray-500 mt-0.5">{t.players}p · {t.date}</div>
               </button>
@@ -173,7 +179,11 @@ export default function TournamentBrowser() {
             <div className="card p-0 overflow-hidden">
               <div className="px-4 py-3 border-b border-gray-800 flex items-center justify-between">
                 <div>
-                  <h3 className="font-semibold text-gray-100 text-sm">{current.name}</h3>
+                  <h3 className="font-semibold text-gray-100 text-sm flex items-center gap-2">
+                    {current.tier === 'major' && <span className="text-[9px] font-bold text-yellow-400 bg-yellow-400/15 px-1.5 py-0.5 rounded">🏆 MAJOR</span>}
+                    {current.tier === 'featured' && <span className="text-[9px] font-bold text-purple-400 bg-purple-400/15 px-1.5 py-0.5 rounded">⭐ FEATURED</span>}
+                    {current.name}
+                  </h3>
                   <p className="text-xs text-gray-500 mt-0.5">{current.players} jugadores · {current.date}</p>
                 </div>
                 <span className="text-xs text-gray-500">Clic en fila para ver equipo</span>
