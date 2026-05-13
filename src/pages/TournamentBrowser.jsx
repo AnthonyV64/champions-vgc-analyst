@@ -90,11 +90,13 @@ export default function TournamentBrowser() {
   const [selected, setSelected] = useState(tournaments[0]?.id || '')
   const [search, setSearch] = useState('')
   const [pokeSearch, setPokeSearch] = useState('')
+  const [sortBy, setSortBy] = useState('players')
 
-  const filtered = useMemo(() =>
-    tournaments.filter(t => !search || t.name.toLowerCase().includes(search.toLowerCase())),
-    [search]
-  )
+  const filtered = useMemo(() => {
+    const list = tournaments.filter(t => !search || t.name.toLowerCase().includes(search.toLowerCase()))
+    if (sortBy === 'date') return [...list].sort((a, b) => new Date(b.date) - new Date(a.date))
+    return [...list].sort((a, b) => b.players - a.players)
+  }, [search, sortBy])
 
   const current = tournaments.find(t => t.id === selected) || tournaments[0]
 
@@ -162,6 +164,16 @@ export default function TournamentBrowser() {
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
+          <div className="flex gap-1">
+            <button onClick={() => setSortBy('players')}
+              className={`flex-1 text-[10px] py-1 rounded font-semibold transition-colors ${sortBy === 'players' ? 'bg-brand-600 text-white' : 'bg-gray-800 text-gray-500 hover:text-gray-300'}`}>
+              Por jugadores
+            </button>
+            <button onClick={() => setSortBy('date')}
+              className={`flex-1 text-[10px] py-1 rounded font-semibold transition-colors ${sortBy === 'date' ? 'bg-brand-600 text-white' : 'bg-gray-800 text-gray-500 hover:text-gray-300'}`}>
+              Por fecha
+            </button>
+          </div>
           <div className="space-y-1 max-h-[600px] overflow-y-auto pr-1">
             {filtered.map(t => (
               <button
