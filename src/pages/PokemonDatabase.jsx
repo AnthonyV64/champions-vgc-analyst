@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import pokemonData from '../data/pokemon.json'
 import TypeBadge from '../components/TypeBadge'
+import { getSprite } from '../data/sprites.js'
 
 const STAT_ORDER = ['hp','atk','def','spa','spd','spe']
 const STAT_LABELS = {hp:'HP',atk:'Atk',def:'Def',spa:'SpA',spd:'SpD',spe:'Spe'}
@@ -55,14 +56,16 @@ function PokemonCard({ pokemon, onClick, selected }) {
       onClick={() => onClick(pokemon)}
       className={`card cursor-pointer transition-all hover:border-brand-500/50 ${selected ? 'border-brand-500/60 bg-brand-900/10' : ''}`}
     >
-      <div className="flex items-start justify-between mb-2">
-        <div>
-          <div className="font-semibold text-gray-100 text-sm">{pokemon.name}</div>
-          <div className="flex gap-1 mt-1">
+      <div className="flex items-center gap-2 mb-2">
+        <img src={getSprite(pokemon.name)} alt={pokemon.name}
+          className="w-14 h-14 object-contain flex-shrink-0" style={{imageRendering:"crisp-edges"}} />
+        <div className="flex-1 min-w-0">
+          <div className="font-semibold text-gray-100 text-sm truncate">{pokemon.name}</div>
+          <div className="flex gap-1 mt-0.5">
             {pokemon.types.map(t => <TypeBadge key={t} type={t} />)}
           </div>
         </div>
-        <div className="text-right">
+        <div className="text-right flex-shrink-0">
           <div className="text-sm font-bold text-brand-400">{pokemon.metaUsagePct}%</div>
           <div className="text-[10px] text-gray-500">uso meta</div>
         </div>
@@ -133,14 +136,16 @@ export default function PokemonDatabase() {
           {selected ? (
             <div className="space-y-4">
               <div className="card">
-                <div className="flex items-start justify-between mb-3">
+                <div className="flex items-center gap-3 mb-3">
+                  <img src={getSprite(selected.name)} alt={selected.name}
+                    className="w-20 h-20 object-contain" style={{imageRendering:"crisp-edges"}} />
                   <div>
                     <h3 className="text-xl font-bold text-gray-100">{selected.name}</h3>
                     <div className="flex gap-1 mt-1">
                       {selected.types.map(t => <TypeBadge key={t} type={t} />)}
                     </div>
                   </div>
-                  <div className="text-right">
+                  <div className="ml-auto text-right">
                     <div className="text-2xl font-bold text-brand-400">{selected.metaUsagePct}%</div>
                     <div className="text-xs text-gray-500">uso en meta ({selected.metaUsage} pastes)</div>
                   </div>

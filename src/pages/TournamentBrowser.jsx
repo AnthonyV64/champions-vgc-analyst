@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import tournaments from '../data/tournaments.json'
+import { getSprite } from '../data/sprites.js'
 
 const PLACE_STYLE = {
   1: 'bg-yellow-500/20 text-yellow-400 border border-yellow-500/30',
@@ -15,9 +16,15 @@ function PokemonSlot({ pk }) {
 
   return (
     <div className="bg-gray-800/60 rounded-lg p-2 border border-gray-700/50">
-      <div className="flex items-start justify-between gap-1 mb-1">
-        <span className="text-xs font-semibold text-gray-100">{pk.name}</span>
-        {isMega && <span className="text-[9px] px-1 py-0.5 bg-yellow-500/20 text-yellow-400 rounded">MEGA</span>}
+      <div className="flex items-center gap-1.5 mb-1">
+        <img src={getSprite(pk.name)} alt={pk.name}
+          className="w-12 h-12 object-contain flex-shrink-0" style={{imageRendering:"crisp-edges"}} />
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-1">
+            <span className="text-xs font-semibold text-gray-100 truncate">{pk.name}</span>
+            {isMega && <span className="text-[9px] px-1 py-0.5 bg-yellow-500/20 text-yellow-400 rounded">MEGA</span>}
+          </div>
+        </div>
       </div>
       <div className="text-[10px] text-gray-400 mb-1">
         @ {pk.item}
@@ -59,11 +66,12 @@ function PlayerRow({ entry }) {
           <div className="text-sm font-medium text-gray-100">{entry.player}</div>
           <div className="text-xs text-gray-500">{entry.record}</div>
         </div>
-        <div className="flex gap-1.5 flex-wrap justify-end">
+        <div className="flex gap-1 flex-wrap justify-end">
           {entry.team.slice(0, 6).map((pk, i) => (
-            <span key={i} className="text-[10px] text-gray-400 bg-gray-800 px-1.5 py-0.5 rounded">
-              {pk.name}
-            </span>
+            <div key={i} className="flex items-center gap-0.5 bg-gray-800 px-1 py-0.5 rounded" title={pk.name}>
+              <img src={getSprite(pk.name)} alt={pk.name}
+                className="w-8 h-8 object-contain" style={{imageRendering:"crisp-edges"}} />
+            </div>
           ))}
         </div>
         <span className="text-gray-600 text-xs ml-1">{expanded ? '▲' : '▼'}</span>

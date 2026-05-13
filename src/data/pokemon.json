@@ -1,7 +1,6 @@
 [
   {
     "name": "Sneasler",
-    "displayName": "Sneasler",
     "types": [
       "Fighting",
       "Poison"
@@ -15,8 +14,7 @@
       "spe": 120
     },
     "abilities": [
-      "Unburden",
-      "Poison Touch"
+      "Pressure"
     ],
     "metaUsage": 240,
     "metaUsagePct": 46.7,
@@ -85,12 +83,10 @@
         "usagePct": 22.1,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Garchomp",
-    "displayName": "Garchomp",
     "types": [
       "Dragon",
       "Ground"
@@ -104,7 +100,6 @@
       "spe": 102
     },
     "abilities": [
-      "Rough Skin",
       "Sand Veil"
     ],
     "metaUsage": 221,
@@ -195,12 +190,10 @@
         "usagePct": 14.0,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Incineroar",
-    "displayName": "Incineroar",
     "types": [
       "Fire",
       "Dark"
@@ -214,7 +207,6 @@
       "spe": 60
     },
     "abilities": [
-      "Intimidate",
       "Blaze"
     ],
     "metaUsage": 204,
@@ -308,12 +300,10 @@
         "usagePct": 12.3,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Kingambit",
-    "displayName": "Kingambit",
     "types": [
       "Dark",
       "Steel"
@@ -327,8 +317,7 @@
       "spe": 50
     },
     "abilities": [
-      "Defiant",
-      "Supreme Overlord"
+      "Defiant"
     ],
     "metaUsage": 171,
     "metaUsagePct": 33.3,
@@ -418,137 +407,24 @@
         "usagePct": 4.1,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Basculegion",
-    "displayName": "Basculegion (M)",
-    "types": [
-      "Water",
-      "Ghost"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 112,
-      "def": 65,
-      "spa": 80,
-      "spd": 75,
-      "spe": 78
-    },
-    "abilities": [
-      "Adaptability",
-      "Swift Swim"
-    ],
-    "metaUsage": 134,
-    "metaUsagePct": 26.1,
-    "topItem": "Choice Scarf",
-    "topNature": "Adamant",
-    "topAbility": "Adaptability",
-    "topMoves": [
-      "Last Respects",
-      "Aqua Jet",
-      "Wave Crash",
-      "Flip Turn"
-    ],
-    "avgEvs": {
-      "HP": 4,
-      "Atk": 30,
-      "Def": 7,
-      "Spe": 29,
-      "SpD": 2
-    },
-    "metaSets": [
-      {
-        "name": "Choice Scarf",
-        "item": "Choice Scarf",
-        "ability": "Adaptability",
-        "nature": "Jolly",
-        "evs": {
-          "Atk": 31,
-          "Def": 4,
-          "SpD": 1,
-          "Spe": 32,
-          "HP": 2
-        },
-        "evsStr": "2 HP / 31 Atk / 4 Def / 1 SpD / 32 Spe",
-        "moves": [
-          "Wave Crash",
-          "Last Respects",
-          "Flip Turn",
-          "Aqua Jet"
-        ],
-        "count": 78,
-        "usagePct": 58.2,
-        "isMega": false
-      },
-      {
-        "name": "Focus Sash",
-        "item": "Focus Sash",
-        "ability": "Adaptability",
-        "nature": "Adamant",
-        "evs": {
-          "Atk": 32,
-          "Def": 1,
-          "SpD": 1,
-          "Spe": 32,
-          "HP": 2
-        },
-        "evsStr": "2 HP / 32 Atk / 1 Def / 1 SpD / 32 Spe",
-        "moves": [
-          "Last Respects",
-          "Aqua Jet",
-          "Protect",
-          "Liquidation"
-        ],
-        "count": 31,
-        "usagePct": 23.1,
-        "isMega": false
-      },
-      {
-        "name": "Mystic Water",
-        "item": "Mystic Water",
-        "ability": "Swift Swim",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 5,
-          "Atk": 31,
-          "Def": 7,
-          "SpD": 4,
-          "Spe": 26
-        },
-        "evsStr": "5 HP / 31 Atk / 7 Def / 4 SpD / 26 Spe",
-        "moves": [
-          "Last Respects",
-          "Wave Crash",
-          "Aqua Jet",
-          "Protect"
-        ],
-        "count": 22,
-        "usagePct": 16.4,
-        "isMega": false
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Sinistcha",
-    "displayName": "Sinistcha",
     "types": [
       "Grass",
       "Ghost"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 74,
-      "def": 100,
-      "spa": 100,
-      "spd": 110,
+      "hp": 71,
+      "atk": 60,
+      "def": 106,
+      "spa": 121,
+      "spd": 80,
       "spe": 70
     },
     "abilities": [
-      "Hospitality",
-      "Heatproof"
+      "Hospitality"
     ],
     "metaUsage": 128,
     "metaUsagePct": 24.9,
@@ -638,12 +514,10 @@
         "usagePct": 7.8,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Aerodactyl",
-    "displayName": "Aerodactyl",
     "types": [
       "Rock",
       "Flying"
@@ -653,13 +527,11 @@
       "atk": 105,
       "def": 65,
       "spa": 60,
-      "spd": 75,
+      "spd": 60,
       "spe": 130
     },
     "abilities": [
-      "Unnerve",
-      "Rock Head",
-      "Pressure"
+      "—"
     ],
     "metaUsage": 111,
     "metaUsagePct": 21.6,
@@ -749,12 +621,10 @@
         "usagePct": 2.7,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Charizard",
-    "displayName": "Charizard",
     "types": [
       "Fire",
       "Flying"
@@ -763,13 +633,12 @@
       "hp": 78,
       "atk": 84,
       "def": 78,
-      "spa": 109,
+      "spa": 85,
       "spd": 85,
       "spe": 100
     },
     "abilities": [
-      "Blaze",
-      "Solar Power"
+      "—"
     ],
     "metaUsage": 90,
     "metaUsagePct": 17.5,
@@ -837,88 +706,24 @@
         "usagePct": 11.1,
         "isMega": true
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Floette-Eternal",
-    "displayName": "Floette-Eternal (F)",
-    "types": [
-      "Fairy"
-    ],
-    "baseStats": {
-      "hp": 74,
-      "atk": 65,
-      "def": 67,
-      "spa": 125,
-      "spd": 128,
-      "spe": 92
-    },
-    "abilities": [
-      "Flower Veil"
-    ],
-    "metaUsage": 90,
-    "metaUsagePct": 17.5,
-    "topItem": "Floettite",
-    "topNature": "Modest",
-    "topAbility": "Flower Veil",
-    "topMoves": [
-      "Protect",
-      "Dazzling Gleam",
-      "Moonblast",
-      "Calm Mind"
-    ],
-    "avgEvs": {
-      "HP": 22,
-      "SpA": 21,
-      "Spe": 18,
-      "Def": 12,
-      "SpD": 2
-    },
-    "metaSets": [
-      {
-        "name": "Floett-Mega",
-        "item": "Floettite",
-        "ability": "Flower Veil",
-        "nature": "Modest",
-        "evs": {
-          "HP": 22,
-          "Def": 12,
-          "SpA": 20,
-          "Spe": 18,
-          "SpD": 2
-        },
-        "evsStr": "22 HP / 12 Def / 20 SpA / 2 SpD / 18 Spe",
-        "moves": [
-          "Protect",
-          "Dazzling Gleam",
-          "Moonblast",
-          "Calm Mind"
-        ],
-        "count": 99,
-        "usagePct": 110.0,
-        "isMega": true
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Rotom-Wash",
-    "displayName": "Rotom-Wash",
     "types": [
       "Electric",
       "Water"
     ],
     "baseStats": {
-      "hp": 50,
-      "atk": 65,
-      "def": 107,
-      "spa": 105,
-      "spd": 107,
-      "spe": 86
+      "hp": 80,
+      "atk": 70,
+      "def": 40,
+      "spa": 100,
+      "spd": 60,
+      "spe": 145
     },
     "abilities": [
-      "Levitate"
+      "Hydration"
     ],
     "metaUsage": 80,
     "metaUsagePct": 15.6,
@@ -1008,12 +813,10 @@
         "usagePct": 22.5,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Tyranitar",
-    "displayName": "Tyranitar",
     "types": [
       "Rock",
       "Dark"
@@ -1027,7 +830,7 @@
       "spe": 61
     },
     "abilities": [
-      "Sand Stream"
+      "—"
     ],
     "metaUsage": 71,
     "metaUsagePct": 13.8,
@@ -1117,15 +920,12 @@
         "usagePct": 11.3,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Whimsicott",
-    "displayName": "Whimsicott",
     "types": [
-      "Grass",
-      "Fairy"
+      "Grass"
     ],
     "baseStats": {
       "hp": 60,
@@ -1136,8 +936,7 @@
       "spe": 116
     },
     "abilities": [
-      "Prankster",
-      "Infiltrator"
+      "Prankster"
     ],
     "metaUsage": 63,
     "metaUsagePct": 12.3,
@@ -1227,12 +1026,10 @@
         "usagePct": 6.3,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Pelipper",
-    "displayName": "Pelipper",
     "types": [
       "Water",
       "Flying"
@@ -1246,7 +1043,6 @@
       "spe": 65
     },
     "abilities": [
-      "Drizzle",
       "Keen Eye"
     ],
     "metaUsage": 61,
@@ -1337,12 +1133,10 @@
         "usagePct": 9.8,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Milotic",
-    "displayName": "Milotic",
     "types": [
       "Water"
     ],
@@ -1355,7 +1149,6 @@
       "spe": 81
     },
     "abilities": [
-      "Competitive",
       "Marvel Scale"
     ],
     "metaUsage": 56,
@@ -1425,12 +1218,10 @@
         "usagePct": 16.1,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Farigiraf",
-    "displayName": "Farigiraf",
     "types": [
       "Normal",
       "Psychic"
@@ -1439,12 +1230,11 @@
       "hp": 120,
       "atk": 90,
       "def": 70,
-      "spa": 90,
-      "spd": 72,
+      "spa": 110,
+      "spd": 70,
       "spe": 60
     },
     "abilities": [
-      "Armor Tail",
       "Cud Chew"
     ],
     "metaUsage": 51,
@@ -1535,76 +1325,10 @@
         "usagePct": 7.8,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Froslass",
-    "displayName": "Froslass (F)",
-    "types": [
-      "Ice",
-      "Ghost"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "atk": 80,
-      "def": 70,
-      "spa": 80,
-      "spd": 70,
-      "spe": 110
-    },
-    "abilities": [
-      "Cursed Body",
-      "Snow Cloak"
-    ],
-    "metaUsage": 45,
-    "metaUsagePct": 8.8,
-    "topItem": "Froslassite",
-    "topNature": "Timid",
-    "topAbility": "Cursed Body",
-    "topMoves": [
-      "Blizzard",
-      "Protect",
-      "Shadow Ball",
-      "Aurora Veil"
-    ],
-    "avgEvs": {
-      "HP": 12,
-      "Def": 4,
-      "SpA": 24,
-      "Spe": 30,
-      "SpD": 3
-    },
-    "metaSets": [
-      {
-        "name": "Froslass-Mega",
-        "item": "Froslassite",
-        "ability": "Cursed Body",
-        "nature": "Timid",
-        "evs": {
-          "HP": 13,
-          "Def": 4,
-          "SpA": 23,
-          "Spe": 29,
-          "SpD": 3
-        },
-        "evsStr": "13 HP / 4 Def / 23 SpA / 3 SpD / 29 Spe",
-        "moves": [
-          "Blizzard",
-          "Protect",
-          "Shadow Ball",
-          "Aurora Veil"
-        ],
-        "count": 51,
-        "usagePct": 113.3,
-        "isMega": true
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Dragonite",
-    "displayName": "Dragonite",
     "types": [
       "Dragon",
       "Flying"
@@ -1618,8 +1342,7 @@
       "spe": 80
     },
     "abilities": [
-      "Multiscale",
-      "Inner Focus"
+      "—"
     ],
     "metaUsage": 43,
     "metaUsagePct": 8.4,
@@ -1711,124 +1434,10 @@
         "usagePct": 16.3,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Aegislash",
-    "displayName": "Aegislash",
-    "types": [
-      "Steel",
-      "Ghost"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "atk": 150,
-      "def": 150,
-      "spa": 150,
-      "spd": 150,
-      "spe": 60
-    },
-    "abilities": [
-      "Stance Change"
-    ],
-    "metaUsage": 43,
-    "metaUsagePct": 8.4,
-    "topItem": "Spell Tag",
-    "topNature": "Adamant",
-    "topAbility": "Stance Change",
-    "topMoves": [
-      "King&#39;s Shield",
-      "Poltergeist",
-      "Shadow Sneak",
-      "Iron Head"
-    ],
-    "avgEvs": {
-      "HP": 28,
-      "Atk": 27,
-      "Spe": 11,
-      "Def": 5,
-      "SpD": 6,
-      "SpA": 32
-    },
-    "metaSets": [
-      {
-        "name": "Spell Tag",
-        "item": "Spell Tag",
-        "ability": "Stance Change",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 29,
-          "Atk": 27,
-          "Spe": 9,
-          "Def": 5,
-          "SpD": 3,
-          "SpA": 32
-        },
-        "evsStr": "29 HP / 27 Atk / 5 Def / 32 SpA / 3 SpD / 9 Spe",
-        "moves": [
-          "Poltergeist",
-          "Shadow Sneak",
-          "King&#39;s Shield",
-          "Iron Head"
-        ],
-        "count": 26,
-        "usagePct": 60.5,
-        "isMega": false
-      },
-      {
-        "name": "Leftovers",
-        "item": "Leftovers",
-        "ability": "Stance Change",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 30,
-          "Atk": 32,
-          "Spe": 8,
-          "Def": 4,
-          "SpA": 32,
-          "SpD": 14
-        },
-        "evsStr": "30 HP / 32 Atk / 4 Def / 32 SpA / 14 SpD / 8 Spe",
-        "moves": [
-          "King&#39;s Shield",
-          "Wide Guard",
-          "Shadow Ball",
-          "Poltergeist"
-        ],
-        "count": 9,
-        "usagePct": 20.9,
-        "isMega": false
-      },
-      {
-        "name": "Focus Sash",
-        "item": "Focus Sash",
-        "ability": "Stance Change",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 16,
-          "Atk": 28,
-          "Spe": 26,
-          "Def": 1,
-          "SpD": 1
-        },
-        "evsStr": "16 HP / 28 Atk / 1 Def / 1 SpD / 26 Spe",
-        "moves": [
-          "Iron Head",
-          "Poltergeist",
-          "Shadow Sneak",
-          "King&#39;s Shield"
-        ],
-        "count": 3,
-        "usagePct": 7.0,
-        "isMega": false
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Archaludon",
-    "displayName": "Archaludon",
     "types": [
       "Steel",
       "Dragon"
@@ -1842,8 +1451,7 @@
       "spe": 85
     },
     "abilities": [
-      "Stamina",
-      "Sturdy"
+      "Stamina"
     ],
     "metaUsage": 41,
     "metaUsagePct": 8.0,
@@ -1931,12 +1539,10 @@
         "usagePct": 9.8,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Corviknight",
-    "displayName": "Corviknight",
     "types": [
       "Flying",
       "Steel"
@@ -1950,7 +1556,6 @@
       "spe": 67
     },
     "abilities": [
-      "Mirror Armor",
       "Pressure"
     ],
     "metaUsage": 41,
@@ -2041,15 +1646,73 @@
         "usagePct": 7.3,
         "isMega": false
       }
+    ]
+  },
+  {
+    "name": "Delphox",
+    "types": [
+      "Fire",
+      "Psychic"
     ],
-    "notes": ""
+    "baseStats": {
+      "hp": 75,
+      "atk": 69,
+      "def": 72,
+      "spa": 114,
+      "spd": 100,
+      "spe": 104
+    },
+    "abilities": [
+      "Blaze"
+    ],
+    "metaUsage": 41,
+    "metaUsagePct": 8.0,
+    "topItem": "Delphoxite",
+    "topNature": "Timid",
+    "topAbility": "Blaze",
+    "topMoves": [
+      "Protect",
+      "Heat Wave",
+      "Psychic",
+      "Encore"
+    ],
+    "avgEvs": {
+      "HP": 8,
+      "Def": 15,
+      "SpA": 19,
+      "Spe": 30,
+      "SpD": 2
+    },
+    "metaSets": [
+      {
+        "name": "Delphox-Mega",
+        "item": "Delphoxite",
+        "ability": "Magician",
+        "nature": "Timid",
+        "evs": {
+          "HP": 8,
+          "Def": 15,
+          "SpA": 19,
+          "Spe": 30,
+          "SpD": 2
+        },
+        "evsStr": "8 HP / 15 Def / 19 SpA / 2 SpD / 30 Spe",
+        "moves": [
+          "Protect",
+          "Heat Wave",
+          "Psychic",
+          "Encore"
+        ],
+        "count": 41,
+        "usagePct": 100.0,
+        "isMega": true
+      }
+    ]
   },
   {
     "name": "Gardevoir",
-    "displayName": "Gardevoir",
     "types": [
-      "Psychic",
-      "Fairy"
+      "Psychic"
     ],
     "baseStats": {
       "hp": 68,
@@ -2060,8 +1723,6 @@
       "spe": 80
     },
     "abilities": [
-      "Telepathy",
-      "Trace",
       "Synchronize"
     ],
     "metaUsage": 41,
@@ -2129,76 +1790,10 @@
         "usagePct": 34.1,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Delphox",
-    "displayName": "Delphox",
-    "types": [
-      "Fire",
-      "Psychic"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "atk": 69,
-      "def": 72,
-      "spa": 114,
-      "spd": 100,
-      "spe": 104
-    },
-    "abilities": [
-      "Blaze",
-      "Magician"
-    ],
-    "metaUsage": 41,
-    "metaUsagePct": 8.0,
-    "topItem": "Delphoxite",
-    "topNature": "Timid",
-    "topAbility": "Blaze",
-    "topMoves": [
-      "Protect",
-      "Heat Wave",
-      "Psychic",
-      "Encore"
-    ],
-    "avgEvs": {
-      "HP": 8,
-      "Def": 15,
-      "SpA": 19,
-      "Spe": 30,
-      "SpD": 2
-    },
-    "metaSets": [
-      {
-        "name": "Delphox-Mega",
-        "item": "Delphoxite",
-        "ability": "Magician",
-        "nature": "Timid",
-        "evs": {
-          "HP": 8,
-          "Def": 15,
-          "SpA": 19,
-          "Spe": 30,
-          "SpD": 2
-        },
-        "evsStr": "8 HP / 15 Def / 19 SpA / 2 SpD / 30 Spe",
-        "moves": [
-          "Protect",
-          "Heat Wave",
-          "Psychic",
-          "Encore"
-        ],
-        "count": 41,
-        "usagePct": 100.0,
-        "isMega": true
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Talonflame",
-    "displayName": "Talonflame",
     "types": [
       "Fire",
       "Flying"
@@ -2212,7 +1807,6 @@
       "spe": 126
     },
     "abilities": [
-      "Gale Wings",
       "Flame Body"
     ],
     "metaUsage": 40,
@@ -2306,12 +1900,10 @@
         "usagePct": 10.0,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Venusaur",
-    "displayName": "Venusaur",
     "types": [
       "Grass",
       "Poison"
@@ -2325,8 +1917,7 @@
       "spe": 80
     },
     "abilities": [
-      "Overgrow",
-      "Chlorophyll"
+      "—"
     ],
     "metaUsage": 39,
     "metaUsagePct": 7.6,
@@ -2393,12 +1984,10 @@
         "usagePct": 30.8,
         "isMega": true
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Gengar",
-    "displayName": "Gengar",
     "types": [
       "Ghost",
       "Poison"
@@ -2408,12 +1997,11 @@
       "atk": 65,
       "def": 60,
       "spa": 130,
-      "spd": 75,
+      "spd": 130,
       "spe": 110
     },
     "abilities": [
-      "Cursed Body",
-      "Shadow Tag"
+      "—"
     ],
     "metaUsage": 38,
     "metaUsagePct": 7.4,
@@ -2480,97 +2068,71 @@
         "usagePct": 13.2,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
-    "name": "Maushold",
-    "displayName": "Maushold-Four",
+    "name": "Excadrill",
     "types": [
-      "Normal"
+      "Ground",
+      "Steel"
     ],
     "baseStats": {
-      "hp": 74,
-      "atk": 75,
-      "def": 70,
-      "spa": 65,
-      "spd": 75,
-      "spe": 111
+      "hp": 110,
+      "atk": 135,
+      "def": 60,
+      "spa": 50,
+      "spd": 65,
+      "spe": 88
     },
     "abilities": [
-      "Friend Guard",
-      "Technician"
+      "Sand Rush"
     ],
-    "metaUsage": 33,
-    "metaUsagePct": 6.4,
-    "topItem": "Chople Berry",
-    "topNature": "Jolly",
-    "topAbility": "Friend Guard",
+    "metaUsage": 28,
+    "metaUsagePct": 5.4,
+    "topItem": "Focus Sash",
+    "topNature": "Adamant",
+    "topAbility": "Sand Rush",
     "topMoves": [
-      "Follow Me",
       "Protect",
-      "Super Fang",
-      "Taunt"
+      "Iron Head",
+      "Earthquake",
+      "Rock Slide"
     ],
     "avgEvs": {
-      "HP": 29,
-      "Def": 11,
-      "SpD": 6,
-      "Spe": 26,
-      "Atk": 14
+      "HP": 2,
+      "Atk": 32,
+      "Def": 1,
+      "Spe": 31,
+      "SpD": 1
     },
     "metaSets": [
       {
-        "name": "Chople Berry",
-        "item": "Chople Berry",
-        "ability": "Friend Guard",
-        "nature": "Jolly",
-        "evs": {
-          "HP": 31,
-          "Def": 12,
-          "SpD": 6,
-          "Spe": 24
-        },
-        "evsStr": "31 HP / 12 Def / 6 SpD / 24 Spe",
-        "moves": [
-          "Protect",
-          "Follow Me",
-          "Super Fang",
-          "Taunt"
-        ],
-        "count": 16,
-        "usagePct": 48.5,
-        "isMega": false
-      },
-      {
         "name": "Focus Sash",
         "item": "Focus Sash",
-        "ability": "Friend Guard",
-        "nature": "Jolly",
+        "ability": "Sand Rush",
+        "nature": "Adamant",
         "evs": {
-          "HP": 27,
-          "Def": 4,
-          "SpD": 5,
-          "Spe": 30,
-          "Atk": 17
+          "HP": 3,
+          "Atk": 32,
+          "Def": 1,
+          "Spe": 31,
+          "SpD": 1
         },
-        "evsStr": "27 HP / 17 Atk / 4 Def / 5 SpD / 30 Spe",
+        "evsStr": "3 HP / 32 Atk / 1 Def / 1 SpD / 31 Spe",
         "moves": [
-          "Follow Me",
           "Protect",
-          "Super Fang",
-          "Taunt"
+          "Iron Head",
+          "Rock Slide",
+          "Earthquake"
         ],
-        "count": 13,
-        "usagePct": 39.4,
+        "count": 23,
+        "usagePct": 82.1,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Sylveon",
-    "displayName": "Sylveon",
     "types": [
       "Fairy"
     ],
@@ -2583,7 +2145,6 @@
       "spe": 60
     },
     "abilities": [
-      "Pixilate",
       "Cute Charm"
     ],
     "metaUsage": 28,
@@ -2651,76 +2212,93 @@
         "usagePct": 21.4,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
-    "name": "Excadrill",
-    "displayName": "Excadrill",
+    "name": "Glimmora",
     "types": [
-      "Steel",
-      "Ground"
+      "Rock",
+      "Poison"
     ],
     "baseStats": {
-      "hp": 110,
-      "atk": 135,
-      "def": 60,
-      "spa": 50,
-      "spd": 65,
-      "spe": 88
+      "hp": 83,
+      "atk": 55,
+      "def": 90,
+      "spa": 130,
+      "spd": 81,
+      "spe": 86
     },
     "abilities": [
-      "Sand Rush",
-      "Mold Breaker"
+      "Toxic Debris"
     ],
-    "metaUsage": 28,
-    "metaUsagePct": 5.4,
-    "topItem": "Focus Sash",
-    "topNature": "Adamant",
-    "topAbility": "Sand Rush",
+    "metaUsage": 27,
+    "metaUsagePct": 5.3,
+    "topItem": "Glimmoranite",
+    "topNature": "Timid",
+    "topAbility": "Toxic Debris",
     "topMoves": [
-      "Protect",
-      "Iron Head",
-      "Earthquake",
-      "Rock Slide"
+      "Power Gem",
+      "Spiky Shield",
+      "Earth Power",
+      "Sludge Bomb"
     ],
     "avgEvs": {
-      "HP": 2,
-      "Atk": 32,
-      "Def": 1,
-      "Spe": 31,
-      "SpD": 1
+      "HP": 6,
+      "SpA": 30,
+      "Spe": 29,
+      "Def": 2,
+      "SpD": 2
     },
     "metaSets": [
       {
-        "name": "Focus Sash",
-        "item": "Focus Sash",
-        "ability": "Sand Rush",
-        "nature": "Adamant",
+        "name": "Glimmoran-Mega",
+        "item": "Glimmoranite",
+        "ability": "Power Spot",
+        "nature": "Timid",
         "evs": {
-          "HP": 3,
-          "Atk": 32,
-          "Def": 1,
-          "Spe": 31,
-          "SpD": 1
+          "HP": 7,
+          "Def": 2,
+          "SpA": 29,
+          "SpD": 2,
+          "Spe": 28
         },
-        "evsStr": "3 HP / 32 Atk / 1 Def / 1 SpD / 31 Spe",
+        "evsStr": "7 HP / 2 Def / 29 SpA / 2 SpD / 28 Spe",
         "moves": [
-          "Protect",
-          "Iron Head",
-          "Rock Slide",
-          "Earthquake"
+          "Spiky Shield",
+          "Power Gem",
+          "Earth Power",
+          "Sludge Bomb"
         ],
         "count": 23,
-        "usagePct": 82.1,
+        "usagePct": 85.2,
+        "isMega": true
+      },
+      {
+        "name": "Focus Sash",
+        "item": "Focus Sash",
+        "ability": "Toxic Debris",
+        "nature": "Timid",
+        "evs": {
+          "HP": 2,
+          "SpA": 32,
+          "Spe": 32,
+          "SpD": 1
+        },
+        "evsStr": "2 HP / 32 SpA / 1 SpD / 32 Spe",
+        "moves": [
+          "Power Gem",
+          "Spiky Shield",
+          "Earth Power",
+          "Sludge Bomb"
+        ],
+        "count": 4,
+        "usagePct": 14.8,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Gyarados",
-    "displayName": "Gyarados",
     "types": [
       "Water",
       "Flying"
@@ -2729,13 +2307,12 @@
       "hp": 95,
       "atk": 125,
       "def": 79,
-      "spa": 60,
+      "spa": 100,
       "spd": 100,
       "spe": 81
     },
     "abilities": [
-      "Intimidate",
-      "Moxie"
+      "—"
     ],
     "metaUsage": 27,
     "metaUsagePct": 5.3,
@@ -2825,98 +2402,10 @@
         "usagePct": 18.5,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Glimmora",
-    "displayName": "Glimmora",
-    "types": [
-      "Rock",
-      "Poison"
-    ],
-    "baseStats": {
-      "hp": 83,
-      "atk": 55,
-      "def": 90,
-      "spa": 130,
-      "spd": 81,
-      "spe": 86
-    },
-    "abilities": [
-      "Toxic Debris",
-      "Corrosion"
-    ],
-    "metaUsage": 27,
-    "metaUsagePct": 5.3,
-    "topItem": "Glimmoranite",
-    "topNature": "Timid",
-    "topAbility": "Toxic Debris",
-    "topMoves": [
-      "Power Gem",
-      "Spiky Shield",
-      "Earth Power",
-      "Sludge Bomb"
-    ],
-    "avgEvs": {
-      "HP": 6,
-      "SpA": 30,
-      "Spe": 29,
-      "Def": 2,
-      "SpD": 2
-    },
-    "metaSets": [
-      {
-        "name": "Glimmoran-Mega",
-        "item": "Glimmoranite",
-        "ability": "Power Spot",
-        "nature": "Timid",
-        "evs": {
-          "HP": 7,
-          "Def": 2,
-          "SpA": 29,
-          "SpD": 2,
-          "Spe": 28
-        },
-        "evsStr": "7 HP / 2 Def / 29 SpA / 2 SpD / 28 Spe",
-        "moves": [
-          "Spiky Shield",
-          "Power Gem",
-          "Earth Power",
-          "Sludge Bomb"
-        ],
-        "count": 23,
-        "usagePct": 85.2,
-        "isMega": true
-      },
-      {
-        "name": "Focus Sash",
-        "item": "Focus Sash",
-        "ability": "Toxic Debris",
-        "nature": "Timid",
-        "evs": {
-          "HP": 2,
-          "SpA": 32,
-          "Spe": 32,
-          "SpD": 1
-        },
-        "evsStr": "2 HP / 32 SpA / 1 SpD / 32 Spe",
-        "moves": [
-          "Power Gem",
-          "Spiky Shield",
-          "Earth Power",
-          "Sludge Bomb"
-        ],
-        "count": 4,
-        "usagePct": 14.8,
-        "isMega": false
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Kommo-o",
-    "displayName": "Kommo-o",
     "types": [
       "Dragon",
       "Fighting"
@@ -2930,7 +2419,6 @@
       "spe": 85
     },
     "abilities": [
-      "Soundproof",
       "Bulletproof"
     ],
     "metaUsage": 26,
@@ -3023,12 +2511,10 @@
         "usagePct": 11.5,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Scizor",
-    "displayName": "Scizor",
     "types": [
       "Bug",
       "Steel"
@@ -3042,8 +2528,7 @@
       "spe": 65
     },
     "abilities": [
-      "Technician",
-      "Swarm"
+      "—"
     ],
     "metaUsage": 25,
     "metaUsagePct": 4.9,
@@ -3110,75 +2595,10 @@
         "usagePct": 20.0,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Torkoal",
-    "displayName": "Torkoal",
-    "types": [
-      "Fire"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "atk": 85,
-      "def": 140,
-      "spa": 85,
-      "spd": 70,
-      "spe": 20
-    },
-    "abilities": [
-      "Drought",
-      "White Smoke"
-    ],
-    "metaUsage": 23,
-    "metaUsagePct": 4.5,
-    "topItem": "Charcoal",
-    "topNature": "Quiet",
-    "topAbility": "Drought",
-    "topMoves": [
-      "Eruption",
-      "Protect",
-      "Weather Ball",
-      "Heat Wave"
-    ],
-    "avgEvs": {
-      "HP": 29,
-      "Def": 4,
-      "SpA": 32,
-      "SpD": 3,
-      "Spe": 6
-    },
-    "metaSets": [
-      {
-        "name": "Charcoal",
-        "item": "Charcoal",
-        "ability": "Drought",
-        "nature": "Quiet",
-        "evs": {
-          "HP": 30,
-          "Def": 1,
-          "SpA": 32,
-          "SpD": 3,
-          "Spe": 6
-        },
-        "evsStr": "30 HP / 1 Def / 32 SpA / 3 SpD / 6 Spe",
-        "moves": [
-          "Eruption",
-          "Protect",
-          "Weather Ball",
-          "Heat Wave"
-        ],
-        "count": 22,
-        "usagePct": 95.7,
-        "isMega": false
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Hydreigon",
-    "displayName": "Hydreigon",
     "types": [
       "Dark",
       "Dragon"
@@ -3282,15 +2702,73 @@
         "usagePct": 13.0,
         "isMega": false
       }
+    ]
+  },
+  {
+    "name": "Torkoal",
+    "types": [
+      "Fire"
     ],
-    "notes": ""
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 140,
+      "spa": 85,
+      "spd": 70,
+      "spe": 20
+    },
+    "abilities": [
+      "White Smoke"
+    ],
+    "metaUsage": 23,
+    "metaUsagePct": 4.5,
+    "topItem": "Charcoal",
+    "topNature": "Quiet",
+    "topAbility": "Drought",
+    "topMoves": [
+      "Eruption",
+      "Protect",
+      "Weather Ball",
+      "Heat Wave"
+    ],
+    "avgEvs": {
+      "HP": 29,
+      "Def": 4,
+      "SpA": 32,
+      "SpD": 3,
+      "Spe": 6
+    },
+    "metaSets": [
+      {
+        "name": "Charcoal",
+        "item": "Charcoal",
+        "ability": "Drought",
+        "nature": "Quiet",
+        "evs": {
+          "HP": 30,
+          "Def": 1,
+          "SpA": 32,
+          "SpD": 3,
+          "Spe": 6
+        },
+        "evsStr": "30 HP / 1 Def / 32 SpA / 3 SpD / 6 Spe",
+        "moves": [
+          "Eruption",
+          "Protect",
+          "Weather Ball",
+          "Heat Wave"
+        ],
+        "count": 22,
+        "usagePct": 95.7,
+        "isMega": false
+      }
+    ]
   },
   {
     "name": "Rotom-Heat",
-    "displayName": "Rotom-Heat",
     "types": [
       "Electric",
-      "Fire"
+      "Ghost"
     ],
     "baseStats": {
       "hp": 50,
@@ -3368,12 +2846,10 @@
         "usagePct": 23.8,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Basculegion",
-    "displayName": "Basculegion",
     "types": [
       "Water",
       "Ghost"
@@ -3387,7 +2863,6 @@
       "spe": 78
     },
     "abilities": [
-      "Adaptability",
       "Swift Swim"
     ],
     "metaUsage": 20,
@@ -3478,12 +2953,10 @@
         "usagePct": 110.0,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Ninetales-Alola",
-    "displayName": "Ninetales-Alola",
     "types": [
       "Ice",
       "Fairy"
@@ -3497,7 +2970,6 @@
       "spe": 109
     },
     "abilities": [
-      "Snow Warning",
       "Snow Cloak"
     ],
     "metaUsage": 20,
@@ -3565,12 +3037,10 @@
         "usagePct": 15.0,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Politoed",
-    "displayName": "Politoed",
     "types": [
       "Water"
     ],
@@ -3583,8 +3053,7 @@
       "spe": 70
     },
     "abilities": [
-      "Drizzle",
-      "Damp"
+      "—"
     ],
     "metaUsage": 19,
     "metaUsagePct": 3.7,
@@ -3674,12 +3143,10 @@
         "usagePct": 15.8,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Kangaskhan",
-    "displayName": "Kangaskhan (F)",
     "types": [
       "Normal"
     ],
@@ -3688,12 +3155,11 @@
       "atk": 95,
       "def": 80,
       "spa": 40,
-      "spd": 80,
+      "spd": 40,
       "spe": 90
     },
     "abilities": [
-      "Scrappy",
-      "Early Bird"
+      "—"
     ],
     "metaUsage": 18,
     "metaUsagePct": 3.5,
@@ -3760,12 +3226,10 @@
         "usagePct": 22.2,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Meganium",
-    "displayName": "Meganium",
     "types": [
       "Grass"
     ],
@@ -3778,7 +3242,7 @@
       "spe": 80
     },
     "abilities": [
-      "Overgrow"
+      "—"
     ],
     "metaUsage": 18,
     "metaUsagePct": 3.5,
@@ -3822,76 +3286,10 @@
         "usagePct": 100.0,
         "isMega": true
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Scovillain",
-    "displayName": "Scovillain",
-    "types": [
-      "Grass",
-      "Fire"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "atk": 108,
-      "def": 65,
-      "spa": 108,
-      "spd": 65,
-      "spe": 75
-    },
-    "abilities": [
-      "Chlorophyll",
-      "Insomnia"
-    ],
-    "metaUsage": 17,
-    "metaUsagePct": 3.3,
-    "topItem": "Scovillainite",
-    "topNature": "Bold",
-    "topAbility": "Moody",
-    "topMoves": [
-      "Protect",
-      "Rage Powder",
-      "Overheat",
-      "Leech Seed"
-    ],
-    "avgEvs": {
-      "HP": 32,
-      "Def": 20,
-      "SpD": 11,
-      "Spe": 5,
-      "SpA": 10
-    },
-    "metaSets": [
-      {
-        "name": "Scovillain-Mega",
-        "item": "Scovillainite",
-        "ability": "Drought",
-        "nature": "Bold",
-        "evs": {
-          "HP": 32,
-          "Def": 21,
-          "SpD": 11,
-          "Spe": 5,
-          "SpA": 3
-        },
-        "evsStr": "32 HP / 21 Def / 3 SpA / 11 SpD / 5 Spe",
-        "moves": [
-          "Protect",
-          "Rage Powder",
-          "Overheat",
-          "Leech Seed"
-        ],
-        "count": 16,
-        "usagePct": 94.1,
-        "isMega": true
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Dragapult",
-    "displayName": "Dragapult",
     "types": [
       "Dragon",
       "Ghost"
@@ -3905,9 +3303,7 @@
       "spe": 142
     },
     "abilities": [
-      "Clear Body",
-      "Cursed Body",
-      "Infiltrator"
+      "Clear Body"
     ],
     "metaUsage": 17,
     "metaUsagePct": 3.3,
@@ -3999,98 +3395,71 @@
         "usagePct": 17.6,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
-    "name": "Clefable",
-    "displayName": "Clefable",
+    "name": "Scovillain",
     "types": [
-      "Normal"
+      "Grass",
+      "Fire"
     ],
     "baseStats": {
-      "hp": 95,
-      "atk": 70,
-      "def": 73,
-      "spa": 95,
-      "spd": 90,
-      "spe": 60
+      "hp": 65,
+      "atk": 108,
+      "def": 65,
+      "spa": 108,
+      "spd": 65,
+      "spe": 75
     },
     "abilities": [
-      "Unaware",
-      "Magic Guard"
+      "Chlorophyll"
     ],
-    "metaUsage": 16,
-    "metaUsagePct": 3.1,
-    "topItem": "Sitrus Berry",
+    "metaUsage": 17,
+    "metaUsagePct": 3.3,
+    "topItem": "Scovillainite",
     "topNature": "Bold",
-    "topAbility": "Unaware",
+    "topAbility": "Moody",
     "topMoves": [
-      "Moonblast",
-      "Follow Me",
       "Protect",
-      "Helping Hand"
+      "Rage Powder",
+      "Overheat",
+      "Leech Seed"
     ],
     "avgEvs": {
-      "HP": 31,
-      "Def": 18,
-      "SpD": 10,
-      "SpA": 14,
-      "Spe": 13
+      "HP": 32,
+      "Def": 20,
+      "SpD": 11,
+      "Spe": 5,
+      "SpA": 10
     },
     "metaSets": [
       {
-        "name": "Sitrus Berry",
-        "item": "Sitrus Berry",
-        "ability": "Unaware",
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Drought",
         "nature": "Bold",
         "evs": {
           "HP": 32,
-          "Def": 22,
+          "Def": 21,
           "SpD": 11,
-          "SpA": 3,
-          "Spe": 1
+          "Spe": 5,
+          "SpA": 3
         },
-        "evsStr": "32 HP / 22 Def / 3 SpA / 11 SpD / 1 Spe",
+        "evsStr": "32 HP / 21 Def / 3 SpA / 11 SpD / 5 Spe",
         "moves": [
           "Protect",
-          "Moonblast",
-          "Follow Me",
-          "Helping Hand"
+          "Rage Powder",
+          "Overheat",
+          "Leech Seed"
         ],
-        "count": 8,
-        "usagePct": 50.0,
-        "isMega": false
-      },
-      {
-        "name": "Clefablite",
-        "item": "Clefablite",
-        "ability": "Unaware",
-        "nature": "Modest",
-        "evs": {
-          "HP": 31,
-          "Def": 10,
-          "SpA": 17,
-          "SpD": 11,
-          "Spe": 15
-        },
-        "evsStr": "31 HP / 10 Def / 17 SpA / 11 SpD / 15 Spe",
-        "moves": [
-          "Moonblast",
-          "Follow Me",
-          "Protect",
-          "Air Slash"
-        ],
-        "count": 6,
-        "usagePct": 37.5,
-        "isMega": false
+        "count": 16,
+        "usagePct": 94.1,
+        "isMega": true
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Blastoise",
-    "displayName": "Blastoise",
     "types": [
       "Water"
     ],
@@ -4099,11 +3468,11 @@
       "atk": 83,
       "def": 100,
       "spa": 85,
-      "spd": 105,
+      "spd": 85,
       "spe": 78
     },
     "abilities": [
-      "Torrent"
+      "—"
     ],
     "metaUsage": 16,
     "metaUsagePct": 3.1,
@@ -4147,21 +3516,19 @@
         "usagePct": 100.0,
         "isMega": true
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Palafin",
-    "displayName": "Palafin",
     "types": [
       "Water"
     ],
     "baseStats": {
       "hp": 100,
-      "atk": 160,
-      "def": 97,
-      "spa": 106,
-      "spd": 87,
+      "atk": 70,
+      "def": 72,
+      "spa": 53,
+      "spd": 62,
       "spe": 100
     },
     "abilities": [
@@ -4209,105 +3576,16 @@
         "usagePct": 80.0,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Arcanine-Hisui",
-    "displayName": "Arcanine-Hisui",
-    "types": [
-      "Fire",
-      "Rock"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 115,
-      "def": 80,
-      "spa": 95,
-      "spd": 80,
-      "spe": 90
-    },
-    "abilities": [
-      "Intimidate",
-      "Rock Head"
-    ],
-    "metaUsage": 13,
-    "metaUsagePct": 2.5,
-    "topItem": "Choice Scarf",
-    "topNature": "Adamant",
-    "topAbility": "Intimidate",
-    "topMoves": [
-      "Rock Slide",
-      "Flare Blitz",
-      "Extreme Speed",
-      "Protect"
-    ],
-    "avgEvs": {
-      "HP": 9,
-      "Atk": 30,
-      "Spe": 28,
-      "Def": 2,
-      "SpD": 6
-    },
-    "metaSets": [
-      {
-        "name": "Choice Scarf",
-        "item": "Choice Scarf",
-        "ability": "Intimidate",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 6,
-          "Atk": 30,
-          "Spe": 30,
-          "Def": 1,
-          "SpD": 1
-        },
-        "evsStr": "6 HP / 30 Atk / 1 Def / 1 SpD / 30 Spe",
-        "moves": [
-          "Rock Slide",
-          "Flare Blitz",
-          "Extreme Speed",
-          "Close Combat"
-        ],
-        "count": 4,
-        "usagePct": 30.8,
-        "isMega": false
-      },
-      {
-        "name": "White Herb",
-        "item": "White Herb",
-        "ability": "Intimidate",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 10,
-          "Atk": 29,
-          "Def": 1,
-          "SpD": 1,
-          "Spe": 26
-        },
-        "evsStr": "10 HP / 29 Atk / 1 Def / 1 SpD / 26 Spe",
-        "moves": [
-          "Flare Blitz",
-          "Rock Slide",
-          "Extreme Speed",
-          "Protect"
-        ],
-        "count": 3,
-        "usagePct": 23.1,
-        "isMega": false
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Typhlosion-Hisui",
-    "displayName": "Typhlosion-Hisui",
     "types": [
       "Fire",
       "Ghost"
     ],
     "baseStats": {
-      "hp": 84,
+      "hp": 73,
       "atk": 84,
       "def": 78,
       "spa": 119,
@@ -4315,8 +3593,7 @@
       "spe": 95
     },
     "abilities": [
-      "Blaze",
-      "Frisk"
+      "Blaze"
     ],
     "metaUsage": 13,
     "metaUsagePct": 2.5,
@@ -4357,12 +3634,10 @@
         "usagePct": 84.6,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Maushold",
-    "displayName": "Maushold",
     "types": [
       "Normal"
     ],
@@ -4375,8 +3650,7 @@
       "spe": 111
     },
     "abilities": [
-      "Friend Guard",
-      "Technician"
+      "Friend Guard"
     ],
     "metaUsage": 12,
     "metaUsagePct": 2.3,
@@ -4440,12 +3714,10 @@
         "usagePct": 25.0,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Tsareena",
-    "displayName": "Tsareena (F)",
     "types": [
       "Grass"
     ],
@@ -4458,7 +3730,6 @@
       "spe": 72
     },
     "abilities": [
-      "Queenly Majesty",
       "Leaf Guard"
     ],
     "metaUsage": 12,
@@ -4526,137 +3797,10 @@
         "usagePct": 25.0,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Primarina",
-    "displayName": "Primarina",
-    "types": [
-      "Water",
-      "Fairy"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "atk": 74,
-      "def": 74,
-      "spa": 126,
-      "spd": 116,
-      "spe": 60
-    },
-    "abilities": [
-      "Torrent",
-      "Liquid Voice"
-    ],
-    "metaUsage": 10,
-    "metaUsagePct": 1.9,
-    "topItem": "Mystic Water",
-    "topNature": "Quiet",
-    "topAbility": "Liquid Voice",
-    "topMoves": [
-      "Hyper Voice",
-      "Moonblast",
-      "Protect",
-      "Substitute"
-    ],
-    "avgEvs": {
-      "HP": 28,
-      "Def": 10,
-      "SpA": 26,
-      "Spe": 3
-    },
-    "metaSets": [
-      {
-        "name": "Mystic Water",
-        "item": "Mystic Water",
-        "ability": "Liquid Voice",
-        "nature": "Quiet",
-        "evs": {
-          "HP": 30,
-          "Def": 8,
-          "SpA": 27,
-          "Spe": 2
-        },
-        "evsStr": "30 HP / 8 Def / 27 SpA / 2 Spe",
-        "moves": [
-          "Hyper Voice",
-          "Moonblast",
-          "Protect",
-          "Substitute"
-        ],
-        "count": 6,
-        "usagePct": 60.0,
-        "isMega": false
-      }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Starmie",
-    "displayName": "Starmie",
-    "types": [
-      "Water",
-      "Psychic"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "atk": 75,
-      "def": 85,
-      "spa": 100,
-      "spd": 85,
-      "spe": 115
-    },
-    "abilities": [
-      "Analytic"
-    ],
-    "metaUsage": 10,
-    "metaUsagePct": 1.9,
-    "topItem": "Starminite",
-    "topNature": "Adamant",
-    "topAbility": "Natural Cure",
-    "topMoves": [
-      "Liquidation",
-      "Protect",
-      "Zen Headbutt",
-      "Aqua Jet"
-    ],
-    "avgEvs": {
-      "HP": 5,
-      "Atk": 32,
-      "Spe": 29,
-      "Def": 3,
-      "SpD": 13
-    },
-    "metaSets": [
-      {
-        "name": "Starmin-Mega",
-        "item": "Starminite",
-        "ability": "Analytic",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 2,
-          "Atk": 32,
-          "Spe": 32,
-          "Def": 1,
-          "SpD": 1
-        },
-        "evsStr": "2 HP / 32 Atk / 1 Def / 1 SpD / 32 Spe",
-        "moves": [
-          "Liquidation",
-          "Protect",
-          "Zen Headbutt",
-          "Aqua Jet"
-        ],
-        "count": 9,
-        "usagePct": 90.0,
-        "isMega": true
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Mamoswine",
-    "displayName": "Mamoswine",
     "types": [
       "Ice",
       "Ground"
@@ -4670,8 +3814,7 @@
       "spe": 80
     },
     "abilities": [
-      "Oblivious",
-      "Snow Cloak"
+      "Oblivious"
     ],
     "metaUsage": 10,
     "metaUsagePct": 1.9,
@@ -4736,12 +3879,10 @@
         "usagePct": 30.0,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Meowscarada",
-    "displayName": "Meowscarada",
     "types": [
       "Grass",
       "Dark"
@@ -4755,8 +3896,7 @@
       "spe": 123
     },
     "abilities": [
-      "Overgrow",
-      "Protean"
+      "Overgrow"
     ],
     "metaUsage": 10,
     "metaUsagePct": 1.9,
@@ -4822,12 +3962,273 @@
         "usagePct": 50.0,
         "isMega": false
       }
+    ]
+  },
+  {
+    "name": "Primarina",
+    "types": [
+      "Water",
+      "Fairy"
     ],
-    "notes": ""
+    "baseStats": {
+      "hp": 80,
+      "atk": 74,
+      "def": 74,
+      "spa": 126,
+      "spd": 116,
+      "spe": 60
+    },
+    "abilities": [
+      "Torrent"
+    ],
+    "metaUsage": 10,
+    "metaUsagePct": 1.9,
+    "topItem": "Mystic Water",
+    "topNature": "Quiet",
+    "topAbility": "Liquid Voice",
+    "topMoves": [
+      "Hyper Voice",
+      "Moonblast",
+      "Protect",
+      "Substitute"
+    ],
+    "avgEvs": {
+      "HP": 28,
+      "Def": 10,
+      "SpA": 26,
+      "Spe": 3
+    },
+    "metaSets": [
+      {
+        "name": "Mystic Water",
+        "item": "Mystic Water",
+        "ability": "Liquid Voice",
+        "nature": "Quiet",
+        "evs": {
+          "HP": 30,
+          "Def": 8,
+          "SpA": 27,
+          "Spe": 2
+        },
+        "evsStr": "30 HP / 8 Def / 27 SpA / 2 Spe",
+        "moves": [
+          "Hyper Voice",
+          "Moonblast",
+          "Protect",
+          "Substitute"
+        ],
+        "count": 6,
+        "usagePct": 60.0,
+        "isMega": false
+      }
+    ]
+  },
+  {
+    "name": "Starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 85,
+      "spa": 100,
+      "spd": 100,
+      "spe": 115
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 10,
+    "metaUsagePct": 1.9,
+    "topItem": "Starminite",
+    "topNature": "Adamant",
+    "topAbility": "Natural Cure",
+    "topMoves": [
+      "Liquidation",
+      "Protect",
+      "Zen Headbutt",
+      "Aqua Jet"
+    ],
+    "avgEvs": {
+      "HP": 5,
+      "Atk": 32,
+      "Spe": 29,
+      "Def": 3,
+      "SpD": 13
+    },
+    "metaSets": [
+      {
+        "name": "Starmin-Mega",
+        "item": "Starminite",
+        "ability": "Analytic",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 2,
+          "Atk": 32,
+          "Spe": 32,
+          "Def": 1,
+          "SpD": 1
+        },
+        "evsStr": "2 HP / 32 Atk / 1 Def / 1 SpD / 32 Spe",
+        "moves": [
+          "Liquidation",
+          "Protect",
+          "Zen Headbutt",
+          "Aqua Jet"
+        ],
+        "count": 9,
+        "usagePct": 90.0,
+        "isMega": true
+      }
+    ]
+  },
+  {
+    "name": "Arcanine",
+    "types": [
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 110,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 95
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 9,
+    "metaUsagePct": 1.8,
+    "topItem": "Sitrus Berry",
+    "topNature": "Adamant",
+    "topAbility": "Intimidate",
+    "topMoves": [
+      "Flare Blitz",
+      "Extreme Speed",
+      "Protect",
+      "Will-O-Wisp"
+    ],
+    "avgEvs": {
+      "HP": 48,
+      "Atk": 20,
+      "Def": 20,
+      "SpD": 5,
+      "Spe": 38,
+      "SpA": 10
+    },
+    "metaSets": [
+      {
+        "name": "Sitrus Berry",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 23,
+          "Atk": 18,
+          "Def": 6,
+          "SpD": 6,
+          "Spe": 13,
+          "SpA": 1
+        },
+        "evsStr": "23 HP / 18 Atk / 6 Def / 1 SpA / 6 SpD / 13 Spe",
+        "moves": [
+          "Flare Blitz",
+          "Extreme Speed",
+          "Protect",
+          "Will-O-Wisp"
+        ],
+        "count": 5,
+        "usagePct": 55.6,
+        "isMega": false
+      },
+      {
+        "name": "Black Belt",
+        "item": "Black Belt",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 27,
+          "Atk": 22,
+          "Spe": 16,
+          "SpD": 1
+        },
+        "evsStr": "27 HP / 22 Atk / 1 SpD / 16 Spe",
+        "moves": [
+          "Flare Blitz",
+          "Close Combat",
+          "Extreme Speed",
+          "Protect"
+        ],
+        "count": 3,
+        "usagePct": 33.3,
+        "isMega": false
+      }
+    ]
+  },
+  {
+    "name": "Conkeldurr",
+    "types": [
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "atk": 140,
+      "def": 95,
+      "spa": 55,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": [
+      "Guts"
+    ],
+    "metaUsage": 9,
+    "metaUsagePct": 1.8,
+    "topItem": "Black Belt",
+    "topNature": "Adamant",
+    "topAbility": "Iron Fist",
+    "topMoves": [
+      "Drain Punch",
+      "Mach Punch",
+      "Protect",
+      "Ice Punch"
+    ],
+    "avgEvs": {
+      "HP": 27,
+      "Atk": 29,
+      "SpD": 10,
+      "Def": 2,
+      "Spe": 1
+    },
+    "metaSets": [
+      {
+        "name": "Black Belt",
+        "item": "Black Belt",
+        "ability": "Iron Fist",
+        "nature": "Adamant",
+        "evs": {
+          "HP": 30,
+          "Atk": 29,
+          "SpD": 7,
+          "Def": 2
+        },
+        "evsStr": "30 HP / 29 Atk / 2 Def / 7 SpD",
+        "moves": [
+          "Drain Punch",
+          "Mach Punch",
+          "Protect",
+          "Ice Punch"
+        ],
+        "count": 6,
+        "usagePct": 66.7,
+        "isMega": false
+      }
+    ]
   },
   {
     "name": "Floette-Eternal",
-    "displayName": "Floette-Eternal",
     "types": [
       "Fairy"
     ],
@@ -4884,12 +4285,10 @@
         "usagePct": 1100.0,
         "isMega": true
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Mimikyu",
-    "displayName": "Mimikyu",
     "types": [
       "Ghost",
       "Fairy"
@@ -4968,161 +4367,10 @@
         "usagePct": 33.3,
         "isMega": false
       }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Arcanine",
-    "displayName": "Arcanine",
-    "types": [
-      "Fire"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "atk": 110,
-      "def": 80,
-      "spa": 100,
-      "spd": 80,
-      "spe": 95
-    },
-    "abilities": [
-      "Intimidate",
-      "Flash Fire"
-    ],
-    "metaUsage": 9,
-    "metaUsagePct": 1.8,
-    "topItem": "Sitrus Berry",
-    "topNature": "Adamant",
-    "topAbility": "Intimidate",
-    "topMoves": [
-      "Flare Blitz",
-      "Extreme Speed",
-      "Protect",
-      "Will-O-Wisp"
-    ],
-    "avgEvs": {
-      "HP": 48,
-      "Atk": 20,
-      "Def": 20,
-      "SpD": 5,
-      "Spe": 38,
-      "SpA": 10
-    },
-    "metaSets": [
-      {
-        "name": "Sitrus Berry",
-        "item": "Sitrus Berry",
-        "ability": "Intimidate",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 23,
-          "Atk": 18,
-          "Def": 6,
-          "SpD": 6,
-          "Spe": 13,
-          "SpA": 1
-        },
-        "evsStr": "23 HP / 18 Atk / 6 Def / 1 SpA / 6 SpD / 13 Spe",
-        "moves": [
-          "Flare Blitz",
-          "Extreme Speed",
-          "Protect",
-          "Will-O-Wisp"
-        ],
-        "count": 5,
-        "usagePct": 55.6,
-        "isMega": false
-      },
-      {
-        "name": "Black Belt",
-        "item": "Black Belt",
-        "ability": "Intimidate",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 27,
-          "Atk": 22,
-          "Spe": 16,
-          "SpD": 1
-        },
-        "evsStr": "27 HP / 22 Atk / 1 SpD / 16 Spe",
-        "moves": [
-          "Flare Blitz",
-          "Close Combat",
-          "Extreme Speed",
-          "Protect"
-        ],
-        "count": 3,
-        "usagePct": 33.3,
-        "isMega": false
-      }
-    ],
-    "notes": ""
-  },
-  {
-    "name": "Conkeldurr",
-    "displayName": "Conkeldurr",
-    "types": [
-      "Fighting"
-    ],
-    "baseStats": {
-      "hp": 105,
-      "atk": 140,
-      "def": 95,
-      "spa": 55,
-      "spd": 65,
-      "spe": 45
-    },
-    "abilities": [
-      "Guts",
-      "Iron Fist"
-    ],
-    "metaUsage": 9,
-    "metaUsagePct": 1.8,
-    "topItem": "Black Belt",
-    "topNature": "Adamant",
-    "topAbility": "Iron Fist",
-    "topMoves": [
-      "Drain Punch",
-      "Mach Punch",
-      "Protect",
-      "Ice Punch"
-    ],
-    "avgEvs": {
-      "HP": 27,
-      "Atk": 29,
-      "SpD": 10,
-      "Def": 2,
-      "Spe": 1
-    },
-    "metaSets": [
-      {
-        "name": "Black Belt",
-        "item": "Black Belt",
-        "ability": "Iron Fist",
-        "nature": "Adamant",
-        "evs": {
-          "HP": 30,
-          "Atk": 29,
-          "SpD": 7,
-          "Def": 2
-        },
-        "evsStr": "30 HP / 29 Atk / 2 Def / 7 SpD",
-        "moves": [
-          "Drain Punch",
-          "Mach Punch",
-          "Protect",
-          "Ice Punch"
-        ],
-        "count": 6,
-        "usagePct": 66.7,
-        "isMega": false
-      }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Volcarona",
-    "displayName": "Volcarona",
     "types": [
       "Bug",
       "Fire"
@@ -5136,8 +4384,7 @@
       "spe": 100
     },
     "abilities": [
-      "Flame Body",
-      "Swarm"
+      "Flame Body"
     ],
     "metaUsage": 8,
     "metaUsagePct": 1.6,
@@ -5181,12 +4428,10 @@
         "usagePct": 37.5,
         "isMega": false
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Froslass",
-    "displayName": "Froslass",
     "types": [
       "Ice",
       "Ghost"
@@ -5200,7 +4445,6 @@
       "spe": 110
     },
     "abilities": [
-      "Cursed Body",
       "Snow Cloak"
     ],
     "metaUsage": 7,
@@ -5245,12 +4489,10 @@
         "usagePct": 728.6,
         "isMega": true
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "name": "Manectric",
-    "displayName": "Manectric",
     "types": [
       "Electric"
     ],
@@ -5263,8 +4505,7 @@
       "spe": 105
     },
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      "Static"
     ],
     "metaUsage": 7,
     "metaUsagePct": 1.4,
@@ -5308,7 +4549,5879 @@
         "usagePct": 100.0,
         "isMega": true
       }
+    ]
+  },
+  {
+    "name": "Abomasnow-Mega",
+    "types": [
+      "Grass",
+      "Ice"
     ],
-    "notes": ""
+    "baseStats": {
+      "hp": 90,
+      "atk": 132,
+      "def": 105,
+      "spa": 132,
+      "spd": 105,
+      "spe": 30
+    },
+    "abilities": [
+      "Snow Warning"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Snow Warning",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Absol",
+    "types": [
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 130,
+      "def": 60,
+      "spa": 75,
+      "spd": 60,
+      "spe": 75
+    },
+    "abilities": [
+      "Pressure"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pressure",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Absol-Mega",
+    "types": [
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 150,
+      "def": 60,
+      "spa": 115,
+      "spd": 60,
+      "spe": 115
+    },
+    "abilities": [
+      "Magic Bounce"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Magic Bounce",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Aegislash-Blade",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 150,
+      "def": 50,
+      "spa": 150,
+      "spd": 50,
+      "spe": 60
+    },
+    "abilities": [
+      "Stance Change"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Stance Change",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Aegislash-Both",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 150,
+      "def": 150,
+      "spa": 150,
+      "spd": 150,
+      "spe": 60
+    },
+    "abilities": [
+      "Stance Change"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Stance Change",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Aegislash-Shield",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 150,
+      "spa": 50,
+      "spd": 150,
+      "spe": 60
+    },
+    "abilities": [
+      "Stance Change"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Stance Change",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Aerodactyl-Mega",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 135,
+      "def": 85,
+      "spa": 70,
+      "spd": 95,
+      "spe": 150
+    },
+    "abilities": [
+      "Tough Claws"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Tough Claws",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Aggron",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 180,
+      "spa": 60,
+      "spd": 60,
+      "spe": 50
+    },
+    "abilities": [
+      "Sturdy"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sturdy",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Aggron-Mega",
+    "types": [
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 140,
+      "def": 230,
+      "spa": 60,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": [
+      "Filter"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Filter",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 50,
+      "def": 45,
+      "spa": 135,
+      "spd": 135,
+      "spe": 120
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Alakazam-Mega",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 50,
+      "def": 65,
+      "spa": 175,
+      "spd": 95,
+      "spe": 150
+    },
+    "abilities": [
+      "Trace"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Trace",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Alcremie",
+    "types": [
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 75,
+      "spa": 110,
+      "spd": 121,
+      "spe": 64
+    },
+    "abilities": [
+      "Sweet Veil"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sweet Veil",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Altaria",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 70,
+      "def": 90,
+      "spa": 70,
+      "spd": 105,
+      "spe": 80
+    },
+    "abilities": [
+      "Natural Cure"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Natural Cure",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Altaria-Mega",
+    "types": [
+      "Dragon",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 110,
+      "spa": 110,
+      "spd": 105,
+      "spe": 80
+    },
+    "abilities": [
+      "Pixilate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pixilate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Ampharos",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 75,
+      "def": 75,
+      "spa": 115,
+      "spd": 90,
+      "spe": 55
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Ampharos-Mega",
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 95,
+      "def": 105,
+      "spa": 165,
+      "spd": 110,
+      "spe": 45
+    },
+    "abilities": [
+      "Mold Breaker"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mold Breaker",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Appletun",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 85,
+      "def": 80,
+      "spa": 100,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": [
+      "Ripen"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Ripen",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Araquanid",
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 70,
+      "def": 92,
+      "spa": 50,
+      "spd": 132,
+      "spe": 42
+    },
+    "abilities": [
+      "Water Bubble"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Water Bubble",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Arbok",
+    "types": [
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 69,
+      "spa": 65,
+      "spd": 65,
+      "spe": 80
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Ariados",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 90,
+      "def": 70,
+      "spa": 60,
+      "spd": 60,
+      "spe": 40
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Armarouge",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 60,
+      "def": 100,
+      "spa": 125,
+      "spd": 80,
+      "spe": 75
+    },
+    "abilities": [
+      "Flash Fire"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Flash Fire",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Aromatisse",
+    "types": [
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 101,
+      "atk": 72,
+      "def": 72,
+      "spa": 99,
+      "spd": 89,
+      "spe": 29
+    },
+    "abilities": [
+      "Healer"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Healer",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Audino-Mega",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 103,
+      "atk": 60,
+      "def": 126,
+      "spa": 80,
+      "spd": 126,
+      "spe": 50
+    },
+    "abilities": [
+      "Healer"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Healer",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Aurorus",
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 123,
+      "atk": 77,
+      "def": 72,
+      "spa": 99,
+      "spd": 92,
+      "spe": 58
+    },
+    "abilities": [
+      "Refrigerate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Refrigerate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Avalugg",
+    "types": [
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 117,
+      "def": 184,
+      "spa": 44,
+      "spd": 46,
+      "spe": 28
+    },
+    "abilities": [
+      "Own Tempo"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Own Tempo",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Avalugg-Hisui",
+    "types": [
+      "Ice",
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 127,
+      "def": 184,
+      "spa": 34,
+      "spd": 36,
+      "spe": 38
+    },
+    "abilities": [
+      "Strong Jaw"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Strong Jaw",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Azumarill",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 50,
+      "def": 80,
+      "spa": 50,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Banette",
+    "types": [
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 64,
+      "atk": 115,
+      "def": 65,
+      "spa": 83,
+      "spd": 63,
+      "spe": 65
+    },
+    "abilities": [
+      "Insomnia"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Insomnia",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Banette-Mega",
+    "types": [
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 64,
+      "atk": 165,
+      "def": 75,
+      "spa": 93,
+      "spd": 83,
+      "spe": 75
+    },
+    "abilities": [
+      "Prankster"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Prankster",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Basculegion-F",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 120,
+      "atk": 92,
+      "def": 65,
+      "spa": 100,
+      "spd": 75,
+      "spe": 78
+    },
+    "abilities": [
+      "Swift Swim"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Swift Swim",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Bastiodon",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 52,
+      "def": 168,
+      "spa": 47,
+      "spd": 138,
+      "spe": 30
+    },
+    "abilities": [
+      "Sturdy"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sturdy",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Beartic",
+    "types": [
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 110,
+      "def": 80,
+      "spa": 70,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": [
+      "Snow Cloak"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Snow Cloak",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 80,
+      "def": 40,
+      "spa": 45,
+      "spd": 45,
+      "spe": 75
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Beedrill-Mega",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 150,
+      "def": 40,
+      "spa": 15,
+      "spd": 80,
+      "spe": 145
+    },
+    "abilities": [
+      "Adaptability"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Adaptability",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Bellibolt",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 109,
+      "atk": 64,
+      "def": 91,
+      "spa": 103,
+      "spd": 83,
+      "spe": 45
+    },
+    "abilities": [
+      "Electromorphosis"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Electromorphosis",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Blastoise-Mega",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 79,
+      "atk": 103,
+      "def": 120,
+      "spa": 135,
+      "spd": 115,
+      "spe": 78
+    },
+    "abilities": [
+      "Mega Launcher"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mega Launcher",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Camerupt",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 100,
+      "def": 70,
+      "spa": 105,
+      "spd": 75,
+      "spe": 40
+    },
+    "abilities": [
+      "Magma Armor"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Magma Armor",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Camerupt-Mega",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 100,
+      "spa": 145,
+      "spd": 105,
+      "spe": 20
+    },
+    "abilities": [
+      "Sheer Force"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sheer Force",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Castform",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 70,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      "Forecast"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Forecast",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Castform-Rainy",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 70,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      "Forecast"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Forecast",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Castform-Snowy",
+    "types": [
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 70,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      "Forecast"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Forecast",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Castform-Sunny",
+    "types": [
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 70,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      "Forecast"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Forecast",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Ceruledge",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 80,
+      "spa": 60,
+      "spd": 100,
+      "spe": 85
+    },
+    "abilities": [
+      "Flash Fire"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Flash Fire",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Chandelure",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 55,
+      "def": 90,
+      "spa": 145,
+      "spd": 90,
+      "spe": 80
+    },
+    "abilities": [
+      "Flash Fire"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Flash Fire",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Chandelure-Mega",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 110,
+      "spa": 175,
+      "spd": 110,
+      "spe": 90
+    },
+    "abilities": [
+      "Infiltrator"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Infiltrator",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Charizard-Mega-X",
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 130,
+      "def": 111,
+      "spa": 130,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": [
+      "Tough Claws"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Tough Claws",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Charizard-Mega-Y",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 104,
+      "def": 78,
+      "spa": 159,
+      "spd": 115,
+      "spe": 100
+    },
+    "abilities": [
+      "Drought"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Drought",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Chesnaught",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 88,
+      "atk": 107,
+      "def": 122,
+      "spa": 74,
+      "spd": 75,
+      "spe": 64
+    },
+    "abilities": [
+      "Overgrow"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Overgrow",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Chesnaught-Mega",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 88,
+      "atk": 137,
+      "def": 172,
+      "spa": 74,
+      "spd": 115,
+      "spe": 44
+    },
+    "abilities": [
+      "Bulletproof"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Bulletproof",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Chimecho",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 50,
+      "def": 70,
+      "spa": 95,
+      "spd": 80,
+      "spe": 65
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Levitate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Chimecho-Mega",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 50,
+      "def": 110,
+      "spa": 135,
+      "spd": 120,
+      "spe": 65
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Levitate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Clawitzer",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 71,
+      "atk": 73,
+      "def": 88,
+      "spa": 120,
+      "spd": 89,
+      "spe": 59
+    },
+    "abilities": [
+      "Mega Launcher"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mega Launcher",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Clefable-Mega",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 80,
+      "def": 93,
+      "spa": 135,
+      "spd": 110,
+      "spe": 70
+    },
+    "abilities": [
+      "Magic Bounce"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Magic Bounce",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Cofagrigus",
+    "types": [
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "atk": 50,
+      "def": 145,
+      "spa": 95,
+      "spd": 105,
+      "spe": 30
+    },
+    "abilities": [
+      "Mummy"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mummy",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Crabominable",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 97,
+      "atk": 132,
+      "def": 77,
+      "spa": 62,
+      "spd": 67,
+      "spe": 43
+    },
+    "abilities": [
+      "Hyper Cutter"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Hyper Cutter",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Crabominable-Mega",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 97,
+      "atk": 157,
+      "def": 122,
+      "spa": 62,
+      "spd": 107,
+      "spe": 33
+    },
+    "abilities": [
+      "Iron Fist"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Iron Fist",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Decidueye",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 107,
+      "def": 75,
+      "spa": 100,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": [
+      "Overgrow"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Overgrow",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Decidueye-Hisui",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 88,
+      "atk": 112,
+      "def": 80,
+      "spa": 95,
+      "spd": 95,
+      "spe": 60
+    },
+    "abilities": [
+      "Overgrow"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Overgrow",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Dedenne",
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 67,
+      "atk": 58,
+      "def": 57,
+      "spa": 81,
+      "spd": 67,
+      "spe": 101
+    },
+    "abilities": [
+      "Cheek Pouch"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Cheek Pouch",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Delphox-Mega",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 69,
+      "def": 72,
+      "spa": 159,
+      "spd": 125,
+      "spe": 134
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Levitate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Diggersby",
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 56,
+      "def": 77,
+      "spa": 50,
+      "spd": 77,
+      "spe": 78
+    },
+    "abilities": [
+      "Pickup"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pickup",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Ditto",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 48,
+      "atk": 48,
+      "def": 48,
+      "spa": 48,
+      "spd": 48,
+      "spe": 48
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Dragonite-Mega",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 91,
+      "atk": 124,
+      "def": 115,
+      "spa": 145,
+      "spd": 125,
+      "spe": 100
+    },
+    "abilities": [
+      "Multiscale"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Multiscale",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Drampa",
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 60,
+      "def": 85,
+      "spa": 135,
+      "spd": 91,
+      "spe": 36
+    },
+    "abilities": [
+      "Berserk"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Berserk",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Drampa-Mega",
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 85,
+      "def": 110,
+      "spa": 160,
+      "spd": 116,
+      "spe": 36
+    },
+    "abilities": [
+      "Berserk"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Berserk",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Emboar",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 123,
+      "def": 65,
+      "spa": 100,
+      "spd": 65,
+      "spe": 65
+    },
+    "abilities": [
+      "Blaze"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Blaze",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Emboar-Mega",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 148,
+      "def": 75,
+      "spa": 110,
+      "spd": 110,
+      "spe": 75
+    },
+    "abilities": [
+      "Mold Breaker"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mold Breaker",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Emolga",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 75,
+      "def": 60,
+      "spa": 75,
+      "spd": 60,
+      "spe": 103
+    },
+    "abilities": [
+      "Static"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Static",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Empoleon",
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 84,
+      "atk": 86,
+      "def": 88,
+      "spa": 111,
+      "spd": 101,
+      "spe": 60
+    },
+    "abilities": [
+      "Torrent"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Torrent",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Espathra",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 60,
+      "spa": 101,
+      "spd": 60,
+      "spe": 105
+    },
+    "abilities": [
+      "Opportunist"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Opportunist",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Espeon",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 65,
+      "def": 60,
+      "spa": 130,
+      "spd": 95,
+      "spe": 110
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Excadrill-Mega",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 165,
+      "def": 100,
+      "spa": 65,
+      "spd": 65,
+      "spe": 103
+    },
+    "abilities": [
+      "Piercing Drill"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Piercing Drill",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Feraligatr",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 105,
+      "def": 100,
+      "spa": 79,
+      "spd": 83,
+      "spe": 78
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Feraligatr-Mega",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 160,
+      "def": 125,
+      "spa": 89,
+      "spd": 93,
+      "spe": 78
+    },
+    "abilities": [
+      "Dragonize"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Dragonize",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Flapple",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 80,
+      "spa": 95,
+      "spd": 60,
+      "spe": 70
+    },
+    "abilities": [
+      "Ripen"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Ripen",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Flareon",
+    "types": [
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 130,
+      "def": 60,
+      "spa": 110,
+      "spd": 110,
+      "spe": 65
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Floette-Mega",
+    "types": [
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 85,
+      "def": 87,
+      "spa": 155,
+      "spd": 148,
+      "spe": 102
+    },
+    "abilities": [
+      "Fairy Aura"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Fairy Aura",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Florges",
+    "types": [
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 65,
+      "def": 68,
+      "spa": 112,
+      "spd": 154,
+      "spe": 75
+    },
+    "abilities": [
+      "Flower Veil"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Flower Veil",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Forretress",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 90,
+      "def": 140,
+      "spa": 60,
+      "spd": 60,
+      "spe": 40
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Froslass-Mega",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 70,
+      "spa": 140,
+      "spd": 100,
+      "spe": 120
+    },
+    "abilities": [
+      "Snow Warning"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Snow Warning",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Furfrou",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 60,
+      "spa": 65,
+      "spd": 90,
+      "spe": 102
+    },
+    "abilities": [
+      "Fur Coat"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Fur Coat",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gallade",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 125,
+      "def": 65,
+      "spa": 65,
+      "spd": 115,
+      "spe": 80
+    },
+    "abilities": [
+      "Steadfast"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Steadfast",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gallade-Mega",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 165,
+      "def": 95,
+      "spa": 65,
+      "spd": 115,
+      "spe": 110
+    },
+    "abilities": [
+      "Inner Focus"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Inner Focus",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Garbodor",
+    "types": [
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 95,
+      "def": 82,
+      "spa": 60,
+      "spd": 82,
+      "spe": 75
+    },
+    "abilities": [
+      "Stench"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Stench",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Garchomp-Mega",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 108,
+      "atk": 170,
+      "def": 115,
+      "spa": 120,
+      "spd": 95,
+      "spe": 92
+    },
+    "abilities": [
+      "Sand Force"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sand Force",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gardevoir-Mega",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 85,
+      "def": 65,
+      "spa": 165,
+      "spd": 135,
+      "spe": 100
+    },
+    "abilities": [
+      "Pixilate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pixilate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Garganacl",
+    "types": [
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 130,
+      "spa": 45,
+      "spd": 90,
+      "spe": 35
+    },
+    "abilities": [
+      "Purifying Salt"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Purifying Salt",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gengar-Mega",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 80,
+      "spa": 170,
+      "spd": 95,
+      "spe": 130
+    },
+    "abilities": [
+      "Shadow Tag"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Shadow Tag",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Glaceon",
+    "types": [
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 110,
+      "spa": 130,
+      "spd": 95,
+      "spe": 65
+    },
+    "abilities": [
+      "Snow Cloak"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Snow Cloak",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Glalie",
+    "types": [
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 80
+    },
+    "abilities": [
+      "Inner Focus"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Inner Focus",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Glalie-Mega",
+    "types": [
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 80,
+      "spa": 120,
+      "spd": 80,
+      "spe": 100
+    },
+    "abilities": [
+      "Refrigerate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Refrigerate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Glimmora-Mega",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 90,
+      "def": 105,
+      "spa": 150,
+      "spd": 96,
+      "spe": 101
+    },
+    "abilities": [
+      "Adaptability"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Adaptability",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gliscor",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 125,
+      "spa": 45,
+      "spd": 75,
+      "spe": 95
+    },
+    "abilities": [
+      "Hyper Cutter"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Hyper Cutter",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Golurk",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 89,
+      "atk": 124,
+      "def": 80,
+      "spa": 55,
+      "spd": 80,
+      "spe": 55
+    },
+    "abilities": [
+      "Iron Fist"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Iron Fist",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Golurk-Mega",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 89,
+      "atk": 159,
+      "def": 105,
+      "spa": 70,
+      "spd": 105,
+      "spe": 55
+    },
+    "abilities": [
+      "Unseen Fist"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Unseen Fist",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Goodra",
+    "types": [
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 70,
+      "spa": 110,
+      "spd": 150,
+      "spe": 80
+    },
+    "abilities": [
+      "Sap Sipper"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sap Sipper",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Goodra-Hisui",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 100,
+      "spa": 110,
+      "spd": 150,
+      "spe": 60
+    },
+    "abilities": [
+      "Sap Sipper"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sap Sipper",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gourgeist",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 122,
+      "spa": 58,
+      "spd": 75,
+      "spe": 84
+    },
+    "abilities": [
+      "Pickup"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pickup",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gourgeist-Large",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 122,
+      "spa": 58,
+      "spd": 75,
+      "spe": 69
+    },
+    "abilities": [
+      "Pickup"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pickup",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gourgeist-Small",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 85,
+      "def": 122,
+      "spa": 58,
+      "spd": 75,
+      "spe": 99
+    },
+    "abilities": [
+      "Pickup"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pickup",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gourgeist-Super",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 100,
+      "def": 122,
+      "spa": 58,
+      "spd": 75,
+      "spe": 54
+    },
+    "abilities": [
+      "Pickup"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pickup",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Greninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 95,
+      "def": 67,
+      "spa": 103,
+      "spd": 71,
+      "spe": 122
+    },
+    "abilities": [
+      "Torrent"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Torrent",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Greninja-Mega",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 125,
+      "def": 77,
+      "spa": 133,
+      "spd": 81,
+      "spe": 142
+    },
+    "abilities": [
+      "Protean"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Protean",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Gyarados-Mega",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 155,
+      "def": 109,
+      "spa": 70,
+      "spd": 130,
+      "spe": 81
+    },
+    "abilities": [
+      "Mold Breaker"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mold Breaker",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Hatterene",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 57,
+      "atk": 90,
+      "def": 95,
+      "spa": 136,
+      "spd": 103,
+      "spe": 29
+    },
+    "abilities": [
+      "Healer"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Healer",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Hawlucha",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 92,
+      "def": 75,
+      "spa": 74,
+      "spd": 63,
+      "spe": 118
+    },
+    "abilities": [
+      "Limber"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Limber",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Hawlucha-Mega",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 137,
+      "def": 100,
+      "spa": 74,
+      "spd": 93,
+      "spe": 118
+    },
+    "abilities": [
+      "Limber"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Limber",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Heliolisk",
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 62,
+      "atk": 55,
+      "def": 52,
+      "spa": 109,
+      "spd": 94,
+      "spe": 109
+    },
+    "abilities": [
+      "Dry Skin"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Dry Skin",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Heracross",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 125,
+      "def": 75,
+      "spa": 40,
+      "spd": 95,
+      "spe": 85
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Heracross-Mega",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 185,
+      "def": 115,
+      "spa": 40,
+      "spd": 105,
+      "spe": 75
+    },
+    "abilities": [
+      "Skill Link"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Skill Link",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Hippowdon",
+    "types": [
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 108,
+      "atk": 112,
+      "def": 118,
+      "spa": 68,
+      "spd": 72,
+      "spe": 47
+    },
+    "abilities": [
+      "Sand Stream"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sand Stream",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Houndoom",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 90,
+      "def": 50,
+      "spa": 110,
+      "spd": 80,
+      "spe": 95
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Houndoom-Mega",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 90,
+      "def": 90,
+      "spa": 140,
+      "spd": 90,
+      "spe": 115
+    },
+    "abilities": [
+      "Solar Power"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Solar Power",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Hydrapple",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 106,
+      "atk": 80,
+      "def": 110,
+      "spa": 120,
+      "spd": 80,
+      "spe": 44
+    },
+    "abilities": [
+      "Supersweet Syrup"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Supersweet Syrup",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Infernape",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 76,
+      "atk": 104,
+      "def": 71,
+      "spa": 104,
+      "spd": 71,
+      "spe": 108
+    },
+    "abilities": [
+      "Blaze"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Blaze",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Jolteon",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 65,
+      "def": 60,
+      "spa": 110,
+      "spd": 110,
+      "spe": 130
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Kangaskhan-Mega",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "atk": 125,
+      "def": 100,
+      "spa": 60,
+      "spd": 100,
+      "spe": 100
+    },
+    "abilities": [
+      "Parental Bond"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Parental Bond",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Kleavor",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 135,
+      "def": 95,
+      "spa": 45,
+      "spd": 70,
+      "spe": 85
+    },
+    "abilities": [
+      "Swarm"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Swarm",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Klefki",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 57,
+      "atk": 80,
+      "def": 91,
+      "spa": 80,
+      "spd": 87,
+      "spe": 75
+    },
+    "abilities": [
+      "Prankster"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Prankster",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Krookodile",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 117,
+      "def": 70,
+      "spa": 65,
+      "spd": 70,
+      "spe": 92
+    },
+    "abilities": [
+      "Intimidate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Intimidate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Leafeon",
+    "types": [
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 110,
+      "def": 130,
+      "spa": 60,
+      "spd": 65,
+      "spe": 95
+    },
+    "abilities": [
+      "Leaf Guard"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Leaf Guard",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Liepard",
+    "types": [
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 64,
+      "atk": 88,
+      "def": 50,
+      "spa": 88,
+      "spd": 50,
+      "spe": 106
+    },
+    "abilities": [
+      "Limber"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Limber",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Lopunny",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 76,
+      "def": 84,
+      "spa": 54,
+      "spd": 96,
+      "spe": 105
+    },
+    "abilities": [
+      "Cute Charm"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Cute Charm",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Lopunny-Mega",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 136,
+      "def": 94,
+      "spa": 54,
+      "spd": 96,
+      "spe": 135
+    },
+    "abilities": [
+      "Scrappy"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Scrappy",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Lucario",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 70,
+      "spa": 115,
+      "spd": 70,
+      "spe": 90
+    },
+    "abilities": [
+      "Steadfast"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Steadfast",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Lucario-Mega",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 145,
+      "def": 88,
+      "spa": 140,
+      "spd": 70,
+      "spe": 112
+    },
+    "abilities": [
+      "Adaptability"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Adaptability",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Luxray",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 79,
+      "spa": 95,
+      "spd": 79,
+      "spe": 70
+    },
+    "abilities": [
+      "Rivalry"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Rivalry",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Lycanroc",
+    "types": [
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 115,
+      "def": 65,
+      "spa": 55,
+      "spd": 65,
+      "spe": 112
+    },
+    "abilities": [
+      "Keen Eye"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Keen Eye",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Lycanroc-Dusk",
+    "types": [
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 117,
+      "def": 65,
+      "spa": 55,
+      "spd": 65,
+      "spe": 110
+    },
+    "abilities": [
+      "Tough Claws"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Tough Claws",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Lycanroc-Midnight",
+    "types": [
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 115,
+      "def": 75,
+      "spa": 55,
+      "spd": 75,
+      "spe": 82
+    },
+    "abilities": [
+      "Keen Eye"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Keen Eye",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Machamp",
+    "types": [
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 130,
+      "def": 80,
+      "spa": 65,
+      "spd": 65,
+      "spe": 55
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Manectric-Mega",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 75,
+      "def": 80,
+      "spa": 135,
+      "spd": 80,
+      "spe": 135
+    },
+    "abilities": [
+      "Intimidate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Intimidate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Maushold-Four",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 75,
+      "def": 70,
+      "spa": 65,
+      "spd": 75,
+      "spe": 111
+    },
+    "abilities": [
+      "Friend Guard"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Friend Guard",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Medicham",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 75,
+      "spa": 60,
+      "spd": 75,
+      "spe": 80
+    },
+    "abilities": [
+      "Pure Power"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pure Power",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Medicham-Mega",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 85,
+      "spa": 80,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": [
+      "Pure Power"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pure Power",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Meganium-Mega",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 92,
+      "def": 115,
+      "spa": 143,
+      "spd": 115,
+      "spe": 80
+    },
+    "abilities": [
+      "Mega Sol"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mega Sol",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Meowstic",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 83,
+      "spd": 81,
+      "spe": 104
+    },
+    "abilities": [
+      "Keen Eye"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Keen Eye",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Meowstic-F",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 83,
+      "spd": 81,
+      "spe": 104
+    },
+    "abilities": [
+      "Keen Eye"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Keen Eye",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Meowstic-F-Mega",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 143,
+      "spd": 101,
+      "spe": 124
+    },
+    "abilities": [
+      "Trace"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Trace",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Meowstic-M-Mega",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 143,
+      "spd": 101,
+      "spe": 124
+    },
+    "abilities": [
+      "Trace"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Trace",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Mimikyu-Busted",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 90,
+      "def": 80,
+      "spa": 50,
+      "spd": 105,
+      "spe": 96
+    },
+    "abilities": [
+      "Disguise"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Disguise",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Morpeko",
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "atk": 95,
+      "def": 58,
+      "spa": 70,
+      "spd": 58,
+      "spe": 97
+    },
+    "abilities": [
+      "Hunger Switch"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Hunger Switch",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Morpeko-Hangry",
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "atk": 95,
+      "def": 58,
+      "spa": 70,
+      "spd": 58,
+      "spe": 97
+    },
+    "abilities": [
+      "Hunger Switch"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Hunger Switch",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Mr. Rime",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 85,
+      "def": 75,
+      "spa": 110,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": [
+      "Tangled Feet"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Tangled Feet",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Mudsdale",
+    "types": [
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 125,
+      "def": 100,
+      "spa": 55,
+      "spd": 85,
+      "spe": 35
+    },
+    "abilities": [
+      "Own Tempo"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Own Tempo",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Ninetales",
+    "types": [
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 73,
+      "atk": 76,
+      "def": 75,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Noivern",
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 70,
+      "def": 80,
+      "spa": 97,
+      "spd": 80,
+      "spe": 123
+    },
+    "abilities": [
+      "Frisk"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Frisk",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Oranguru",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 60,
+      "def": 80,
+      "spa": 90,
+      "spd": 110,
+      "spe": 60
+    },
+    "abilities": [
+      "Inner Focus"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Inner Focus",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Orthworm",
+    "types": [
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 145,
+      "spa": 60,
+      "spd": 55,
+      "spe": 65
+    },
+    "abilities": [
+      "Earth Eater"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Earth Eater",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Palafin-Hero",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 160,
+      "def": 97,
+      "spa": 106,
+      "spd": 87,
+      "spe": 100
+    },
+    "abilities": [
+      "Zero to Hero"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Zero to Hero",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Pangoro",
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 124,
+      "def": 78,
+      "spa": 69,
+      "spd": 71,
+      "spe": 58
+    },
+    "abilities": [
+      "Iron Fist"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Iron Fist",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Passimian",
+    "types": [
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 90,
+      "spa": 40,
+      "spd": 60,
+      "spe": 80
+    },
+    "abilities": [
+      "Receiver"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Receiver",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 80,
+      "def": 75,
+      "spa": 70,
+      "spd": 70,
+      "spe": 91
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Pidgeot-Mega",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 80,
+      "def": 80,
+      "spa": 135,
+      "spd": 80,
+      "spe": 121
+    },
+    "abilities": [
+      "No Guard"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "No Guard",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Pikachu",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 30,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Pinsir",
+    "types": [
+      "Bug"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 125,
+      "def": 100,
+      "spa": 55,
+      "spd": 55,
+      "spe": 85
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Pinsir-Mega",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 155,
+      "def": 120,
+      "spa": 65,
+      "spd": 90,
+      "spe": 105
+    },
+    "abilities": [
+      "Aerilate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Aerilate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Polteageist",
+    "types": [
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 65,
+      "spa": 134,
+      "spd": 114,
+      "spe": 70
+    },
+    "abilities": [
+      "Weak Armor"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Weak Armor",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Polteageist-Antique",
+    "types": [
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 65,
+      "spa": 134,
+      "spd": 114,
+      "spe": 70
+    },
+    "abilities": [
+      "Weak Armor"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Weak Armor",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Quaquaval",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 80,
+      "spa": 85,
+      "spd": 75,
+      "spe": 85
+    },
+    "abilities": [
+      "Torrent"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Torrent",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Raichu",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 110
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Raichu-Alola",
+    "types": [
+      "Electric",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 50,
+      "spa": 95,
+      "spd": 85,
+      "spe": 110
+    },
+    "abilities": [
+      "Surge Surfer"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Surge Surfer",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Rampardos",
+    "types": [
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 97,
+      "atk": 165,
+      "def": 60,
+      "spa": 65,
+      "spd": 50,
+      "spe": 58
+    },
+    "abilities": [
+      "Mold Breaker"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mold Breaker",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Reuniclus",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 65,
+      "def": 75,
+      "spa": 125,
+      "spd": 85,
+      "spe": 30
+    },
+    "abilities": [
+      "Overcoat"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Overcoat",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Rhyperior",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "baseStats": {
+      "hp": 115,
+      "atk": 140,
+      "def": 130,
+      "spa": 55,
+      "spd": 55,
+      "spe": 40
+    },
+    "abilities": [
+      "Lightning Rod"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Lightning Rod",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Roserade",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 70,
+      "def": 55,
+      "spa": 125,
+      "spd": 105,
+      "spe": 90
+    },
+    "abilities": [
+      "Natural Cure"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Natural Cure",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Rotom",
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 50,
+      "def": 77,
+      "spa": 95,
+      "spd": 77,
+      "spe": 91
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Levitate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Rotom-Fan",
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Levitate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Rotom-Frost",
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Levitate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Rotom-Mow",
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Levitate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Runerigus",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "atk": 95,
+      "def": 145,
+      "spa": 50,
+      "spd": 105,
+      "spe": 30
+    },
+    "abilities": [
+      "Wandering Spirit"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Wandering Spirit",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Sableye",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 75,
+      "def": 75,
+      "spa": 65,
+      "spd": 65,
+      "spe": 50
+    },
+    "abilities": [
+      "Keen Eye"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Keen Eye",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Sableye-Mega",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 85,
+      "def": 125,
+      "spa": 85,
+      "spd": 115,
+      "spe": 20
+    },
+    "abilities": [
+      "Magic Bounce"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Magic Bounce",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Salazzle",
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 64,
+      "def": 60,
+      "spa": 111,
+      "spd": 60,
+      "spe": 117
+    },
+    "abilities": [
+      "Corrosion"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Corrosion",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Samurott",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 100,
+      "def": 85,
+      "spa": 108,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      "Torrent"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Torrent",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Samurott-Hisui",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 108,
+      "def": 80,
+      "spa": 100,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": [
+      "Torrent"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Torrent",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Sandaconda",
+    "types": [
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 107,
+      "def": 125,
+      "spa": 65,
+      "spd": 70,
+      "spe": 71
+    },
+    "abilities": [
+      "Sand Spit"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sand Spit",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Scizor-Mega",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 150,
+      "def": 140,
+      "spa": 65,
+      "spd": 100,
+      "spe": 75
+    },
+    "abilities": [
+      "Technician"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Technician",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Scovillain-Mega",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 138,
+      "def": 85,
+      "spa": 138,
+      "spd": 85,
+      "spe": 75
+    },
+    "abilities": [
+      "Spicy Spray"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Spicy Spray",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Serperior",
+    "types": [
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 75,
+      "def": 95,
+      "spa": 75,
+      "spd": 95,
+      "spe": 113
+    },
+    "abilities": [
+      "Overgrow"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Overgrow",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Sharpedo",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 40,
+      "spa": 95,
+      "spd": 40,
+      "spe": 95
+    },
+    "abilities": [
+      "Rough Skin"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Rough Skin",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Sharpedo-Mega",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 140,
+      "def": 70,
+      "spa": 110,
+      "spd": 65,
+      "spe": 105
+    },
+    "abilities": [
+      "Strong Jaw"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Strong Jaw",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Simipour",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 63,
+      "spa": 98,
+      "spd": 63,
+      "spe": 101
+    },
+    "abilities": [
+      "Gluttony"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Gluttony",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Simisage",
+    "types": [
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 63,
+      "spa": 98,
+      "spd": 63,
+      "spe": 101
+    },
+    "abilities": [
+      "Gluttony"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Gluttony",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Simisear",
+    "types": [
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 63,
+      "spa": 98,
+      "spd": 63,
+      "spe": 101
+    },
+    "abilities": [
+      "Gluttony"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Gluttony",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Sinistcha-Masterpiece",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 71,
+      "atk": 60,
+      "def": 106,
+      "spa": 121,
+      "spd": 80,
+      "spe": 70
+    },
+    "abilities": [
+      "Hospitality"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Hospitality",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Skarmory",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 80,
+      "def": 140,
+      "spa": 40,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Skarmory-Mega",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 140,
+      "def": 110,
+      "spa": 40,
+      "spd": 100,
+      "spe": 110
+    },
+    "abilities": [
+      "Keen Eye"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Keen Eye",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Skeledirge",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 104,
+      "atk": 75,
+      "def": 100,
+      "spa": 110,
+      "spd": 75,
+      "spe": 66
+    },
+    "abilities": [
+      "Blaze"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Blaze",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 110,
+      "spa": 80,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Slowbro-Galar",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 100,
+      "def": 95,
+      "spa": 100,
+      "spd": 70,
+      "spe": 30
+    },
+    "abilities": [
+      "Quick Draw"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Quick Draw",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Slowbro-Mega",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 180,
+      "spa": 130,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": [
+      "Shell Armor"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Shell Armor",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Slowking",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 80,
+      "spa": 100,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Slowking-Galar",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 65,
+      "def": 80,
+      "spa": 110,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": [
+      "Curious Medicine"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Curious Medicine",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Slurpuff",
+    "types": [
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 82,
+      "atk": 80,
+      "def": 86,
+      "spa": 85,
+      "spd": 75,
+      "spe": 72
+    },
+    "abilities": [
+      "Sweet Veil"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sweet Veil",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Snorlax",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 160,
+      "atk": 110,
+      "def": 65,
+      "spa": 65,
+      "spd": 65,
+      "spe": 30
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Spiritomb",
+    "types": [
+      "Ghost",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 92,
+      "def": 108,
+      "spa": 92,
+      "spd": 108,
+      "spe": 35
+    },
+    "abilities": [
+      "Pressure"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pressure",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Starmie-Mega",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 105,
+      "spa": 130,
+      "spd": 105,
+      "spe": 120
+    },
+    "abilities": [
+      "Huge Power"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Huge Power",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 85,
+      "def": 200,
+      "spa": 55,
+      "spd": 65,
+      "spe": 30
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Steelix-Mega",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 230,
+      "spa": 55,
+      "spd": 95,
+      "spe": 30
+    },
+    "abilities": [
+      "Sand Force"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sand Force",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Stunfisk",
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 109,
+      "atk": 66,
+      "def": 84,
+      "spa": 81,
+      "spd": 99,
+      "spe": 32
+    },
+    "abilities": [
+      "Static"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Static",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Stunfisk-Galar",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 109,
+      "atk": 81,
+      "def": 99,
+      "spa": 66,
+      "spd": 84,
+      "spe": 32
+    },
+    "abilities": [
+      "Mimicry"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mimicry",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Tauros",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 95,
+      "spa": 70,
+      "spd": 70,
+      "spe": 110
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Tauros-Paldea-Aqua",
+    "types": [
+      "Fighting",
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 105,
+      "spa": 30,
+      "spd": 70,
+      "spe": 100
+    },
+    "abilities": [
+      "Intimidate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Intimidate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Tauros-Paldea-Blaze",
+    "types": [
+      "Fighting",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 105,
+      "spa": 30,
+      "spd": 70,
+      "spe": 100
+    },
+    "abilities": [
+      "Intimidate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Intimidate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Tauros-Paldea-Combat",
+    "types": [
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 105,
+      "spa": 30,
+      "spd": 70,
+      "spe": 100
+    },
+    "abilities": [
+      "Intimidate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Intimidate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Tinkaton",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 75,
+      "def": 77,
+      "spa": 70,
+      "spd": 105,
+      "spe": 94
+    },
+    "abilities": [
+      "Mold Breaker"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Mold Breaker",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Torterra",
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 109,
+      "def": 105,
+      "spa": 75,
+      "spd": 85,
+      "spe": 56
+    },
+    "abilities": [
+      "Overgrow"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Overgrow",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Toucannon",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 75,
+      "spa": 75,
+      "spd": 75,
+      "spe": 60
+    },
+    "abilities": [
+      "Keen Eye"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Keen Eye",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Toxapex",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 63,
+      "def": 152,
+      "spa": 53,
+      "spd": 142,
+      "spe": 35
+    },
+    "abilities": [
+      "Merciless"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Merciless",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Toxicroak",
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 106,
+      "def": 65,
+      "spa": 86,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": [
+      "Anticipation"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Anticipation",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Trevenant",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 110,
+      "def": 76,
+      "spa": 65,
+      "spd": 82,
+      "spe": 56
+    },
+    "abilities": [
+      "Natural Cure"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Natural Cure",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Typhlosion",
+    "types": [
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Tyranitar-Mega",
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 164,
+      "def": 150,
+      "spa": 95,
+      "spd": 120,
+      "spe": 71
+    },
+    "abilities": [
+      "Sand Stream"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Sand Stream",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Tyrantrum",
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 82,
+      "atk": 121,
+      "def": 119,
+      "spa": 69,
+      "spd": 59,
+      "spe": 71
+    },
+    "abilities": [
+      "Strong Jaw"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Strong Jaw",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Umbreon",
+    "types": [
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 65,
+      "def": 110,
+      "spa": 60,
+      "spd": 130,
+      "spe": 65
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Vanilluxe",
+    "types": [
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 71,
+      "atk": 95,
+      "def": 85,
+      "spa": 110,
+      "spd": 95,
+      "spe": 79
+    },
+    "abilities": [
+      "Ice Body"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Ice Body",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Vaporeon",
+    "types": [
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 130,
+      "atk": 65,
+      "def": 60,
+      "spa": 110,
+      "spd": 110,
+      "spe": 65
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Venusaur-Mega",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 123,
+      "spa": 122,
+      "spd": 120,
+      "spe": 80
+    },
+    "abilities": [
+      "Thick Fat"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Thick Fat",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "spa": 100,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": [
+      "—"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "—",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Victreebel-Mega",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 125,
+      "def": 85,
+      "spa": 135,
+      "spd": 95,
+      "spe": 70
+    },
+    "abilities": [
+      "Innards Out"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Innards Out",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Vivillon",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 52,
+      "def": 50,
+      "spa": 90,
+      "spd": 50,
+      "spe": 89
+    },
+    "abilities": [
+      "Shield Dust"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Shield Dust",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Vivillon-Fancy",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 52,
+      "def": 50,
+      "spa": 90,
+      "spd": 50,
+      "spe": 89
+    },
+    "abilities": [
+      "Shield Dust"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Shield Dust",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Vivillon-Pokeball",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 52,
+      "def": 50,
+      "spa": 90,
+      "spd": 50,
+      "spe": 89
+    },
+    "abilities": [
+      "Shield Dust"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Shield Dust",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Watchog",
+    "types": [
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 69,
+      "spa": 60,
+      "spd": 69,
+      "spe": 77
+    },
+    "abilities": [
+      "Illuminate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Illuminate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Weavile",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 65,
+      "spa": 45,
+      "spd": 85,
+      "spe": 125
+    },
+    "abilities": [
+      "Pressure"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Pressure",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Wyrdeer",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 103,
+      "atk": 105,
+      "def": 72,
+      "spa": 105,
+      "spd": 75,
+      "spe": 65
+    },
+    "abilities": [
+      "Intimidate"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Intimidate",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Zoroark",
+    "types": [
+      "Dark"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 105,
+      "def": 60,
+      "spa": 120,
+      "spd": 60,
+      "spe": 105
+    },
+    "abilities": [
+      "Illusion"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Illusion",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
+  },
+  {
+    "name": "Zoroark-Hisui",
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 100,
+      "def": 60,
+      "spa": 125,
+      "spd": 60,
+      "spe": 110
+    },
+    "abilities": [
+      "Illusion"
+    ],
+    "metaUsage": 0,
+    "metaUsagePct": 0,
+    "topItem": "",
+    "topNature": "",
+    "topAbility": "Illusion",
+    "topMoves": [],
+    "avgEvs": {},
+    "metaSets": []
   }
 ]

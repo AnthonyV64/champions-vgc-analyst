@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import metaStats from '../data/metaStats.json'
+import { getSprite } from '../data/sprites.js'
 
 const STAT_COLORS = {
   HP: '#E24B4A', Atk: '#D85A30', Def: '#378ADD',
@@ -13,7 +14,13 @@ function UsageRow({ rank, entry }) {
   return (
     <tr className="border-b border-gray-800 hover:bg-gray-800/40 transition-colors">
       <td className="py-2 px-3 text-gray-500 text-xs w-8">{rank}</td>
-      <td className="py-2 px-3 font-medium text-gray-100 text-sm">{entry.name}</td>
+      <td className="py-2 px-3">
+        <div className="flex items-center gap-2">
+          <img src={getSprite(entry.name)} alt={entry.name}
+            className="w-9 h-9 object-contain flex-shrink-0" style={{imageRendering:"crisp-edges"}} />
+          <span className="font-medium text-gray-100 text-sm">{entry.name}</span>
+        </div>
+      </td>
       <td className="py-2 px-3">
         <div className="flex items-center gap-2">
           <div className="flex-1 bg-gray-800 rounded-full h-1.5 w-20">

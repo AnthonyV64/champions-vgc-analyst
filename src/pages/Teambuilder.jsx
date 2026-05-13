@@ -1,5 +1,6 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
 import pokemonData from '../data/pokemon.json'
+import { getSprite } from '../data/sprites.js'
 
 // ── Constants ────────────────────────────────────────────────────────────────
 const STAT_KEYS = ['hp','atk','def','spa','spd','spe']
@@ -24,6 +25,15 @@ const MEGA_ITEMS = ['Floettite','Charizardite Y','Charizardite X','Froslassite',
   'Tyranitarite','Delphoxite','Aerodactylite','Gardevoirite','Meganiumite','Scizorite',
   'Dragoninite','Gyaradosite','Kangaskhanite','Glimmoranite','Scovillainite','Blastoisinite',
   'Manectite','Starminite','Lucarionite','Venusaurite','Lopunnite','Aggronite']
+
+
+// ── EV key normalizer (DB uses capitalized keys, UI uses lowercase) ──────────
+const NORM_EV_KEYS = { HP:'hp', Atk:'atk', Def:'def', SpA:'spa', SpD:'spd', Spe:'spe' }
+function normEvsMini(evs) {
+  const out = { hp:0, atk:0, def:0, spa:0, spd:0, spe:0 }
+  Object.entries(evs || {}).forEach(([k, v]) => { const key = NORM_EV_KEYS[k] || k.toLowerCase(); if (key in out) out[key] = v })
+  return out
+}
 
 const TYPE_COLORS = {
   Normal:'#A8A878',Fire:'#F08030',Water:'#6890F0',Electric:'#F8D030',Grass:'#78C850',
@@ -525,36 +535,66 @@ function computeDamage(params) {
 
 // ── UI helpers ────────────────────────────────────────────────────────────────
 function PokemonSearch({ value, onChange, placeholder }) {
-  const [q, setQ] = useState(value)
+  const [q, setQ] = useState('')
   const [open, setOpen] = useState(false)
   const ref = useRef(null)
+
+  const sorted = useMemo(() => [...pokemonData].sort((a,b) => a.name.localeCompare(b.name)), [])
   const results = useMemo(() => {
+    if (!q) return sorted
     const s = q.toLowerCase()
-    return pokemonData.filter(p => !s || p.name.toLowerCase().includes(s)).slice(0, 10)
-  }, [q])
-  useEffect(() => { setQ(value) }, [value])
+    return sorted.filter(p => p.name.toLowerCase().includes(s))
+  }, [q, sorted])
+
   useEffect(() => {
     const h = e => { if (ref.current && !ref.current.contains(e.target)) setOpen(false) }
     document.addEventListener('mousedown', h)
     return () => document.removeEventListener('mousedown', h)
   }, [])
+
+  const selected = pokemonData.find(p => p.name === value)
+
   return (
     <div ref={ref} className="relative">
-      <input className="input w-full" value={q} placeholder={placeholder || 'Pokémon...'}
-        onChange={e => { setQ(e.target.value); setOpen(true) }} onFocus={() => setOpen(true)} />
+      <button type="button" onClick={() => setOpen(o => !o)}
+        className="input w-full flex items-center gap-2 text-left cursor-pointer min-h-[38px]">
+        {selected ? (
+          <>
+            <img src={getSprite(selected.name)} alt={selected.name}
+              className="w-6 h-6 object-contain flex-shrink-0" style={{imageRendering:'crisp-edges'}} />
+            <span className="flex-1 text-sm text-gray-100 truncate">{selected.name}</span>
+          </>
+        ) : (
+          <span className="flex-1 text-sm text-gray-500">{placeholder || '-- Pokémon --'}</span>
+        )}
+        <span className="text-gray-600 text-xs ml-1">{open ? '▲' : '▼'}</span>
+      </button>
+
       {open && (
-        <div className="absolute z-50 w-full mt-1 bg-gray-900 border border-gray-700 rounded-lg shadow-xl max-h-48 overflow-y-auto">
-          {results.map(p => (
-            <div key={p.name} className="flex items-center gap-2 px-3 py-2 hover:bg-gray-800 cursor-pointer"
-              onMouseDown={() => { onChange(p.name); setQ(p.name); setOpen(false) }}>
-              <span className="text-sm text-gray-100 flex-1">{p.name}</span>
-              {p.types.map(t => (
-                <span key={t} className="text-[9px] px-1.5 py-0.5 rounded text-white font-medium"
-                  style={{ backgroundColor: TYPE_COLORS[t] || '#888' }}>{t}</span>
-              ))}
-              <span className="text-[10px] text-gray-500">{p.metaUsagePct}%</span>
-            </div>
-          ))}
+        <div className="absolute z-50 w-full mt-1 bg-gray-900 border border-gray-700 rounded-lg shadow-xl flex flex-col" style={{maxHeight:'300px'}}>
+          <div className="p-2 border-b border-gray-800 flex-shrink-0">
+            <input autoFocus className="input w-full text-sm" placeholder="Buscar..."
+              value={q} onChange={e => setQ(e.target.value)} />
+          </div>
+          <div className="overflow-y-auto">
+            <div className="flex items-center gap-2 px-3 py-1.5 cursor-pointer hover:bg-gray-800 text-gray-500 text-sm"
+              onMouseDown={() => { onChange(''); setQ(''); setOpen(false) }}>-- Ninguno --</div>
+            {results.map(p => (
+              <div key={p.name}
+                className={`flex items-center gap-2 px-3 py-1.5 cursor-pointer hover:bg-gray-800 ${value===p.name?'bg-brand-900/30':''}`}
+                onMouseDown={() => { onChange(p.name); setQ(''); setOpen(false) }}>
+                <img src={getSprite(p.name)} alt={p.name}
+                  className="w-7 h-7 object-contain flex-shrink-0" style={{imageRendering:'crisp-edges'}} />
+                <span className="text-sm text-gray-100 flex-1">{p.name}</span>
+                <div className="flex gap-1">
+                  {p.types.map(t => (
+                    <span key={t} className="text-[9px] px-1.5 py-0.5 rounded text-white"
+                      style={{backgroundColor:TYPE_COLORS[t]||'#888'}}>{t}</span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
     </div>
@@ -642,23 +682,31 @@ function BoostSelector({ value, onChange, color = 'brand' }) {
   )
 }
 
-// ── Damage Calculator ─────────────────────────────────────────────────────────
-function DamageCalc({ attackerSlot }) {
-  const [atkName, setAtkName] = useState(attackerSlot?.name || '')
-  const [atkNature, setAtkNature] = useState(attackerSlot?.nature || 'Hardy')
-  const [atkEvs, setAtkEvs] = useState(attackerSlot?.evs || { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 })
-  const [atkItem, setAtkItem] = useState(attackerSlot?.item || '')
-  const [atkAbility, setAtkAbility] = useState(attackerSlot?.ability || '')
+// ── Damage Calculator — Team-integrated (like Smogon import) ─────────────────
+function DamageCalc({ team }) {
+  // Attacker source: 'team' slot index or 'custom'
+  const [atkSource, setAtkSource] = useState('team')
+  const [atkTeamIdx, setAtkTeamIdx] = useState(0)
+  const [atkCustomName, setAtkCustomName] = useState('')
+  const [atkCustomNature, setAtkCustomNature] = useState('Hardy')
+  const [atkCustomEvs, setAtkCustomEvs] = useState({ hp:0,atk:0,def:0,spa:0,spd:0,spe:0 })
+  const [atkCustomItem, setAtkCustomItem] = useState('')
+  const [atkCustomAbility, setAtkCustomAbility] = useState('')
   const [atkBoost, setAtkBoost] = useState(0)
   const [atkBurn, setAtkBurn] = useState(false)
   const [atkHpPct, setAtkHpPct] = useState(100)
-  const [defName, setDefName] = useState('')
-  const [defNature, setDefNature] = useState('Hardy')
-  const [defEvs, setDefEvs] = useState({ hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 })
-  const [defItem, setDefItem] = useState('')
-  const [defAbility, setDefAbility] = useState('')
+
+  // Defender source: 'team' slot index, 'custom', or 'meta'
+  const [defSource, setDefSource] = useState('custom')
+  const [defTeamIdx, setDefTeamIdx] = useState(0)
+  const [defCustomName, setDefCustomName] = useState('')
+  const [defCustomNature, setDefCustomNature] = useState('Hardy')
+  const [defCustomEvs, setDefCustomEvs] = useState({ hp:0,atk:0,def:0,spa:0,spd:0,spe:0 })
+  const [defCustomItem, setDefCustomItem] = useState('')
+  const [defCustomAbility, setDefCustomAbility] = useState('')
   const [defBoost, setDefBoost] = useState(0)
   const [defHpFull, setDefHpFull] = useState(true)
+
   const [moveName, setMoveName] = useState('')
   const [weather, setWeather] = useState('none')
   const [terrain, setTerrain] = useState('none')
@@ -667,26 +715,32 @@ function DamageCalc({ attackerSlot }) {
   const [hasScreen, setHasScreen] = useState(false)
   const [fainted, setFainted] = useState(0)
 
-  // Sync from slot
-  useEffect(() => {
-    if (attackerSlot?.name) {
-      setAtkName(attackerSlot.name)
-      setAtkNature(attackerSlot.nature || 'Hardy')
-      setAtkEvs(attackerSlot.evs || { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 })
-      setAtkItem(attackerSlot.item || '')
-      setAtkAbility(attackerSlot.ability || '')
-    }
-  }, [attackerSlot])
+  // Resolve attacker — reads live from team when source='team'
+  const filledSlots = team.filter(s => s.name)
+  const atkSlot = atkSource === 'team' ? team[atkTeamIdx] : null
+  const atkName    = atkSource === 'team' ? (atkSlot?.name || '')    : atkCustomName
+  const atkNature  = atkSource === 'team' ? (atkSlot?.nature || 'Hardy') : atkCustomNature
+  const atkEvs     = atkSource === 'team' ? (atkSlot?.evs || {hp:0,atk:0,def:0,spa:0,spd:0,spe:0}) : atkCustomEvs
+  const atkItem    = atkSource === 'team' ? (atkSlot?.item || '')    : atkCustomItem
+  const atkAbility = atkSource === 'team' ? (atkSlot?.ability || '') : atkCustomAbility
 
-  const loadDef = (name) => {
-    setDefName(name)
+  // Resolve defender — reads live from team when source='team'
+  const defSlot = defSource === 'team' ? team[defTeamIdx] : null
+  const defName    = defSource === 'team' ? (defSlot?.name || '')    : defCustomName
+  const defNature  = defSource === 'team' ? (defSlot?.nature || 'Hardy') : defCustomNature
+  const defEvs     = defSource === 'team' ? (defSlot?.evs || {hp:0,atk:0,def:0,spa:0,spd:0,spe:0}) : defCustomEvs
+  const defItem    = defSource === 'team' ? (defSlot?.item || '')    : defCustomItem
+  const defAbility = defSource === 'team' ? (defSlot?.ability || '') : defCustomAbility
+
+  const setDefFromMeta = (name) => {
+    setDefCustomName(name)
     const p = pokemonData.find(x => x.name === name)
     const ms = p?.metaSets?.[0]
     if (ms) {
-      setDefNature(ms.nature || 'Hardy')
-      setDefEvs({ hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0, ...(ms.evs || {}) })
-      setDefItem(ms.item || '')
-      setDefAbility(ms.ability || '')
+      setDefCustomNature(ms.nature || 'Hardy')
+      setDefCustomEvs(normEvsMini(ms.evs))
+      setDefCustomItem(ms.item || '')
+      setDefCustomAbility(ms.ability || '')
     }
   }
 
@@ -695,29 +749,24 @@ function DamageCalc({ attackerSlot }) {
   const mv = MOVES[moveName]
 
   const atkSugMoves = useMemo(() => {
-    if (!atkPkmn) return []
+    const slot = atkSource === 'team' ? atkSlot : null
+    // Use actual moves from slot first
+    const slotMoves = slot?.moves?.filter(Boolean) || []
+    if (!atkPkmn) return slotMoves
     const c = {}
-    atkPkmn.metaSets?.forEach(s => s.moves.forEach(m => { c[m] = (c[m] || 0) + 1 }))
-    return Object.entries(c).sort((a, b) => b[1] - a[1]).map(([m]) => m)
-  }, [atkPkmn])
+    slotMoves.forEach(m => { c[m] = (c[m]||0) + 10 }) // boost slot moves
+    atkPkmn.metaSets?.forEach(s => s.moves.forEach(m => { c[m] = (c[m]||0) + 1 }))
+    return Object.entries(c).sort((a,b) => b[1]-a[1]).map(([m]) => m)
+  }, [atkPkmn, atkSlot, atkSource])
 
   const result = useMemo(() => {
     if (!atkPkmn || !defPkmn || !mv || mv.cat === 'status') return null
     return computeDamage({
-      atkPkmn, defPkmn,
-      atkEvs, defEvs,
-      atkNature, defNature,
-      atkItem, defItem,
-      atkAbility, defAbility,
-      moveName,
-      atkBoost, defBoost,
-      weather, terrain,
-      isCrit, isHelpingHand: isHH,
-      isBurn: atkBurn,
-      hasScreen,
-      defFainted: fainted,
-      atkHpPct,
-      atkHpFull: defHpFull,
+      atkPkmn, defPkmn, atkEvs, defEvs, atkNature, defNature,
+      atkItem, defItem, atkAbility, defAbility, moveName,
+      atkBoost, defBoost, weather, terrain, isCrit,
+      isHelpingHand: isHH, isBurn: atkBurn, hasScreen,
+      defFainted: fainted, atkHpPct, atkHpFull: defHpFull,
     })
   }, [atkPkmn, defPkmn, atkEvs, defEvs, atkNature, defNature, atkItem, defItem,
     atkAbility, defAbility, moveName, atkBoost, defBoost, weather, terrain,
@@ -726,83 +775,129 @@ function DamageCalc({ attackerSlot }) {
   const koColor = result?.ko1 ? 'text-red-400 font-bold' : result?.ko2 ? 'text-orange-400' : result?.ko3 ? 'text-yellow-400' : 'text-gray-400'
   const koLabel = result?.ko1 ? `OHKO (${result.koPct}% de rolls)` : result?.ko2 ? '2HKO garantizado' : result?.ko3 ? '3HKO garantizado' : result && !result.immune ? 'No KO en 3 hits' : ''
 
+  // Team slot picker button
+  const TeamPicker = ({ source, setSource, teamIdx, setTeamIdx, label, color }) => (
+    <div className="space-y-1.5">
+      <div className="flex gap-1">
+        <button onClick={() => setSource('team')}
+          className={`text-[10px] px-2 py-1 rounded font-semibold transition-colors ${source==='team' ? `bg-${color}-600 text-white` : 'bg-gray-800 text-gray-500 hover:text-gray-300'}`}>
+          Mi equipo
+        </button>
+        <button onClick={() => setSource('custom')}
+          className={`text-[10px] px-2 py-1 rounded font-semibold transition-colors ${source==='custom' ? `bg-${color}-600 text-white` : 'bg-gray-800 text-gray-500 hover:text-gray-300'}`}>
+          Personalizado
+        </button>
+      </div>
+      {source === 'team' && (
+        <div className="flex gap-1 flex-wrap">
+          {team.map((slot, i) => slot.name ? (
+            <button key={i} onClick={() => setTeamIdx(i)}
+              className={`text-[10px] px-2 py-1.5 rounded-lg border transition-colors ${teamIdx===i ? 'bg-brand-600/30 border-brand-500/50 text-brand-300' : 'bg-gray-800/60 border-gray-700 text-gray-400 hover:border-gray-500'}`}>
+              <div className="font-semibold">{slot.name}</div>
+              <div className="text-gray-500 font-normal">{slot.nature} · {slot.item?.slice(0,8)}</div>
+            </button>
+          ) : null)}
+          {!team.some(s => s.name) && (
+            <span className="text-[10px] text-gray-600 italic">Agrega Pokémon al equipo primero</span>
+          )}
+        </div>
+      )}
+    </div>
+  )
+
   return (
     <div className="space-y-3">
-      {/* Attacker */}
-      <div className="bg-gray-800/50 rounded-xl p-3 border border-gray-700/50 space-y-2">
-        <div className="text-[10px] font-bold text-blue-400 uppercase tracking-widest">Atacante</div>
-        <div className="grid grid-cols-2 gap-2">
-          <PokemonSearch value={atkName} onChange={n => {
-            setAtkName(n)
-            const p = pokemonData.find(x => x.name === n)
-            const ms = p?.metaSets?.[0]
-            if (ms) { setAtkNature(ms.nature || 'Hardy'); setAtkEvs({ hp:0,atk:0,def:0,spa:0,spd:0,spe:0,...(ms.evs||{}) }); setAtkItem(ms.item||''); setAtkAbility(ms.ability||'') }
-          }} placeholder="Atacante..." />
-          <select className="input text-xs" value={atkNature} onChange={e => setAtkNature(e.target.value)}>
-            {NATURES.map(n => <option key={n} value={n}>{n}</option>)}
-          </select>
-        </div>
-        <div className="grid grid-cols-2 gap-2">
-          <div>
-            <div className="text-[10px] text-gray-500 mb-1">Item</div>
-            <input className="input w-full text-xs" value={atkItem} onChange={e => setAtkItem(e.target.value)} placeholder="Item atacante" />
-          </div>
-          <div>
-            <div className="text-[10px] text-gray-500 mb-1">Ability</div>
-            <select className="input w-full text-xs" value={atkAbility} onChange={e => setAtkAbility(e.target.value)}>
+      {/* ── Attacker ── */}
+      <div className="bg-gray-800/50 rounded-xl p-3 border border-gray-700/50 space-y-2.5">
+        <div className="text-[10px] font-bold text-blue-400 uppercase tracking-widest">⚔️ Atacante</div>
+
+        <TeamPicker source={atkSource} setSource={setAtkSource}
+          teamIdx={atkTeamIdx} setTeamIdx={setAtkTeamIdx} label="atk" color="blue" />
+
+        {atkSource === 'custom' && (
+          <div className="grid grid-cols-2 gap-2">
+            <PokemonSearch value={atkCustomName} onChange={n => {
+              setAtkCustomName(n)
+              const p = pokemonData.find(x => x.name === n)
+              const ms = p?.metaSets?.[0]
+              if (ms) { setAtkCustomNature(ms.nature||'Hardy'); setAtkCustomEvs(normEvsMini(ms.evs)); setAtkCustomItem(ms.item||''); setAtkCustomAbility(ms.ability||'') }
+            }} placeholder="Atacante..." />
+            <select className="input text-xs" value={atkCustomNature} onChange={e => setAtkCustomNature(e.target.value)}>
+              {NATURES.map(n => <option key={n} value={n}>{n}</option>)}
+            </select>
+            <input className="input text-xs" value={atkCustomItem} onChange={e => setAtkCustomItem(e.target.value)} placeholder="Item" />
+            <select className="input text-xs" value={atkCustomAbility} onChange={e => setAtkCustomAbility(e.target.value)}>
               <option value="">-- Ability --</option>
-              {(atkPkmn?.abilities || []).map(a => <option key={a} value={a}>{a}</option>)}
+              {(atkPkmn?.abilities||[]).map(a => <option key={a} value={a}>{a}</option>)}
             </select>
           </div>
-        </div>
+        )}
+
+        {/* Live stats display — updates in real time as EVs change in editor */}
         {atkPkmn && (
-          <div>
-            <div className="text-[10px] text-gray-500 mb-1">EVs ofensivos</div>
-            {['atk', 'spa'].map(s => (
-              <EvRow key={s} stat={s} value={atkEvs[s] || 0} base={atkPkmn.baseStats[s]} nature={atkNature}
-                onChange={v => setAtkEvs({ ...atkEvs, [s]: v })} />
-            ))}
+          <div className="bg-gray-900/60 rounded-lg p-2">
+            <div className="text-[10px] text-gray-500 mb-1.5 flex items-center justify-between">
+              <span>{atkSource === 'team' ? '📋 EVs del equipo (tiempo real)' : 'EVs atacante'}</span>
+              <span className="text-brand-400 font-mono">{atkName} · {atkNature}</span>
+            </div>
+            {atkSource === 'custom'
+              ? ['atk','spa'].map(s => <EvRow key={s} stat={s} value={atkCustomEvs[s]||0} base={atkPkmn.baseStats[s]} nature={atkCustomNature} onChange={v => setAtkCustomEvs({...atkCustomEvs,[s]:v})} />)
+              : STAT_KEYS.map(s => {
+                  const base = atkPkmn.baseStats[s]||0
+                  const final = calcStat(s, base, atkEvs[s]||0, atkNature)
+                  const mod = NATURE_MODS[atkNature]?.[s]??1
+                  return (
+                    <div key={s} className="flex items-center gap-2 mb-0.5">
+                      <span className="text-[9px] w-7 text-right" style={{color:STAT_COLORS[s]}}>{STAT_LABELS[s]}</span>
+                      <div className="flex-1 bg-gray-800 rounded-full h-1">
+                        <div className="h-1 rounded-full" style={{width:`${Math.min(100,(base/170)*100)}%`,backgroundColor:STAT_COLORS[s]}} />
+                      </div>
+                      <span className="text-[9px] font-mono w-5 text-right text-gray-600">{atkEvs[s]||0}</span>
+                      <span className={`text-[9px] font-mono w-7 text-right ${mod>1?'text-green-400':mod<1?'text-red-400':'text-gray-400'}`}>{final}</span>
+                    </div>
+                  )
+                })
+            }
           </div>
         )}
+
         <div>
-          <div className="text-[10px] text-gray-500 mb-1">Boost ataque</div>
+          <div className="text-[10px] text-gray-500 mb-1">Boost</div>
           <BoostSelector value={atkBoost} onChange={setAtkBoost} color="brand" />
         </div>
         <div className="flex gap-3 flex-wrap text-[10px]">
           <label className="flex items-center gap-1 cursor-pointer text-gray-400">
-            <input type="checkbox" checked={atkBurn} onChange={e => setAtkBurn(e.target.checked)} className="accent-brand-500" />
-            Quemado
+            <input type="checkbox" checked={atkBurn} onChange={e => setAtkBurn(e.target.checked)} className="accent-brand-500" /> Quemado
           </label>
           <label className="flex items-center gap-1 cursor-pointer text-gray-400">
-            <input type="checkbox" checked={isHH} onChange={e => setIsHH(e.target.checked)} className="accent-brand-500" />
-            Helping Hand
+            <input type="checkbox" checked={isHH} onChange={e => setIsHH(e.target.checked)} className="accent-brand-500" /> Helping Hand
           </label>
           <div className="flex items-center gap-1 text-gray-400">
             HP: <input type="number" min="1" max="100" value={atkHpPct}
-              onChange={e => setAtkHpPct(Math.max(1, Math.min(100, Number(e.target.value) || 100)))}
+              onChange={e => setAtkHpPct(Math.max(1,Math.min(100,Number(e.target.value)||100)))}
               className="w-12 text-xs bg-gray-800 border border-gray-700 rounded px-1 py-0.5 font-mono text-gray-200 ml-1" />%
           </div>
           {moveName === 'Last Respects' && (
             <div className="flex items-center gap-1 text-gray-400">
-              Bajas aliadas: <input type="number" min="0" max="5" value={fainted}
-                onChange={e => setFainted(Math.max(0, Math.min(5, Number(e.target.value) || 0)))}
-                className="w-8 text-xs bg-gray-800 border border-gray-700 rounded px-1 py-0.5 font-mono text-gray-200 ml-1" />
+              Bajas: <input type="number" min="0" max="5" value={fainted}
+                onChange={e => setFainted(Math.max(0,Math.min(5,Number(e.target.value)||0)))}
+                className="w-8 text-xs bg-gray-800 border border-gray-700 rounded px-1 py-0.5 font-mono ml-1" />
             </div>
           )}
         </div>
       </div>
 
-      {/* Move + Conditions */}
+      {/* ── Move ── */}
       <div className="bg-gray-800/50 rounded-xl p-3 border border-gray-700/50 space-y-2">
-        <div className="text-[10px] font-bold text-purple-400 uppercase tracking-widest">Move y Condiciones</div>
-        <MoveSearch value={moveName} onChange={setMoveName} suggestedMoves={atkSugMoves} placeholder="Nombre del move..." />
+        <div className="text-[10px] font-bold text-purple-400 uppercase tracking-widest">💫 Move y Condiciones</div>
+        <MoveSearch value={moveName} onChange={setMoveName} suggestedMoves={atkSugMoves} placeholder="Selecciona un move..." />
         {mv && mv.bp > 0 && (
-          <div className="flex gap-2 flex-wrap text-[10px] text-gray-400">
-            <span className="px-2 py-0.5 rounded text-white text-[9px]" style={{ backgroundColor: TYPE_COLORS[mv.type] || '#888' }}>{mv.type}</span>
-            <span>{mv.bp}BP</span>
-            <span>{mv.cat === 'physical' ? '⚔️ Físico' : '✨ Especial'}</span>
+          <div className="flex gap-1.5 flex-wrap text-[10px]">
+            <span className="px-2 py-0.5 rounded text-white text-[9px]" style={{backgroundColor:TYPE_COLORS[mv.type]||'#888'}}>{mv.type}</span>
+            <span className="text-gray-400">{mv.bp}BP</span>
+            <span className="text-gray-400">{mv.cat==='physical'?'⚔️ Físico':'✨ Especial'}</span>
             {mv.spread && <span className="text-purple-300">Spread ×0.75</span>}
-            {mv.priority > 0 && <span className="text-yellow-300">Prioridad +{mv.priority}</span>}
+            {mv.priority > 0 && <span className="text-yellow-300">+{mv.priority} prioridad</span>}
           </div>
         )}
         <div className="grid grid-cols-2 gap-2">
@@ -813,7 +908,7 @@ function DamageCalc({ attackerSlot }) {
               <option value="sun">☀️ Sol</option>
               <option value="rain">🌧️ Lluvia</option>
               <option value="sand">🌪️ Arena</option>
-              <option value="hail">❄️ Nieve</option>
+              <option value="hail">❄️ Nieve/Granizo</option>
             </select>
           </div>
           <div>
@@ -829,47 +924,83 @@ function DamageCalc({ attackerSlot }) {
         </div>
         <div className="flex gap-3 flex-wrap text-[10px]">
           <label className="flex items-center gap-1 cursor-pointer text-gray-400">
-            <input type="checkbox" checked={isCrit} onChange={e => setIsCrit(e.target.checked)} className="accent-brand-500" />
-            Golpe crítico ×1.5
+            <input type="checkbox" checked={isCrit} onChange={e => setIsCrit(e.target.checked)} className="accent-brand-500" /> Golpe crítico ×1.5
           </label>
           <label className="flex items-center gap-1 cursor-pointer text-gray-400">
-            <input type="checkbox" checked={hasScreen} onChange={e => setHasScreen(e.target.checked)} className="accent-brand-500" />
-            Pantalla (×0.67)
+            <input type="checkbox" checked={hasScreen} onChange={e => setHasScreen(e.target.checked)} className="accent-brand-500" /> Pantalla ×0.67
           </label>
         </div>
       </div>
 
-      {/* Defender */}
-      <div className="bg-gray-800/50 rounded-xl p-3 border border-gray-700/50 space-y-2">
-        <div className="text-[10px] font-bold text-red-400 uppercase tracking-widest">Defensor</div>
-        <div className="grid grid-cols-2 gap-2">
-          <PokemonSearch value={defName} onChange={loadDef} placeholder="Defensor..." />
-          <select className="input text-xs" value={defNature} onChange={e => setDefNature(e.target.value)}>
-            {NATURES.map(n => <option key={n} value={n}>{n}</option>)}
-          </select>
-        </div>
-        <div className="grid grid-cols-2 gap-2">
-          <div>
-            <div className="text-[10px] text-gray-500 mb-1">Item</div>
-            <input className="input w-full text-xs" value={defItem} onChange={e => setDefItem(e.target.value)} placeholder="Item defensor" />
-          </div>
-          <div>
-            <div className="text-[10px] text-gray-500 mb-1">Ability</div>
-            <select className="input w-full text-xs" value={defAbility} onChange={e => setDefAbility(e.target.value)}>
+      {/* ── Swap button ── */}
+      <div className="flex justify-center">
+        <button
+          onClick={() => {
+            const tmpSource = atkSource, tmpIdx = atkTeamIdx
+            const tmpName = atkCustomName, tmpNature = atkCustomNature
+            const tmpEvs = atkCustomEvs, tmpItem = atkCustomItem, tmpAbility = atkCustomAbility
+            setAtkSource(defSource); setAtkTeamIdx(defTeamIdx)
+            setAtkCustomName(defCustomName); setAtkCustomNature(defCustomNature)
+            setAtkCustomEvs(defCustomEvs); setAtkCustomItem(defCustomItem); setAtkCustomAbility(defCustomAbility)
+            setDefSource(tmpSource); setDefTeamIdx(tmpIdx)
+            setDefCustomName(tmpName); setDefCustomNature(tmpNature)
+            setDefCustomEvs(tmpEvs); setDefCustomItem(tmpItem); setDefCustomAbility(tmpAbility)
+          }}
+          className="flex items-center gap-2 px-4 py-1.5 rounded-full bg-gray-800 border border-gray-700 hover:border-brand-500/50 hover:bg-gray-700 transition-colors text-xs text-gray-400 hover:text-gray-200">
+          <span>⚔️</span>
+          <span>↕ Intercambiar atacante/defensor</span>
+          <span>🛡️</span>
+        </button>
+      </div>
+
+      {/* ── Defender ── */}
+      <div className="bg-gray-800/50 rounded-xl p-3 border border-gray-700/50 space-y-2.5">
+        <div className="text-[10px] font-bold text-red-400 uppercase tracking-widest">🛡️ Defensor</div>
+
+        <TeamPicker source={defSource} setSource={setDefSource}
+          teamIdx={defTeamIdx} setTeamIdx={setDefTeamIdx} label="def" color="red" />
+
+        {defSource === 'custom' && (
+          <div className="grid grid-cols-2 gap-2">
+            <PokemonSearch value={defCustomName} onChange={setDefFromMeta} placeholder="Defensor..." />
+            <select className="input text-xs" value={defCustomNature} onChange={e => setDefCustomNature(e.target.value)}>
+              {NATURES.map(n => <option key={n} value={n}>{n}</option>)}
+            </select>
+            <input className="input text-xs" value={defCustomItem} onChange={e => setDefCustomItem(e.target.value)} placeholder="Item defensor" />
+            <select className="input text-xs" value={defCustomAbility} onChange={e => setDefCustomAbility(e.target.value)}>
               <option value="">-- Ability --</option>
-              {(defPkmn?.abilities || []).map(a => <option key={a} value={a}>{a}</option>)}
+              {(defPkmn?.abilities||[]).map(a => <option key={a} value={a}>{a}</option>)}
             </select>
           </div>
-        </div>
+        )}
+
         {defPkmn && (
-          <div>
-            <div className="text-[10px] text-gray-500 mb-1">EVs defensivos</div>
-            {['hp', 'def', 'spd'].map(s => (
-              <EvRow key={s} stat={s} value={defEvs[s] || 0} base={defPkmn.baseStats[s]} nature={defNature}
-                onChange={v => setDefEvs({ ...defEvs, [s]: v })} />
-            ))}
+          <div className="bg-gray-900/60 rounded-lg p-2">
+            <div className="text-[10px] text-gray-500 mb-1.5 flex items-center justify-between">
+              <span>{defSource === 'team' ? '📋 EVs del equipo (tiempo real)' : 'EVs defensor'}</span>
+              <span className="text-red-400 font-mono">{defName} · {defNature}</span>
+            </div>
+            {defSource === 'custom'
+              ? ['hp','def','spd'].map(s => <EvRow key={s} stat={s} value={defCustomEvs[s]||0} base={defPkmn.baseStats[s]} nature={defCustomNature} onChange={v => setDefCustomEvs({...defCustomEvs,[s]:v})} />)
+              : STAT_KEYS.map(s => {
+                  const base = defPkmn.baseStats[s]||0
+                  const final = calcStat(s, base, defEvs[s]||0, defNature)
+                  const mod = NATURE_MODS[defNature]?.[s]??1
+                  return (
+                    <div key={s} className="flex items-center gap-2 mb-0.5">
+                      <span className="text-[9px] w-7 text-right" style={{color:STAT_COLORS[s]}}>{STAT_LABELS[s]}</span>
+                      <div className="flex-1 bg-gray-800 rounded-full h-1">
+                        <div className="h-1 rounded-full" style={{width:`${Math.min(100,(base/170)*100)}%`,backgroundColor:STAT_COLORS[s]}} />
+                      </div>
+                      <span className="text-[9px] font-mono w-5 text-right text-gray-600">{defEvs[s]||0}</span>
+                      <span className={`text-[9px] font-mono w-7 text-right ${mod>1?'text-green-400':mod<1?'text-red-400':'text-gray-400'}`}>{final}</span>
+                    </div>
+                  )
+                })
+            }
           </div>
         )}
+
         <div>
           <div className="text-[10px] text-gray-500 mb-1">Boost defensa</div>
           <BoostSelector value={defBoost} onChange={setDefBoost} color="red" />
@@ -880,7 +1011,7 @@ function DamageCalc({ attackerSlot }) {
         </label>
       </div>
 
-      {/* Result */}
+      {/* ── Result ── */}
       {result?.immune && (
         <div className="bg-gray-800/60 rounded-xl p-4 border border-gray-700/50 text-center">
           <div className="text-lg font-bold text-gray-400">Inmune 🛡️</div>
@@ -890,32 +1021,25 @@ function DamageCalc({ attackerSlot }) {
 
       {result && !result.immune && (
         <div className="bg-gray-800/60 rounded-xl p-4 border border-gray-700/50 space-y-3">
-          {/* Smogon-style description */}
-          <div className="font-mono text-[11px] text-gray-300 bg-gray-900 rounded-lg p-2 break-words leading-relaxed">
+          {/* Smogon-style description line */}
+          <div className="font-mono text-[11px] text-gray-300 bg-gray-900 rounded-lg p-2.5 break-words leading-relaxed border border-gray-800">
             {result.descLine}
           </div>
 
-          {/* KO verdict */}
-          <div className={`text-sm ${koColor}`}>{koLabel}</div>
+          <div className={`text-sm font-semibold ${koColor}`}>{koLabel}</div>
 
           {/* Damage bar */}
           <div>
             <div className="flex justify-between text-xs text-gray-400 mb-1">
               <span>HP defensor: <span className="font-mono text-gray-200">{result.defHp}</span></span>
-              <span className="font-mono text-gray-200">{result.minPct}%–{result.maxPct}%</span>
+              <span className="font-mono font-semibold text-gray-200">{result.minPct}% – {result.maxPct}%</span>
             </div>
-            <div className="relative h-7 bg-gray-800 rounded-lg overflow-hidden border border-gray-700">
-              <div className="absolute inset-y-0 left-0 bg-green-700/40"
-                style={{ width: `${Math.max(0, 100 - result.maxPct)}%` }} />
-              <div className="absolute inset-y-0 bg-red-500/70"
-                style={{ left: `${Math.max(0, 100 - result.maxPct)}%`, width: `${result.maxPct - result.minPct}%` }} />
-              <div className="absolute inset-y-0 bg-red-600"
-                style={{ right: 0, width: `${Math.max(0, result.minPct - (100 - result.maxPct))}%`, left: 'auto' }}
-                title={`Min: ${result.min}`} />
+            <div className="relative h-8 bg-gray-800 rounded-lg overflow-hidden border border-gray-700">
+              <div className="absolute inset-y-0 left-0 bg-green-700/30" style={{width:`${Math.max(0,100-result.maxPct)}%`}} />
+              <div className="absolute inset-y-0 bg-red-500/60" style={{left:`${Math.max(0,100-result.maxPct)}%`,width:`${result.maxPct-result.minPct}%`}} />
+              {result.ko1 && <div className="absolute inset-y-0 right-0 bg-red-700/80" style={{width:`${result.minPct-(100-result.maxPct) > 0 ? result.minPct-(100-result.maxPct) : 0}%`}} />}
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-xs font-mono font-bold text-white drop-shadow-lg">
-                  {result.min}–{result.max} / {result.defHp}
-                </span>
+                <span className="text-xs font-mono font-bold text-white drop-shadow-lg">{result.min}–{result.max} / {result.defHp}</span>
               </div>
             </div>
           </div>
@@ -924,43 +1048,37 @@ function DamageCalc({ attackerSlot }) {
           <div>
             <div className="text-[10px] text-gray-500 mb-1.5">Rolls (85%–100%):</div>
             <div className="flex flex-wrap gap-0.5">
-              {result.rolls.map((r, i) => (
-                <span key={i} className={`text-[9px] font-mono px-1.5 py-0.5 rounded border ${r >= result.defHp ? 'bg-red-900/60 text-red-200 border-red-700' : 'bg-gray-800 text-gray-500 border-gray-700'}`}>
-                  {r}
-                </span>
+              {result.rolls.map((r,i) => (
+                <span key={i} className={`text-[9px] font-mono px-1.5 py-0.5 rounded border ${r >= result.defHp ? 'bg-red-900/60 text-red-200 border-red-700' : 'bg-gray-800 text-gray-500 border-gray-700'}`}>{r}</span>
               ))}
             </div>
           </div>
 
-          {/* Modifiers breakdown */}
-          <div className="pt-2 border-t border-gray-700 flex flex-wrap gap-2 text-[10px]">
+          {/* Modifier badges */}
+          <div className="pt-2 border-t border-gray-700/50 flex flex-wrap gap-1.5 text-[10px]">
             {result.stab > 1 && <span className="bg-yellow-900/40 text-yellow-300 px-2 py-0.5 rounded">STAB ×{result.stab}</span>}
-            {result.eff !== 1 && (
-              <span className={`px-2 py-0.5 rounded ${result.eff > 1 ? 'bg-green-900/40 text-green-300' : 'bg-red-900/40 text-red-300'}`}>
-                Efect. ×{result.eff}
-              </span>
-            )}
-            {result.weatherMod !== 1 && <span className="bg-blue-900/40 text-blue-300 px-2 py-0.5 rounded">Clima ×{result.weatherMod}</span>}
-            {result.spreadMod < 1 && <span className="bg-purple-900/40 text-purple-300 px-2 py-0.5 rounded">Spread ×0.75</span>}
-            {result.critMod > 1 && <span className="bg-yellow-900/40 text-yellow-300 px-2 py-0.5 rounded">Crítico ×1.5</span>}
-            {result.burnMod < 1 && <span className="bg-orange-900/40 text-orange-300 px-2 py-0.5 rounded">Quemado ×0.5</span>}
-            {result.screenMod < 1 && <span className="bg-cyan-900/40 text-cyan-300 px-2 py-0.5 rounded">Pantalla ×{result.screenMod.toFixed(2)}</span>}
-            {result.atkAbilityMult !== 1 && <span className="bg-brand-900/40 text-brand-300 px-2 py-0.5 rounded">Ability atk ×{result.atkAbilityMult.toFixed(2)}</span>}
-            {result.defAbilityMult !== 1 && <span className="bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Ability def ×{result.defAbilityMult.toFixed(2)}</span>}
-            {result.atkItemMult !== 1 && <span className="bg-emerald-900/40 text-emerald-300 px-2 py-0.5 rounded">Item atk ×{result.atkItemMult.toFixed(2)}</span>}
-            {result.defItemMult !== 1 && <span className="bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Item def ×{result.defItemMult.toFixed(2)}</span>}
-            {result.hhMod > 1 && <span className="bg-pink-900/40 text-pink-300 px-2 py-0.5 rounded">Helping Hand ×1.5</span>}
-            {result.bp !== MOVES[moveName]?.bp && <span className="bg-gray-700 text-gray-300 px-2 py-0.5 rounded">BP real: {result.bp}</span>}
+            {result.eff !== 1 && <span className={`px-2 py-0.5 rounded ${result.eff>1?'bg-green-900/40 text-green-300':'bg-red-900/40 text-red-300'}`}>×{result.eff} tipo</span>}
+            {result.weatherMod !== 1 && <span className="bg-blue-900/40 text-blue-300 px-2 py-0.5 rounded">clima ×{result.weatherMod}</span>}
+            {result.spreadMod < 1 && <span className="bg-purple-900/40 text-purple-300 px-2 py-0.5 rounded">spread ×0.75</span>}
+            {result.critMod > 1 && <span className="bg-yellow-900/40 text-yellow-300 px-2 py-0.5 rounded">crítico ×1.5</span>}
+            {result.burnMod < 1 && <span className="bg-orange-900/40 text-orange-300 px-2 py-0.5 rounded">quemado ×0.5</span>}
+            {result.screenMod < 1 && <span className="bg-cyan-900/40 text-cyan-300 px-2 py-0.5 rounded">pantalla ×{result.screenMod.toFixed(2)}</span>}
+            {result.atkAbilityMult !== 1 && <span className="bg-brand-900/40 text-brand-300 px-2 py-0.5 rounded">ability ×{result.atkAbilityMult.toFixed(2)}</span>}
+            {result.defAbilityMult !== 1 && <span className="bg-gray-700 text-gray-300 px-2 py-0.5 rounded">def ability ×{result.defAbilityMult.toFixed(2)}</span>}
+            {result.atkItemMult !== 1 && <span className="bg-emerald-900/40 text-emerald-300 px-2 py-0.5 rounded">item ×{result.atkItemMult.toFixed(2)}</span>}
+            {result.defItemMult !== 1 && <span className="bg-gray-700 text-gray-300 px-2 py-0.5 rounded">def item ×{result.defItemMult.toFixed(2)}</span>}
+            {result.hhMod > 1 && <span className="bg-pink-900/40 text-pink-300 px-2 py-0.5 rounded">HH ×1.5</span>}
             {result.hits > 1 && <span className="bg-gray-700 text-gray-300 px-2 py-0.5 rounded">×{result.hits} hits</span>}
+            {result.bp !== MOVES[moveName]?.bp && <span className="bg-gray-700 text-gray-300 px-2 py-0.5 rounded">BP:{result.bp}</span>}
           </div>
         </div>
       )}
 
-      {!result && atkName && defName && moveName && mv?.bp > 0 && (
-        <div className="text-center text-xs text-gray-500 py-4">Completa todos los campos para calcular</div>
-      )}
       {(!atkName || !defName || !moveName) && (
-        <div className="text-center text-sm text-gray-500 py-6">Selecciona atacante, move y defensor</div>
+        <div className="text-center text-sm text-gray-500 py-6 space-y-1">
+          <div>Selecciona atacante → move → defensor</div>
+          <div className="text-[10px] text-gray-600">Los pokemon de tu equipo se sincronizan en tiempo real</div>
+        </div>
       )}
     </div>
   )
@@ -1075,6 +1193,13 @@ function SetEditor({ slot, onChange }) {
     return Object.entries(c).sort((a, b) => b[1] - a[1]).map(([m]) => m)
   }, [pkmn])
 
+  const normEvs = (evs) => {
+    const map = { HP:'hp', Atk:'atk', Def:'def', SpA:'spa', SpD:'spd', Spe:'spe' }
+    const out = { hp:0, atk:0, def:0, spa:0, spd:0, spe:0 }
+    Object.entries(evs || {}).forEach(([k, v]) => { const key = map[k]||k.toLowerCase(); if (key in out) out[key]=v })
+    return out
+  }
+
   const setEv = (s, v) => onChange({ ...slot, evs: { ...slot.evs, [s]: v } })
   const setMove = (i, v) => { const m = [...slot.moves]; m[i] = v; onChange({ ...slot, moves: m }) }
 
@@ -1086,7 +1211,7 @@ function SetEditor({ slot, onChange }) {
           <PokemonSearch value={slot.name} onChange={name => {
             const p = pokemonData.find(x => x.name === name)
             const ms = p?.metaSets?.[0]
-            onChange({ ...slot, name, item: ms?.item ?? '', ability: ms?.ability ?? p?.abilities?.[0] ?? '', nature: ms?.nature ?? 'Hardy', evs: { hp:0,atk:0,def:0,spa:0,spd:0,spe:0,...(ms?.evs||{}) }, moves: ms ? [...ms.moves,'','',''].slice(0,4) : ['','','',''] })
+            onChange({ ...slot, name, item: ms?.item ?? '', ability: ms?.ability ?? p?.abilities?.[0] ?? '', nature: ms?.nature ?? 'Hardy', evs: normEvs(ms?.evs), moves: ms ? [...ms.moves,'','',''].slice(0,4) : ['','','',''] })
           }} />
         </div>
         <div>
@@ -1171,40 +1296,22 @@ function ExportModal({ team, onClose }) {
   )
 }
 
-// ── Team Slot Button ──────────────────────────────────────────────────────────
-const emptySlot = () => ({ name: '', item: '', ability: '', nature: 'Hardy', evs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 }, moves: ['', '', '', ''] })
-
-function TeamSlotButton({ slot, index, active, onClick, onRemove }) {
-  const pkmn = pokemonData.find(p => p.name === slot.name)
-  return (
-    <div className={`relative flex items-center gap-2 px-3 py-2 rounded-lg cursor-pointer transition-colors border ${active ? 'border-brand-500/60 bg-brand-900/20' : 'border-gray-700/50 hover:border-gray-600 bg-gray-800/40'}`} onClick={onClick}>
-      <div className="flex-1 min-w-0">
-        {slot.name ? (
-          <>
-            <div className="flex items-center gap-1.5">
-              <span className="text-sm font-medium text-gray-100 truncate">{slot.name}</span>
-              {MEGA_ITEMS.includes(slot.item) && <span className="text-[9px] text-yellow-400 shrink-0">MEGA</span>}
-            </div>
-            <div className="text-[10px] text-gray-500 truncate">{slot.item || '—'} · {slot.nature}</div>
-          </>
-        ) : <span className="text-sm text-gray-600">Slot {index + 1}</span>}
-      </div>
-      {pkmn && <div className="flex gap-0.5 shrink-0">{pkmn.types.map(t => <span key={t} className="w-2 h-5 rounded-sm" style={{ backgroundColor: TYPE_COLORS[t] }} />)}</div>}
-      <button onClick={e => { e.stopPropagation(); onRemove() }} className="text-gray-700 hover:text-red-400 transition-colors text-xs">✕</button>
-    </div>
-  )
-}
-
 // ── Main Component ────────────────────────────────────────────────────────────
-export default function Teambuilder() {
-  const [team, setTeam] = useState([emptySlot()])
+export default function Teambuilder({ team, setTeam }) {
   const [activeIdx, setActiveIdx] = useState(0)
-  const [rightTab, setRightTab] = useState('suggestions')
   const [showExport, setShowExport] = useState(false)
 
   const update = (i, slot) => setTeam(t => { const n = [...t]; n[i] = slot; return n })
-  const remove = (i) => { setTeam(t => { const n = t.filter((_, j) => j !== i); return n.length ? n : [emptySlot()] }); setActiveIdx(i => Math.max(0, i - 1)) }
-  const add = () => { if (team.length < 6) { setTeam(t => [...t, emptySlot()]); setActiveIdx(team.length) } }
+  const remove = (i) => {
+    setTeam(t => { const n = t.filter((_, j) => j !== i); return n.length ? n : [{ name:'',item:'',ability:'',nature:'Hardy',evs:{hp:0,atk:0,def:0,spa:0,spd:0,spe:0},moves:['','','',''] }] })
+    setActiveIdx(i => Math.max(0, i - 1))
+  }
+  const add = () => {
+    if (team.length < 6) {
+      setTeam(t => [...t, { name:'',item:'',ability:'',nature:'Hardy',evs:{hp:0,atk:0,def:0,spa:0,spd:0,spe:0},moves:['','','',''] }])
+      setActiveIdx(team.length)
+    }
+  }
 
   const hasMega = team.some(s => MEGA_ITEMS.includes(s.item))
   const filledCount = team.filter(s => s.name).length
@@ -1212,7 +1319,7 @@ export default function Teambuilder() {
   const applySet = (ms) => update(activeIdx, {
     ...team[activeIdx],
     item: ms.item, ability: ms.ability, nature: ms.nature,
-    evs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0, ...(ms.evs || {}) },
+    evs: normEvsMini(ms.evs),
     moves: [...ms.moves, '', '', ''].slice(0, 4),
   })
 
@@ -1221,7 +1328,7 @@ export default function Teambuilder() {
       <div className="flex items-center justify-between flex-wrap gap-2">
         <div>
           <h2 className="text-xl font-bold text-gray-100">Teambuilder</h2>
-          <p className="text-sm text-gray-400">Formato Champions · EVs 0-32 · sin IVs · requiere Mega</p>
+          <p className="text-sm text-gray-400">Formato Champions · EVs 0-32 · sin IVs · requiere Mega · El equipo se sincroniza con la Calc</p>
         </div>
         <div className="flex items-center gap-2">
           {!hasMega && filledCount > 0 && <span className="text-xs text-yellow-400 bg-yellow-400/10 border border-yellow-400/20 px-3 py-1 rounded-full">⚠ Sin Mega</span>}
@@ -1231,7 +1338,27 @@ export default function Teambuilder() {
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
-        {team.map((slot, i) => <TeamSlotButton key={i} slot={slot} index={i} active={activeIdx === i} onClick={() => setActiveIdx(i)} onRemove={() => remove(i)} />)}
+        {team.map((slot, i) => (
+          <div key={i} className={`relative flex items-center gap-2 px-2 py-2 rounded-lg cursor-pointer transition-colors border ${activeIdx === i ? 'border-brand-500/60 bg-brand-900/20' : 'border-gray-700/50 hover:border-gray-600 bg-gray-800/40'}`}
+            onClick={() => setActiveIdx(i)}>
+            {slot.name && (
+              <img src={getSprite(slot.name)} alt={slot.name}
+                className="w-10 h-10 object-contain flex-shrink-0" style={{imageRendering:"crisp-edges"}} />
+            )}
+            <div className="flex-1 min-w-0">
+              {slot.name ? (
+                <>
+                  <div className="flex items-center gap-1">
+                    <span className="text-xs font-medium text-gray-100 truncate leading-tight">{slot.name}</span>
+                    {MEGA_ITEMS.includes(slot.item) && <span className="text-[9px] text-yellow-400 flex-shrink-0">M</span>}
+                  </div>
+                  <div className="text-[9px] text-gray-500 truncate">{slot.nature}</div>
+                </>
+              ) : <span className="text-sm text-gray-600">Slot {i + 1}</span>}
+            </div>
+            <button onClick={e => { e.stopPropagation(); remove(i) }} className="text-gray-700 hover:text-red-400 text-xs flex-shrink-0">✕</button>
+          </div>
+        ))}
         {team.length < 6 && (
           <button onClick={add} className="flex items-center justify-center gap-1 px-3 py-2 rounded-lg border border-dashed border-gray-700 text-gray-600 hover:text-gray-400 hover:border-gray-500 transition-colors text-sm">
             <span className="text-lg leading-none">+</span> Agregar
@@ -1252,15 +1379,9 @@ export default function Teambuilder() {
           {team[activeIdx] && <SetEditor slot={team[activeIdx]} onChange={slot => update(activeIdx, slot)} />}
         </div>
 
-        <div className="card flex flex-col">
-          <div className="flex gap-1 mb-4">
-            <button onClick={() => setRightTab('suggestions')} className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${rightTab === 'suggestions' ? 'bg-brand-600 text-white' : 'text-gray-400 hover:bg-gray-800'}`}>💡 Sugerencias</button>
-            <button onClick={() => setRightTab('calc')} className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${rightTab === 'calc' ? 'bg-brand-600 text-white' : 'text-gray-400 hover:bg-gray-800'}`}>⚔️ Calc de Daño</button>
-          </div>
-          <div className="overflow-y-auto flex-1 max-h-[700px]">
-            {rightTab === 'suggestions' && team[activeIdx] && <MetaSuggestions slot={team[activeIdx]} onApply={applySet} />}
-            {rightTab === 'calc' && <DamageCalc attackerSlot={team[activeIdx]} />}
-          </div>
+        <div className="card overflow-y-auto max-h-[700px]">
+          <h3 className="font-semibold text-gray-100 text-sm mb-4">💡 Sugerencias del meta</h3>
+          {team[activeIdx] && <MetaSuggestions slot={team[activeIdx]} onApply={applySet} />}
         </div>
       </div>
 
