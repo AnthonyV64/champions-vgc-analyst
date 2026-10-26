@@ -21126,6 +21126,965 @@
     ]
   },
   {
+    "id": "6acba9c9115c12b73a5a14c3",
+    "name": "Maddo's Cup #13 | 100€ for the Winner | Reg M-C",
+    "date": "2026-10-24",
+    "players": 230,
+    "tier": "featured",
+    "top8": [
+      {
+        "place": 1,
+        "player": "misoup",
+        "record": "12-2",
+        "team": [
+          {
+            "name": "Salamence",
+            "item": "Salamencite",
+            "ability": "Intimidate",
+            "nature": "Hasty",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Hyper Voice",
+              "Double-Edge",
+              "Tailwind",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Raichu",
+            "item": "Raichunite Y",
+            "ability": "Lightning Rod",
+            "nature": "Timid",
+            "evs": {
+              "spa": 24,
+              "spe": 32,
+              "hp": 22,
+              "def": 1,
+              "spd": 1
+            },
+            "evsStr": "22 HP / 1 Def / 24 SpA / 1 SpD / 32 Spe",
+            "moves": [
+              "Zap Cannon",
+              "Encore",
+              "Fake Out",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Sylveon",
+            "item": "Fairy Feather",
+            "ability": "Pixilate",
+            "nature": "Modest",
+            "evs": {
+              "hp": 19,
+              "def": 18,
+              "spa": 23,
+              "spe": 11,
+              "spd": 1
+            },
+            "evsStr": "19 HP / 18 Def / 23 SpA / 1 SpD / 11 Spe",
+            "moves": [
+              "Hyper Voice",
+              "Hyper Beam",
+              "Quick Attack",
+              "Detect"
+            ]
+          },
+          {
+            "name": "Basculegion",
+            "item": "Focus Sash",
+            "ability": "Adaptability",
+            "nature": "Adamant",
+            "evs": {
+              "hp": 2,
+              "atk": 32,
+              "spe": 32,
+              "def": 2,
+              "spd": 1
+            },
+            "evsStr": "2 HP / 32 Atk / 2 Def / 1 SpD / 32 Spe",
+            "moves": [
+              "Liquidation",
+              "Last Respects",
+              "Aqua Jet",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Kingambit",
+            "item": "Chople Berry",
+            "ability": "Defiant",
+            "nature": "Adamant",
+            "evs": {
+              "hp": 29,
+              "atk": 25,
+              "def": 7,
+              "spe": 8,
+              "spd": 2
+            },
+            "evsStr": "29 HP / 25 Atk / 7 Def / 2 SpD / 8 Spe",
+            "moves": [
+              "Kowtow Cleave",
+              "Iron Head",
+              "Low Kick",
+              "Sucker Punch"
+            ]
+          },
+          {
+            "name": "Incineroar",
+            "item": "Life Orb",
+            "ability": "Intimidate",
+            "nature": "Sassy",
+            "evs": {
+              "hp": 31,
+              "def": 13,
+              "spd": 12,
+              "atk": 11,
+              "spe": 9,
+              "spa": 2
+            },
+            "evsStr": "31 HP / 11 Atk / 13 Def / 2 SpA / 12 SpD / 9 Spe",
+            "moves": [
+              "Fake Out",
+              "Flare Blitz",
+              "Darkest Lariat",
+              "Close Combat"
+            ]
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "player": "Nic3003",
+        "record": "12-2",
+        "team": [
+          {
+            "name": "Salamence",
+            "item": "Salamencite",
+            "ability": "Intimidate",
+            "nature": "Modest",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Draco Meteor",
+              "Hyper Voice",
+              "Tailwind",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Floette-Eternal",
+            "item": "Floettite",
+            "ability": "Flower Veil",
+            "nature": "Modest",
+            "evs": {
+              "hp": 20,
+              "def": 13,
+              "spa": 18,
+              "spe": 21,
+              "spd": 1
+            },
+            "evsStr": "20 HP / 13 Def / 18 SpA / 1 SpD / 21 Spe",
+            "moves": [
+              "Moonblast",
+              "Dazzling Gleam",
+              "Calm Mind",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Incineroar",
+            "item": "Sitrus Berry",
+            "ability": "Intimidate",
+            "nature": "Sassy",
+            "evs": {
+              "hp": 31,
+              "def": 14,
+              "spd": 13,
+              "spe": 9,
+              "atk": 8,
+              "spa": 2
+            },
+            "evsStr": "31 HP / 8 Atk / 14 Def / 2 SpA / 13 SpD / 9 Spe",
+            "moves": [
+              "Fake Out",
+              "Helping Hand",
+              "Flare Blitz",
+              "Parting Shot"
+            ]
+          },
+          {
+            "name": "Rillaboom",
+            "item": "Life Orb",
+            "ability": "Grassy Surge",
+            "nature": "Adamant",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Fake Out",
+              "Wood Hammer",
+              "High Horsepower",
+              "Grassy Glide"
+            ]
+          },
+          {
+            "name": "Sneasler",
+            "item": "White Herb",
+            "ability": "Unburden",
+            "nature": "Jolly",
+            "evs": {
+              "hp": 10,
+              "atk": 26,
+              "spe": 27,
+              "def": 12,
+              "spd": 2,
+              "spa": 2
+            },
+            "evsStr": "10 HP / 26 Atk / 12 Def / 2 SpA / 2 SpD / 27 Spe",
+            "moves": [
+              "Fake Out",
+              "Dire Claw",
+              "Close Combat",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Basculegion",
+            "item": "Focus Sash",
+            "ability": "Adaptability",
+            "nature": "Adamant",
+            "evs": {
+              "hp": 2,
+              "atk": 32,
+              "spe": 32,
+              "def": 2,
+              "spd": 1
+            },
+            "evsStr": "2 HP / 32 Atk / 2 Def / 1 SpD / 32 Spe",
+            "moves": [
+              "Aqua Jet",
+              "Liquidation",
+              "Last Respects",
+              "Protect"
+            ]
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "player": "EmperorAry",
+        "record": "10-3",
+        "team": [
+          {
+            "name": "Floette-Eternal",
+            "item": "Floettite",
+            "ability": "Flower Veil",
+            "nature": "Modest",
+            "evs": {
+              "hp": 20,
+              "def": 13,
+              "spa": 18,
+              "spe": 21,
+              "spd": 1
+            },
+            "evsStr": "20 HP / 13 Def / 18 SpA / 1 SpD / 21 Spe",
+            "moves": [
+              "Moonblast",
+              "Dazzling Gleam",
+              "Light of Ruin",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Golisopod",
+            "item": "Golisopite",
+            "ability": "Emergency Exit",
+            "nature": "Adamant",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Leech Life",
+              "Iron Head",
+              "Sucker Punch",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Pelipper",
+            "item": "Damp Rock",
+            "ability": "Drizzle",
+            "nature": "Calm",
+            "evs": {
+              "hp": 14,
+              "def": 4,
+              "spd": 12,
+              "spa": 26,
+              "spe": 25
+            },
+            "evsStr": "14 HP / 4 Def / 26 SpA / 12 SpD / 25 Spe",
+            "moves": [
+              "Weather Ball",
+              "Hurricane",
+              "Helping Hand",
+              "Wide Guard"
+            ]
+          },
+          {
+            "name": "Basculegion-F",
+            "item": "Focus Sash",
+            "ability": "Swift Swim",
+            "nature": "Timid",
+            "evs": {
+              "def": 5,
+              "spa": 32,
+              "spd": 3,
+              "spe": 29
+            },
+            "evsStr": "5 Def / 32 SpA / 3 SpD / 29 Spe",
+            "moves": [
+              "Muddy Water",
+              "Shadow Ball",
+              "Ice Beam",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Archaludon",
+            "item": "Leftovers",
+            "ability": "Stamina",
+            "nature": "Bold",
+            "evs": {
+              "hp": 29,
+              "def": 3,
+              "spd": 23,
+              "spe": 8,
+              "spa": 9
+            },
+            "evsStr": "29 HP / 3 Def / 9 SpA / 23 SpD / 8 Spe",
+            "moves": [
+              "Dragon Pulse",
+              "Electro Shot",
+              "Aura Sphere",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Sneasler",
+            "item": "White Herb",
+            "ability": "Unburden",
+            "nature": "Jolly",
+            "evs": {
+              "hp": 10,
+              "atk": 26,
+              "spe": 27,
+              "def": 12,
+              "spd": 2,
+              "spa": 2
+            },
+            "evsStr": "10 HP / 26 Atk / 12 Def / 2 SpA / 2 SpD / 27 Spe",
+            "moves": [
+              "Close Combat",
+              "Dire Claw",
+              "Rock Slide",
+              "Protect"
+            ]
+          }
+        ]
+      },
+      {
+        "place": 4,
+        "player": "Sglez124",
+        "record": "10-3",
+        "team": [
+          {
+            "name": "Floette-Eternal",
+            "item": "Floettite",
+            "ability": "Flower Veil",
+            "nature": "Modest",
+            "evs": {
+              "hp": 20,
+              "def": 13,
+              "spa": 18,
+              "spe": 21,
+              "spd": 1
+            },
+            "evsStr": "20 HP / 13 Def / 18 SpA / 1 SpD / 21 Spe",
+            "moves": [
+              "Moonblast",
+              "Dazzling Gleam",
+              "Light of Ruin",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Sneasler",
+            "item": "Psychic Seed",
+            "ability": "Unburden",
+            "nature": "Jolly",
+            "evs": {
+              "hp": 8,
+              "atk": 27,
+              "spe": 28,
+              "def": 11,
+              "spd": 2,
+              "spa": 2
+            },
+            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
+            "moves": [
+              "Dire Claw",
+              "Close Combat",
+              "Rock Slide",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Indeedee",
+            "item": "Focus Sash",
+            "ability": "Psychic Surge",
+            "nature": "Timid",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Expanding Force",
+              "Helping Hand",
+              "Protect",
+              "Trick Room"
+            ]
+          },
+          {
+            "name": "Basculegion",
+            "item": "Choice Scarf",
+            "ability": "Adaptability",
+            "nature": "Adamant",
+            "evs": {
+              "atk": 30,
+              "def": 5,
+              "spe": 32,
+              "hp": 2,
+              "spd": 2
+            },
+            "evsStr": "2 HP / 30 Atk / 5 Def / 2 SpD / 32 Spe",
+            "moves": [
+              "Wave Crash",
+              "Last Respects",
+              "Flip Turn",
+              "Aqua Jet"
+            ]
+          },
+          {
+            "name": "Dragonite",
+            "item": "Dragoninite",
+            "ability": "Multiscale",
+            "nature": "Modest",
+            "evs": {
+              "hp": 10,
+              "def": 3,
+              "spa": 29,
+              "spd": 4,
+              "spe": 25
+            },
+            "evsStr": "10 HP / 3 Def / 29 SpA / 4 SpD / 25 Spe",
+            "moves": [
+              "Dragon Pulse",
+              "Heat Wave",
+              "Tailwind",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Kingambit",
+            "item": "Chople Berry",
+            "ability": "Defiant",
+            "nature": "Adamant",
+            "evs": {
+              "hp": 29,
+              "atk": 25,
+              "def": 7,
+              "spe": 8,
+              "spd": 2
+            },
+            "evsStr": "29 HP / 25 Atk / 7 Def / 2 SpD / 8 Spe",
+            "moves": [
+              "Kowtow Cleave",
+              "Sucker Punch",
+              "Iron Head",
+              "Low Kick"
+            ]
+          }
+        ]
+      },
+      {
+        "place": 5,
+        "player": "shaikhvgc786",
+        "record": "10-2",
+        "team": [
+          {
+            "name": "Salamence",
+            "item": "Salamencite",
+            "ability": "Intimidate",
+            "nature": "Hasty",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Tailwind",
+              "Hyper Voice",
+              "Double-Edge",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Blaziken",
+            "item": "Life Orb",
+            "ability": "Speed Boost",
+            "nature": "Adamant",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Detect",
+              "Rock Slide",
+              "Close Combat",
+              "Flare Blitz"
+            ]
+          },
+          {
+            "name": "Kingambit",
+            "item": "Focus Sash",
+            "ability": "Defiant",
+            "nature": "Adamant",
+            "evs": {
+              "hp": 11,
+              "atk": 32,
+              "spe": 29,
+              "def": 2,
+              "spd": 1
+            },
+            "evsStr": "11 HP / 32 Atk / 2 Def / 1 SpD / 29 Spe",
+            "moves": [
+              "Kowtow Cleave",
+              "Iron Head",
+              "Sucker Punch",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Gengar",
+            "item": "Gengarite",
+            "ability": "Cursed Body",
+            "nature": "Modest",
+            "evs": {
+              "hp": 23,
+              "def": 11,
+              "spa": 12,
+              "spd": 5,
+              "spe": 24
+            },
+            "evsStr": "23 HP / 11 Def / 12 SpA / 5 SpD / 24 Spe",
+            "moves": [
+              "Focus Blast",
+              "Shadow Ball",
+              "Sludge Bomb",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Ninetales-Alola",
+            "item": "Choice Scarf",
+            "ability": "Snow Warning",
+            "nature": "Timid",
+            "evs": {
+              "hp": 8,
+              "def": 1,
+              "spa": 30,
+              "spe": 27,
+              "spd": 1
+            },
+            "evsStr": "8 HP / 1 Def / 30 SpA / 1 SpD / 27 Spe",
+            "moves": [
+              "Moonblast",
+              "Blizzard",
+              "Freeze-Dry",
+              "Icy Wind"
+            ]
+          },
+          {
+            "name": "Indeedee-F",
+            "item": "Rocky Helmet",
+            "ability": "Psychic Surge",
+            "nature": "Bold",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Follow Me",
+              "Helping Hand",
+              "Protect",
+              "Psychic"
+            ]
+          }
+        ]
+      },
+      {
+        "place": 6,
+        "player": "Colle10",
+        "record": "9-3",
+        "team": [
+          {
+            "name": "Gengar",
+            "item": "Gengarite",
+            "ability": "Cursed Body",
+            "nature": "Modest",
+            "evs": {
+              "hp": 23,
+              "def": 11,
+              "spa": 12,
+              "spd": 5,
+              "spe": 24
+            },
+            "evsStr": "23 HP / 11 Def / 12 SpA / 5 SpD / 24 Spe",
+            "moves": [
+              "Shadow Ball",
+              "Sludge Bomb",
+              "Perish Song",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Incineroar",
+            "item": "Sitrus Berry",
+            "ability": "Intimidate",
+            "nature": "Sassy",
+            "evs": {
+              "hp": 31,
+              "def": 14,
+              "spd": 13,
+              "spe": 9,
+              "atk": 8,
+              "spa": 2
+            },
+            "evsStr": "31 HP / 8 Atk / 14 Def / 2 SpA / 13 SpD / 9 Spe",
+            "moves": [
+              "Flare Blitz",
+              "Fake Out",
+              "Parting Shot",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Rillaboom",
+            "item": "Eject Button",
+            "ability": "Grassy Surge",
+            "nature": "Careful",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Grassy Glide",
+              "Fake Out",
+              "U-turn",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Tyranitar",
+            "item": "Tyranitarite",
+            "ability": "Sand Stream",
+            "nature": "Adamant",
+            "evs": {
+              "hp": 23,
+              "atk": 22,
+              "spe": 20,
+              "def": 3,
+              "spd": 4
+            },
+            "evsStr": "23 HP / 22 Atk / 3 Def / 4 SpD / 20 Spe",
+            "moves": [
+              "Rock Slide",
+              "Knock Off",
+              "Dragon Dance",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Kommo-O",
+            "item": "Leftovers",
+            "ability": "Soundproof",
+            "nature": "Modest",
+            "evs": {
+              "hp": 14,
+              "spa": 26,
+              "spe": 25,
+              "def": 2,
+              "spd": 2,
+              "atk": 8
+            },
+            "evsStr": "14 HP / 8 Atk / 2 Def / 26 SpA / 2 SpD / 25 Spe",
+            "moves": [
+              "Clanging Scales",
+              "Aura Sphere",
+              "Clangorous Soul",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Maushold",
+            "item": "Focus Sash",
+            "ability": "Friend Guard",
+            "nature": "Impish",
+            "evs": {
+              "hp": 32,
+              "def": 5,
+              "spd": 7,
+              "spe": 25
+            },
+            "evsStr": "32 HP / 5 Def / 7 SpD / 25 Spe",
+            "moves": [
+              "Follow Me",
+              "Super Fang",
+              "Encore",
+              "Protect"
+            ]
+          }
+        ]
+      },
+      {
+        "place": 7,
+        "player": "sodi",
+        "record": "9-3",
+        "team": [
+          {
+            "name": "Raichu",
+            "item": "Raichunite Y",
+            "ability": "Lightning Rod",
+            "nature": "Timid",
+            "evs": {
+              "spa": 24,
+              "spe": 32,
+              "hp": 22,
+              "def": 1,
+              "spd": 1
+            },
+            "evsStr": "22 HP / 1 Def / 24 SpA / 1 SpD / 32 Spe",
+            "moves": [
+              "Zap Cannon",
+              "Focus Blast",
+              "Encore",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Rillaboom",
+            "item": "Miracle Seed",
+            "ability": "Grassy Surge",
+            "nature": "Adamant",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Wood Hammer",
+              "Grassy Glide",
+              "Fake Out",
+              "High Horsepower"
+            ]
+          },
+          {
+            "name": "Incineroar",
+            "item": "Sitrus Berry",
+            "ability": "Intimidate",
+            "nature": "Sassy",
+            "evs": {
+              "hp": 31,
+              "def": 14,
+              "spd": 13,
+              "spe": 9,
+              "atk": 8,
+              "spa": 2
+            },
+            "evsStr": "31 HP / 8 Atk / 14 Def / 2 SpA / 13 SpD / 9 Spe",
+            "moves": [
+              "Flare Blitz",
+              "Darkest Lariat",
+              "Fake Out",
+              "Parting Shot"
+            ]
+          },
+          {
+            "name": "Gholdengo",
+            "item": "Life Orb",
+            "ability": "Good as Gold",
+            "nature": "Modest",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Make It Rain",
+              "Shadow Ball",
+              "Nasty Plot",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Primarina",
+            "item": "Leftovers",
+            "ability": "Liquid Voice",
+            "nature": "Modest",
+            "evs": {
+              "hp": 28,
+              "def": 18,
+              "spa": 19,
+              "spe": 5
+            },
+            "evsStr": "28 HP / 18 Def / 19 SpA / 5 Spe",
+            "moves": [
+              "Hyper Voice",
+              "Moonblast",
+              "Calm Mind",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Garchomp",
+            "item": "Garchompite Z",
+            "ability": "Rough Skin",
+            "nature": "Jolly",
+            "evs": {
+              "atk": 26,
+              "def": 2,
+              "spe": 27,
+              "hp": 13,
+              "spd": 3,
+              "spa": 30
+            },
+            "evsStr": "13 HP / 26 Atk / 2 Def / 30 SpA / 3 SpD / 27 Spe",
+            "moves": [
+              "Dragon Pulse",
+              "Earth Power",
+              "Power Gem",
+              "Protect"
+            ]
+          }
+        ]
+      },
+      {
+        "place": 8,
+        "player": "Mentosbombe",
+        "record": "9-3",
+        "team": [
+          {
+            "name": "Basculegion-F",
+            "item": "Focus Sash",
+            "ability": "Swift Swim",
+            "nature": "Timid",
+            "evs": {
+              "def": 5,
+              "spa": 32,
+              "spd": 3,
+              "spe": 29
+            },
+            "evsStr": "5 Def / 32 SpA / 3 SpD / 29 Spe",
+            "moves": [
+              "Muddy Water",
+              "Shadow Ball",
+              "Ice Beam",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Golisopod",
+            "item": "Golisopite",
+            "ability": "Emergency Exit",
+            "nature": "Adamant",
+            "evs": {},
+            "evsStr": "",
+            "moves": [
+              "Iron Head",
+              "Leech Life",
+              "Sucker Punch",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Archaludon",
+            "item": "Leftovers",
+            "ability": "Stamina",
+            "nature": "Bold",
+            "evs": {
+              "hp": 29,
+              "def": 3,
+              "spd": 23,
+              "spe": 8,
+              "spa": 9
+            },
+            "evsStr": "29 HP / 3 Def / 9 SpA / 23 SpD / 8 Spe",
+            "moves": [
+              "Dragon Pulse",
+              "Electro Shot",
+              "Snarl",
+              "Protect"
+            ]
+          },
+          {
+            "name": "Pelipper",
+            "item": "Damp Rock",
+            "ability": "Drizzle",
+            "nature": "Calm",
+            "evs": {
+              "hp": 14,
+              "def": 4,
+              "spd": 12,
+              "spa": 26,
+              "spe": 25
+            },
+            "evsStr": "14 HP / 4 Def / 26 SpA / 12 SpD / 25 Spe",
+            "moves": [
+              "Weather Ball",
+              "Hurricane",
+              "Helping Hand",
+              "Wide Guard"
+            ]
+          },
+          {
+            "name": "Raichu",
+            "item": "Raichunite X",
+            "ability": "Lightning Rod",
+            "nature": "Timid",
+            "evs": {
+              "spa": 24,
+              "spe": 32,
+              "hp": 22,
+              "def": 1,
+              "spd": 1
+            },
+            "evsStr": "22 HP / 1 Def / 24 SpA / 1 SpD / 32 Spe",
+            "moves": [
+              "Volt Tackle",
+              "Volt Switch",
+              "Fake Out",
+              "Feint"
+            ]
+          },
+          {
+            "name": "Sneasler",
+            "item": "Electric Seed",
+            "ability": "Unburden",
+            "nature": "Jolly",
+            "evs": {
+              "hp": 8,
+              "atk": 27,
+              "spe": 28,
+              "def": 11,
+              "spd": 2,
+              "spa": 2
+            },
+            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
+            "moves": [
+              "Poison Jab",
+              "Close Combat",
+              "Swords Dance",
+              "Protect"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "6a3a947683fd320299bce8b5",
     "name": "VGC Trainer School; champions M/B #2 $100 pool",
     "date": "2026-07-26",
@@ -46925,953 +47884,5 @@
       }
     ],
     "tier": "featured"
-  },
-  {
-    "id": "6a9c37baa4272c53be647d8a",
-    "name": "Tenki's Cart Weekly #117 - Reg M-C",
-    "date": "2026-09-10",
-    "players": 148,
-    "tier": "featured",
-    "top8": [
-      {
-        "place": 1,
-        "player": "LelloCartello",
-        "record": "10-1",
-        "team": [
-          {
-            "name": "Metagross",
-            "item": "Metagrossite",
-            "ability": "Clear Body",
-            "nature": "Adamant",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Iron Head",
-              "Psychic Fangs",
-              "Body Press",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Indeedee",
-            "item": "Choice Scarf",
-            "ability": "Psychic Surge",
-            "nature": "Timid",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Expanding Force",
-              "Imprison",
-              "Trick",
-              "Trick Room"
-            ]
-          },
-          {
-            "name": "Sneasler",
-            "item": "Psychic Seed",
-            "ability": "Unburden",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 8,
-              "atk": 27,
-              "spe": 28,
-              "def": 11,
-              "spd": 2,
-              "spa": 2
-            },
-            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
-            "moves": [
-              "Close Combat",
-              "Dire Claw",
-              "Rock Slide",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Arcanine-Hisui",
-            "item": "Focus Sash",
-            "ability": "Rock Head",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 1,
-              "atk": 32,
-              "def": 2,
-              "spe": 32,
-              "spd": 1
-            },
-            "evsStr": "1 HP / 32 Atk / 2 Def / 1 SpD / 32 Spe",
-            "moves": [
-              "Flare Blitz",
-              "Head Smash",
-              "Rock Slide",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Salamence",
-            "item": "Salamencite",
-            "ability": "Intimidate",
-            "nature": "Modest",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Hyper Voice",
-              "Dragon Pulse",
-              "Heat Wave",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Milotic",
-            "item": "Leftovers",
-            "ability": "Competitive",
-            "nature": "Bold",
-            "evs": {
-              "hp": 28,
-              "def": 21,
-              "spa": 10,
-              "spd": 8,
-              "spe": 5
-            },
-            "evsStr": "28 HP / 21 Def / 10 SpA / 8 SpD / 5 Spe",
-            "moves": [
-              "Scald",
-              "Icy Wind",
-              "Recover",
-              "Protect"
-            ]
-          }
-        ]
-      },
-      {
-        "place": 2,
-        "player": "Rusticolus",
-        "record": "8-3",
-        "team": [
-          {
-            "name": "Salamence",
-            "item": "Salamencite",
-            "ability": "Intimidate",
-            "nature": "Timid",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Hyper Voice",
-              "Draco Meteor",
-              "Tailwind",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Excadrill",
-            "item": "Life Orb",
-            "ability": "Sand Rush",
-            "nature": "Adamant",
-            "evs": {
-              "atk": 32,
-              "def": 2,
-              "spe": 31,
-              "hp": 2,
-              "spd": 2
-            },
-            "evsStr": "2 HP / 32 Atk / 2 Def / 2 SpD / 31 Spe",
-            "moves": [
-              "High Horsepower",
-              "Iron Head",
-              "Rock Slide",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Tyranitar",
-            "item": "Tyranitarite",
-            "ability": "Sand Stream",
-            "nature": "Adamant",
-            "evs": {
-              "hp": 23,
-              "atk": 22,
-              "spe": 20,
-              "def": 3,
-              "spd": 4
-            },
-            "evsStr": "23 HP / 22 Atk / 3 Def / 4 SpD / 20 Spe",
-            "moves": [
-              "Rock Slide",
-              "Knock Off",
-              "Low Kick",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Milotic",
-            "item": "Sitrus Berry",
-            "ability": "Competitive",
-            "nature": "Bold",
-            "evs": {
-              "hp": 31,
-              "def": 16,
-              "spa": 13,
-              "spd": 5,
-              "spe": 6,
-              "atk": 14
-            },
-            "evsStr": "31 HP / 14 Atk / 16 Def / 13 SpA / 5 SpD / 6 Spe",
-            "moves": [
-              "Scald",
-              "Ice Beam",
-              "Icy Wind",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Sneasler",
-            "item": "Psychic Seed",
-            "ability": "Unburden",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 8,
-              "atk": 27,
-              "spe": 28,
-              "def": 11,
-              "spd": 2,
-              "spa": 2
-            },
-            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
-            "moves": [
-              "Close Combat",
-              "Dire Claw",
-              "Throat Chop",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Indeedee",
-            "item": "Focus Sash",
-            "ability": "Psychic Surge",
-            "nature": "Timid",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Expanding Force",
-              "Mystical Fire",
-              "Fake Out",
-              "Protect"
-            ]
-          }
-        ]
-      },
-      {
-        "place": 3,
-        "player": "Luca33",
-        "record": "9-1",
-        "team": [
-          {
-            "name": "Rillaboom",
-            "item": "Miracle Seed",
-            "ability": "Grassy Surge",
-            "nature": "Adamant",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Wood Hammer",
-              "Grassy Glide",
-              "Fake Out",
-              "U-turn"
-            ]
-          },
-          {
-            "name": "Sneasler",
-            "item": "Grassy Seed",
-            "ability": "Unburden",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 8,
-              "atk": 27,
-              "spe": 28,
-              "def": 11,
-              "spd": 2,
-              "spa": 2
-            },
-            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
-            "moves": [
-              "Fake Out",
-              "Protect",
-              "Close Combat",
-              "Dire Claw"
-            ]
-          },
-          {
-            "name": "Kingambit",
-            "item": "Chople Berry",
-            "ability": "Defiant",
-            "nature": "Adamant",
-            "evs": {
-              "hp": 29,
-              "atk": 25,
-              "def": 7,
-              "spe": 8,
-              "spd": 2
-            },
-            "evsStr": "29 HP / 25 Atk / 7 Def / 2 SpD / 8 Spe",
-            "moves": [
-              "Iron Head",
-              "Sucker Punch",
-              "Kowtow Cleave",
-              "Low Kick"
-            ]
-          },
-          {
-            "name": "Basculegion",
-            "item": "Mystic Water",
-            "ability": "Adaptability",
-            "nature": "Adamant",
-            "evs": {
-              "hp": 8,
-              "atk": 29,
-              "def": 11,
-              "spe": 22,
-              "spd": 6
-            },
-            "evsStr": "8 HP / 29 Atk / 11 Def / 6 SpD / 22 Spe",
-            "moves": [
-              "Wave Crash",
-              "Aqua Jet",
-              "Last Respects",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Arcanine-Hisui",
-            "item": "Focus Sash",
-            "ability": "Rock Head",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 1,
-              "atk": 32,
-              "def": 2,
-              "spe": 32,
-              "spd": 1
-            },
-            "evsStr": "1 HP / 32 Atk / 2 Def / 1 SpD / 32 Spe",
-            "moves": [
-              "Head Smash",
-              "Flare Blitz",
-              "Extreme Speed",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Salamence",
-            "item": "Salamencite",
-            "ability": "Aerilate",
-            "nature": "Hasty",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Double-Edge",
-              "Hyper Voice",
-              "Tailwind",
-              "Protect"
-            ]
-          }
-        ]
-      },
-      {
-        "place": 4,
-        "player": "notsamantha111",
-        "record": "8-2",
-        "team": [
-          {
-            "name": "Salamence",
-            "item": "Salamencite",
-            "ability": "Intimidate",
-            "nature": "Hasty",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Hyper Voice",
-              "Double-Edge",
-              "Tailwind",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Charizard",
-            "item": "Charizardite Y",
-            "ability": "Blaze",
-            "nature": "Modest",
-            "evs": {
-              "hp": 19,
-              "def": 15,
-              "spa": 17,
-              "spe": 20,
-              "spd": 1
-            },
-            "evsStr": "19 HP / 15 Def / 17 SpA / 1 SpD / 20 Spe",
-            "moves": [
-              "Heat Wave",
-              "Weather Ball",
-              "Ancient Power",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Sylveon",
-            "item": "Fairy Feather",
-            "ability": "Pixilate",
-            "nature": "Modest",
-            "evs": {
-              "hp": 19,
-              "def": 18,
-              "spa": 23,
-              "spe": 11,
-              "spd": 1
-            },
-            "evsStr": "19 HP / 18 Def / 23 SpA / 1 SpD / 11 Spe",
-            "moves": [
-              "Hyper Voice",
-              "Hyper Beam",
-              "Quick Attack",
-              "Detect"
-            ]
-          },
-          {
-            "name": "Rillaboom",
-            "item": "Sitrus Berry",
-            "ability": "Grassy Surge",
-            "nature": "Adamant",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Grassy Glide",
-              "Wood Hammer",
-              "U-turn",
-              "Fake Out"
-            ]
-          },
-          {
-            "name": "Sneasler",
-            "item": "Grassy Seed",
-            "ability": "Unburden",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 8,
-              "atk": 27,
-              "spe": 28,
-              "def": 11,
-              "spd": 2,
-              "spa": 2
-            },
-            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
-            "moves": [
-              "Close Combat",
-              "Dire Claw",
-              "Fake Out",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Kingambit",
-            "item": "Life Orb",
-            "ability": "Defiant",
-            "nature": "Adamant",
-            "evs": {
-              "hp": 28,
-              "atk": 27,
-              "spd": 3,
-              "spe": 10,
-              "def": 5,
-              "spa": 3
-            },
-            "evsStr": "28 HP / 27 Atk / 5 Def / 3 SpA / 3 SpD / 10 Spe",
-            "moves": [
-              "Kowtow Cleave",
-              "Sucker Punch",
-              "Iron Defense",
-              "Protect"
-            ]
-          }
-        ]
-      },
-      {
-        "place": 5,
-        "player": "XenoVGC",
-        "record": "7-2",
-        "team": [
-          {
-            "name": "Floette-Eternal",
-            "item": "Floettite",
-            "ability": "Flower Veil",
-            "nature": "Modest",
-            "evs": {
-              "hp": 20,
-              "def": 13,
-              "spa": 18,
-              "spe": 21,
-              "spd": 1
-            },
-            "evsStr": "20 HP / 13 Def / 18 SpA / 1 SpD / 21 Spe",
-            "moves": [
-              "Moonblast",
-              "Dazzling Gleam",
-              "Calm Mind",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Incineroar",
-            "item": "Sitrus Berry",
-            "ability": "Intimidate",
-            "nature": "Sassy",
-            "evs": {
-              "hp": 31,
-              "def": 14,
-              "spd": 13,
-              "spe": 9,
-              "atk": 8,
-              "spa": 2
-            },
-            "evsStr": "31 HP / 8 Atk / 14 Def / 2 SpA / 13 SpD / 9 Spe",
-            "moves": [
-              "Flare Blitz",
-              "Darkest Lariat",
-              "Parting Shot",
-              "Fake Out"
-            ]
-          },
-          {
-            "name": "Basculegion",
-            "item": "Choice Scarf",
-            "ability": "Adaptability",
-            "nature": "Adamant",
-            "evs": {
-              "atk": 30,
-              "def": 5,
-              "spe": 32,
-              "hp": 2,
-              "spd": 2
-            },
-            "evsStr": "2 HP / 30 Atk / 5 Def / 2 SpD / 32 Spe",
-            "moves": [
-              "Wave Crash",
-              "Last Respects",
-              "Flip Turn",
-              "Aqua Jet"
-            ]
-          },
-          {
-            "name": "Rillaboom",
-            "item": "Miracle Seed",
-            "ability": "Grassy Surge",
-            "nature": "Adamant",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Grassy Glide",
-              "Wood Hammer",
-              "U-turn",
-              "Fake Out"
-            ]
-          },
-          {
-            "name": "Sneasler",
-            "item": "Grassy Seed",
-            "ability": "Unburden",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 8,
-              "atk": 27,
-              "spe": 28,
-              "def": 11,
-              "spd": 2,
-              "spa": 2
-            },
-            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
-            "moves": [
-              "Close Combat",
-              "Dire Claw",
-              "Swords Dance",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Garchomp",
-            "item": "Life Orb",
-            "ability": "Rough Skin",
-            "nature": "Jolly",
-            "evs": {
-              "atk": 26,
-              "def": 2,
-              "spe": 27,
-              "hp": 13,
-              "spd": 3,
-              "spa": 30
-            },
-            "evsStr": "13 HP / 26 Atk / 2 Def / 30 SpA / 3 SpD / 27 Spe",
-            "moves": [
-              "Dragon Claw",
-              "Stomping Tantrum",
-              "Rock Tomb",
-              "Protect"
-            ]
-          }
-        ]
-      },
-      {
-        "place": 6,
-        "player": "jobushobus",
-        "record": "7-2",
-        "team": [
-          {
-            "name": "Arcanine-Hisui",
-            "item": "Focus Sash",
-            "ability": "Rock Head",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 1,
-              "atk": 32,
-              "def": 2,
-              "spe": 32,
-              "spd": 1
-            },
-            "evsStr": "1 HP / 32 Atk / 2 Def / 1 SpD / 32 Spe",
-            "moves": [
-              "Protect",
-              "Flare Blitz",
-              "Head Smash",
-              "Extreme Speed"
-            ]
-          },
-          {
-            "name": "Lucario",
-            "item": "Lucarionite Z",
-            "ability": "Inner Focus",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 12,
-              "atk": 24,
-              "spe": 29,
-              "spa": 29,
-              "def": 2,
-              "spd": 1
-            },
-            "evsStr": "12 HP / 24 Atk / 2 Def / 29 SpA / 1 SpD / 29 Spe",
-            "moves": [
-              "Protect",
-              "Aura Sphere",
-              "Flash Cannon",
-              "Calm Mind"
-            ]
-          },
-          {
-            "name": "Basculegion",
-            "item": "Life Orb",
-            "ability": "Adaptability",
-            "nature": "Adamant",
-            "evs": {
-              "hp": 6,
-              "atk": 29,
-              "def": 8,
-              "spe": 28,
-              "spd": 3
-            },
-            "evsStr": "6 HP / 29 Atk / 8 Def / 3 SpD / 28 Spe",
-            "moves": [
-              "Protect",
-              "Wave Crash",
-              "Last Respects",
-              "Aqua Jet"
-            ]
-          },
-          {
-            "name": "Rillaboom",
-            "item": "Occa Berry",
-            "ability": "Grassy Surge",
-            "nature": "Adamant",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Wood Hammer",
-              "Grassy Glide",
-              "U-turn",
-              "Fake Out"
-            ]
-          },
-          {
-            "name": "Salamence",
-            "item": "Salamencite",
-            "ability": "Intimidate",
-            "nature": "Timid",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Protect",
-              "Hyper Voice",
-              "Draco Meteor",
-              "Tailwind"
-            ]
-          },
-          {
-            "name": "Sylveon",
-            "item": "Fairy Feather",
-            "ability": "Pixilate",
-            "nature": "Modest",
-            "evs": {
-              "hp": 19,
-              "def": 18,
-              "spa": 23,
-              "spe": 11,
-              "spd": 1
-            },
-            "evsStr": "19 HP / 18 Def / 23 SpA / 1 SpD / 11 Spe",
-            "moves": [
-              "Detect",
-              "Hyper Voice",
-              "Quick Attack",
-              "Hyper Beam"
-            ]
-          }
-        ]
-      },
-      {
-        "place": 7,
-        "player": "Draxolotl",
-        "record": "6-3",
-        "team": [
-          {
-            "name": "Floette-Eternal",
-            "item": "Floettite",
-            "ability": "Flower Veil",
-            "nature": "Modest",
-            "evs": {
-              "hp": 20,
-              "def": 13,
-              "spa": 18,
-              "spe": 21,
-              "spd": 1
-            },
-            "evsStr": "20 HP / 13 Def / 18 SpA / 1 SpD / 21 Spe",
-            "moves": [
-              "Protect",
-              "Moonblast",
-              "Draining Kiss",
-              "Calm Mind"
-            ]
-          },
-          {
-            "name": "Incineroar",
-            "item": "Rocky Helmet",
-            "ability": "Intimidate",
-            "nature": "Sassy",
-            "evs": {
-              "hp": 31,
-              "def": 13,
-              "spd": 12,
-              "atk": 11,
-              "spe": 9,
-              "spa": 2
-            },
-            "evsStr": "31 HP / 11 Atk / 13 Def / 2 SpA / 12 SpD / 9 Spe",
-            "moves": [
-              "Fake Out",
-              "Flare Blitz",
-              "Helping Hand",
-              "Parting Shot"
-            ]
-          },
-          {
-            "name": "Basculegion",
-            "item": "Choice Scarf",
-            "ability": "Adaptability",
-            "nature": "Adamant",
-            "evs": {
-              "atk": 30,
-              "def": 5,
-              "spe": 32,
-              "hp": 2,
-              "spd": 2
-            },
-            "evsStr": "2 HP / 30 Atk / 5 Def / 2 SpD / 32 Spe",
-            "moves": [
-              "Wave Crash",
-              "Last Respects",
-              "Flip Turn",
-              "Aqua Jet"
-            ]
-          },
-          {
-            "name": "Rillaboom",
-            "item": "Miracle Seed",
-            "ability": "Grassy Surge",
-            "nature": "Adamant",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Fake Out",
-              "Wood Hammer",
-              "Grassy Glide",
-              "U-turn"
-            ]
-          },
-          {
-            "name": "Dragonite",
-            "item": "Dragoninite",
-            "ability": "Multiscale",
-            "nature": "Modest",
-            "evs": {
-              "hp": 10,
-              "def": 3,
-              "spa": 29,
-              "spd": 4,
-              "spe": 25
-            },
-            "evsStr": "10 HP / 3 Def / 29 SpA / 4 SpD / 25 Spe",
-            "moves": [
-              "Protect",
-              "Dragon Pulse",
-              "Heat Wave",
-              "Tailwind"
-            ]
-          },
-          {
-            "name": "Sneasler",
-            "item": "Grassy Seed",
-            "ability": "Unburden",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 8,
-              "atk": 27,
-              "spe": 28,
-              "def": 11,
-              "spd": 2,
-              "spa": 2
-            },
-            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
-            "moves": [
-              "Protect",
-              "Close Combat",
-              "Dire Claw",
-              "Swords Dance"
-            ]
-          }
-        ]
-      },
-      {
-        "place": 8,
-        "player": "marti10",
-        "record": "6-3",
-        "team": [
-          {
-            "name": "Salamence",
-            "item": "Salamencite",
-            "ability": "Intimidate",
-            "nature": "Modest",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Hyper Voice",
-              "Draco Meteor",
-              "Tailwind",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Sneasler",
-            "item": "Grassy Seed",
-            "ability": "Unburden",
-            "nature": "Jolly",
-            "evs": {
-              "hp": 8,
-              "atk": 27,
-              "spe": 28,
-              "def": 11,
-              "spd": 2,
-              "spa": 2
-            },
-            "evsStr": "8 HP / 27 Atk / 11 Def / 2 SpA / 2 SpD / 28 Spe",
-            "moves": [
-              "Rock Slide",
-              "Close Combat",
-              "Dire Claw",
-              "Fake Out"
-            ]
-          },
-          {
-            "name": "Kingambit",
-            "item": "Chople Berry",
-            "ability": "Defiant",
-            "nature": "Adamant",
-            "evs": {
-              "hp": 29,
-              "atk": 25,
-              "def": 7,
-              "spe": 8,
-              "spd": 2
-            },
-            "evsStr": "29 HP / 25 Atk / 7 Def / 2 SpD / 8 Spe",
-            "moves": [
-              "Kowtow Cleave",
-              "Low Kick",
-              "Sucker Punch",
-              "Iron Head"
-            ]
-          },
-          {
-            "name": "Basculegion",
-            "item": "Life Orb",
-            "ability": "Adaptability",
-            "nature": "Adamant",
-            "evs": {
-              "hp": 6,
-              "atk": 29,
-              "def": 8,
-              "spe": 28,
-              "spd": 3
-            },
-            "evsStr": "6 HP / 29 Atk / 8 Def / 3 SpD / 28 Spe",
-            "moves": [
-              "Aqua Jet",
-              "Last Respects",
-              "Wave Crash",
-              "Protect"
-            ]
-          },
-          {
-            "name": "Rillaboom",
-            "item": "Occa Berry",
-            "ability": "Grassy Surge",
-            "nature": "Adamant",
-            "evs": {},
-            "evsStr": "",
-            "moves": [
-              "Grassy Glide",
-              "Wood Hammer",
-              "Fake Out",
-              "High Horsepower"
-            ]
-          },
-          {
-            "name": "Floette-Eternal",
-            "item": "Floettite",
-            "ability": "Flower Veil",
-            "nature": "Modest",
-            "evs": {
-              "hp": 20,
-              "def": 13,
-              "spa": 18,
-              "spe": 21,
-              "spd": 1
-            },
-            "evsStr": "20 HP / 13 Def / 18 SpA / 1 SpD / 21 Spe",
-            "moves": [
-              "Moonblast",
-              "Dazzling Gleam",
-              "Light of Ruin",
-              "Protect"
-            ]
-          }
-        ]
-      }
-    ]
   }
 ]
